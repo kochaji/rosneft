@@ -1,0 +1,6 @@
+.DC-Store
+sftp-config.*
+.sass-cache
+bower_components
+config.rb
+*sublime-*
