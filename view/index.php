@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="../assets/css/bootstrap.css">
 	<link rel="stylesheet" href="../assets/css/style.css">
 
-	<script src="//use.typekit.net/tyx6kzb.js"></script>
+	<script src="//use.typekit.net/dnu0aez.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -29,32 +29,18 @@
 
 </head>
 <body>
+	
+	<?php require '_panel.php'; ?>
+	<?php require '_intro.php'; ?>
 
-	<div class="top-panel js-panel">
-		<div class="container">
-			Lorem ipsum dolor sit amet.
-		</div>
-	</div>
 
-	<div class="intro js-intro">
-		<div class="intro__bg js-intro-bg"></div>
-		<div class="vcenter intro__content">
-			<div class="vcentered">
-				<div class="container">
-					<h2>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi neque, debitis aperiam, aspernatur sint impedit corporis hic doloremque repellendus vel reprehenderit quo quod aut. Excepturi dicta quis voluptates, iusto quisquam?
-					</h2>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div class="js-first-paragraph">
 		<div class="container paragraph">
 			<div class="first-paragraph-header js-first-paragraph-header">
 				<div class="row">
 					<div class="col-sm-offset-1 col-sm-18">
-						<h2>
+						<h2 class="h2 title">
 							header of first paragraph
 						</h2>
 					</div>

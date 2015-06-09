@@ -1,0 +1,51 @@
+.top-panel {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	line-height: $panelHeight;
+	height: $panelHeight;
+	background: #fff;
+	z-index: 1;
+}
+
+.timeline-wrap {
+	@media (max-width: 767px) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: $panelHeight;
+		line-height: $panelHeight;
+		text-align: center;
+
+	}
+}
+.timeline {
+	font-size: 18px;
+}
+.timeline__item {
+	float: left;
+	list-style-type: none;
+	margin-left: 15px;
+}
+.timeline__item:first-child {
+	margin-left: 0;
+}
+.timeline__item.active,
+.timeline__item:hover {
+	color: $color-orange;
+}
+
+
+
+a.top-panel__logo {
+	display: inline-block;
+	vertical-align: top
+}
+
+.top-panel__logo img {
+	display: inline-block;
+	max-height: $panelHeight;
+	vertical-align: top
+}

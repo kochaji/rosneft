@@ -1,0 +1,33 @@
+.intro {
+	color: #fff;
+}
+.intro__title {
+	margin: 0;
+}
+
+.chapter-number {
+	position: relative;
+	background: green;
+	height: 100%;
+	padding-top: 24%;
+	margin: 0;
+}
+.chapter-number:after,
+.chapter-number:before {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 1px;
+	background: #fff;
+	right: 0;
+}
+.chapter-number:before {
+	top: 0;
+	width: 3px;
+	height: 30%;
+}
+.chapter-number:after {
+	bottom: 0;
+	width: 3px;
+	height: 30%;
+}
