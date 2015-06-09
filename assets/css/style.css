@@ -91,66 +91,14 @@ a.top-panel__logo {
   vertical-align: top;
 }
 
-/* line 1, ../scss/_intro.scss */
+/* line 2, ../scss/_intro.scss */
 .intro {
   color: #fff;
-}
-
-/* line 4, ../scss/_intro.scss */
-.intro__title {
-  margin: 0;
+  position: relative;
+  margin-top: 70px;
 }
 
 /* line 8, ../scss/_intro.scss */
-.chapter-number {
-  position: relative;
-  background: green;
-  height: 100%;
-  padding-top: 24%;
-  margin: 0;
-}
-
-/* line 15, ../scss/_intro.scss */
-.chapter-number:after,
-.chapter-number:before {
-  position: absolute;
-  content: '';
-  display: block;
-  width: 1px;
-  background: #fff;
-  right: 0;
-}
-
-/* line 24, ../scss/_intro.scss */
-.chapter-number:before {
-  top: 0;
-  width: 3px;
-  height: 30%;
-}
-
-/* line 29, ../scss/_intro.scss */
-.chapter-number:after {
-  bottom: 0;
-  width: 3px;
-  height: 30%;
-}
-
-/* line 6, ../scss/style.scss */
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-}
-
-/* line 11, ../scss/style.scss */
-.intro {
-  position: relative;
-  margin-top: 70px;
-  min-height: 480px;
-  max-height: 960px;
-  background: brown;
-}
-
-/* line 19, ../scss/style.scss */
 .intro__bg {
   position: absolute;
   left: 0;
@@ -159,45 +107,116 @@ body {
   height: 120%;
   background: url("../img/intro-img.jpg") no-repeat 50% 100%;
   background-size: cover;
-  opacity: 0.5;
 }
 
-/* line 29, ../scss/style.scss */
-.intro__title {
-  color: #fff;
-}
-
-/* line 32, ../scss/style.scss */
+/* line 17, ../scss/_intro.scss */
 .intro__content {
   position: relative;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 28, ../scss/_intro.scss */
+.chapter__number {
+  position: relative;
+}
+@media (max-width: 767px) {
+  /* line 28, ../scss/_intro.scss */
+  .chapter__number {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 34, ../scss/_intro.scss */
+.chapter__number__title {
+  position: absolute;
+  right: -8px;
+  top: 30px;
+  margin: 0;
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+/* line 43, ../scss/_intro.scss */
+.chapter__title {
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding-left: 50px;
+}
+@media (max-width: 767px) {
+  /* line 43, ../scss/_intro.scss */
+  .chapter__title {
+    padding: 0;
+  }
+}
+
+/* line 53, ../scss/_intro.scss */
+.chapter__title:before,
+.chapter__title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  border-left: 1px solid #ffcc00;
+}
+@media (max-width: 767px) {
+  /* line 53, ../scss/_intro.scss */
+  .chapter__title:before,
+  .chapter__title:after {
+    display: none;
+  }
+}
+
+/* line 65, ../scss/_intro.scss */
+.chapter__title:before {
+  top: 0;
+  height: 30px;
+}
+
+/* line 69, ../scss/_intro.scss */
+.chapter__title:after {
+  top: 74px;
+  height: 100%;
+}
+
+/* line 1, ../scss/_preface.scss */
+.preface__inner {
+  position: relative;
+  background: #fff;
+}
+
+/* line 7, ../scss/style.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+/* line 13, ../scss/style.scss */
 .paragraph {
   position: relative;
   background: yellow;
 }
 
-/* line 41, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 .vcenter {
   display: table;
   height: 100%;
   width: 100%;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
 .vcentered {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 51, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 .paragraph {
   position: relative;
   background: #fff;
 }
 
-/* line 56, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 .first-paragraph-header {
   background: orange;
   padding: 20px 0;
@@ -207,5 +226,15 @@ body {
   /* line 2, ../scss/_mobile.scss */
   .container {
     padding: 0 20px;
+  }
+
+  /* line 5, ../scss/_mobile.scss */
+  .iblock {
+    right: inherit;
+    left: inherit;
+    position: inherit;
+    float: inherit;
+    width: inherit;
+    display: block;
   }
 }

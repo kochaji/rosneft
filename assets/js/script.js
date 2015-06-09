@@ -1,13 +1,21 @@
+
 var $intro = $('.js-intro');
+var $introContent = $('.js-intro-content');
+var $introBg = $('.js-intro-bg');
 var $panel = $('.js-panel');
 var $introTitle = $('.js-intro-title');
-var $introParagraph = $('.js-first-paragraph');
+var $prefaceHeader = $('.js-preface-header');
+var $introTitleScreen = $('.js-intro-title-screen') 
 var screenParams = {};
 
 var fitIntro = function fitIntro() {
-	var offset = $('.js-first-paragraph-header').outerHeight(true);
-	$intro.height(screenParams.screenHeight - screenParams.panelHeight);
-	$introParagraph.css({marginTop:  - offset})
+	var introHeight = screenParams.screenHeight - screenParams.panelHeight - $prefaceHeader.outerHeight(true); 
+	$intro.height(introHeight)//(screenParams.screenHeight - screenParams.panelHeight - $prefaceHeader.outerHeight(true));
+	$introBg.height( introHeight + introHeight*.3  );
+	console.log( Math.ceil(screenParams.screenHeight + screenParams.screenHeight*0.001))
+	//var offset = $('.js-first-paragraph-header').outerHeight(true);
+	//$intro.height(screenParams.screenHeight - screenParams.panelHeight);
+	//$introParagraph.css({marginTop:  - offset})
 };
 
 var recalcScreenParams = function recalcScreenParams() {

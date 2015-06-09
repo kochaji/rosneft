@@ -32,12 +32,13 @@
 	
 	<?php require '_panel.php'; ?>
 	<?php require '_intro.php'; ?>
+	<?php require '_preface.php'; ?>
 
+<!--
 
-
-	<div class="js-first-paragraph">
+	<div class="">
 		<div class="container paragraph">
-			<div class="first-paragraph-header js-first-paragraph-header">
+			<div class="js-preface-header first-paragraph-header js-first-paragraph-header">
 				<div class="row">
 					<div class="col-sm-offset-1 col-sm-18">
 						<h2 class="h2 title">
@@ -55,6 +56,7 @@
 			<br><br>
 		</div>
 	</div>
+-->
 
 	<div class="paragraph">
 		<div class="container">
