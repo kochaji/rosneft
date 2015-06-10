@@ -13,6 +13,7 @@
 	<meta property="og:image" content="" />
 
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 	<link rel="shortcut icon" href="favicon.ico"></link>
 	<link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -30,39 +31,31 @@
 </head>
 <body>
 	
+	<?php 
+		function renderFeature($media, $text) {
+			$type = gettype($media);
+			require '_feature.php';
+		}
+	?>
+
 	<?php require '_panel.php'; ?>
 	<?php require '_intro.php'; ?>
 	<?php require '_preface.php'; ?>
+	<?php 
+		$media = array(
+			'webm' => 'http://bg.ru/media/specprojects/oscar/seq.webm',
+			'mp4'  => 'http://bg.ru/media/specprojects/oscar/seq.mp4',
+			'ogv'  => 'http://bg.ru/media/specprojects/oscar/seq.ogv'
+		);
+		$text = 'Описанаие для блока';
+		renderFeature($media, $text) 
+	?>
 
-<!--
+	<?php //renderFeature('../assets/img/mendeleev.jpg', 'ddfdfd sdf s sdf sdf ')  ?>
 
-	<div class="">
-		<div class="container paragraph">
-			<div class="js-preface-header first-paragraph-header js-first-paragraph-header">
-				<div class="row">
-					<div class="col-sm-offset-1 col-sm-18">
-						<h2 class="h2 title">
-							header of first paragraph
-						</h2>
-					</div>
-				</div>
-			</div>
-			<br><br>
-			<div class="row">
-				<div class="col-sm-offset-4 col-sm-13">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam odio laboriosam error dolorum inventore repellat voluptates mollitia ipsam incidunt! Officiis facilis ea, non ut dicta accusamus! Nulla ab, quasi nisi sit eum eligendi ducimus, inventore, nihil tenetur fugit perferendis esse quisquam in! Facere quidem ad blanditiis quas totam nemo.
-				</div>
-			</div>
-			<br><br>
-		</div>
-	</div>
--->
-
-	<div class="paragraph">
-		<div class="container">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolorum illum sint, ab et laudantium sapiente porro fugiat enim! Suscipit perferendis itaque placeat at esse. Possimus placeat id, soluta laboriosam eum a, tenetur odit vel consequuntur beatae! Necessitatibus aperiam autem quis vitae alias quasi labore ipsum, quod nam deserunt. Adipisci aperiam, non asperiores veritatis nesciunt hic nostrum cum sunt sapiente deleniti rem, harum quos magnam facere at perspiciatis vero illum laboriosam aspernatur eos numquam necessitatibus. Non repellendus doloribus perspiciatis rerum enim, qui nisi obcaecati accusantium tempore eum at eius ipsa aut, placeat consectetur consequuntur nesciunt amet. Adipisci, delectus dolor quo?
-		</div>
-	</div>
+	<?php require '_content.php'; ?>
+	<?php require '_support.php'; ?>
+	<?php require '_footer.php'; ?>
 
 	<script src="../assets/js/script.js"></script>
 </body>

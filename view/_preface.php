@@ -1,31 +1,62 @@
 <div class="preface">
 	<div class="container preface__inner">
 		<div class="preface__header js-preface-header">
-			<h2>
-				Lorem ipsum dolor.
-			</h2>
+			<div class="row">
+				<div class="col-sm-16 col-sm-offset-4">
+					<p class="photo-desc preface__photo-desc pull-right visible-xs">
+						Фото: Баку, конец XIX века, предприятие Нобеля
+					</p>
+					<p>
+						<a href="#" class="preface__logo" title="Роснефть">
+							<img src="../assets/img/rn-logo.png" class="preface__logo" alt="Роснефть">
+						</a>
+					</p>
+					<div class="row">
+						<p class="col-sm-9 headlineBook preface__header__description headlineBook">
+							Представляет: специальный проект «ИСТОРИЯ НЕФТИ»
+						</p>
+						<p class="col-sm-7 arrow-line">
+						</p>
+						<div class="col-sm-4">
+							<p class="photo-desc preface__photo-desc hidden-xs">
+								Фото: Баку, конец XIX века, предприятие Нобеля
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
-
-<!--
-<div class="preface">
-	<div class="js-preface-header first-paragraph-header js-first-paragraph-header">
-		<div class="row">
-			<div class="col-sm-offset-1 col-sm-18">
-				<h2 class="h2 title">
-					header of first paragraph
-				</h2>
+		<div class="preface__body">
+			<div class="row">
+				<div class="col-sm-13 col-sm-offset-4">
+					<p class="first-paragraph">
+						Когда тебе 29 лет, ты уже женат и даже есть маленький ребенок — 	ты не можешь заниматься только наукой, тебе надо кормить семью. И когда тебе предлагают работу, не только интересную, но и за которую сулят восьмимесячный эквивалент — как тут не согласиться? Дмитрий Иванович Менделеев по этой причине не стал раздумывать, и принял  в 1863 году предложение известного российского коммерсанта Василия Александровича Кокорева, от которого было трудно отказаться – проверить состояние его керосинового заводав Баку, что бы либо исправить производство, либо закрыть его. 
+					</p>
+					<p>
+						Завод приносил Кокореву не менее 200 тысяч рублей убытков ежегодно — и это при том, что мир охватил бум керосинового освещения. Что было не то в системе — и Менделееву нужно было понять, куда утекали деньги, вместо того, что бы обогащать хозяина нефтеперегонного завода во врем бешеного роста популярности керосиновых ламп. 
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-13 col-sm-offset-4">
+					<div class="iblock blockfloat blockfloat--left">
+						<img src="../assets/img/mendeleev.jpg" alt="Менделеев" class="inline-img">	
+					</div>
+					<p>
+						Мы представляем Дмитрия Ивановича стариком с седой львиной гривой — но в 29 лет он был атлетическим, крепким и решительным человеком с выраженной деловой хваткой. До наших дней дошла его сентенция – «ругайся направо-налево и будешь здоров!» Он буквально прочесал все нефтепромыслы, и уж что он там конкретно творил в Баку, какими мерами он воздействовал на тамошний менеджмент — это отдельная история, но уже через год завод Кокорева стал приносить пару сотен тысяч рублей прибыли. 
+					</p>
+					<p>
+						Менделеев был большой оригинал, и видел в вещах то, что другие не то что не видели. Так он увидел, что вся система добычи, транспортировки и переработки нефти годилась для музея. Нужно было делать все по новому. И он говорит и пишет про то, что как то не доходило для его современников — нефть, это тоже жидкость что и вода, и транспортировать ее надо как воду — по трубам, и вообще — добывать из тонны нефти 330 кило керосина, а все остальное сливать в отстой — это барство, это все равно что топить печку ассигнациями.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-13 col-sm-offset-4">
+					<p>
+						Впрочем, и его отказ работать у Кокарева под предлогом любви к академической науке тоже было барством — тут сам Дмитрий Иванович согласен со словами Василия Александровича — поскольку согласись он на 10 тысяч рублей плюс 5 процентов от годового дохода — он точно бы первым в мире воплотил в жизнь свои идеи и о трубопроводе, и о танкерах... Но он остался верен науке и поэтому его мечты и предвидения пришлось воплощать в жизнь уже другому человеку, который в том же году только успел порадоваться фуражке гимназиста.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<br><br>
-	<div class="row">
-		<div class="col-sm-offset-4 col-sm-13">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam odio laboriosam error dolorum inventore repellat voluptates mollitia ipsam incidunt! Officiis facilis ea, non ut dicta accusamus! Nulla ab, quasi nisi sit eum eligendi ducimus, inventore, nihil tenetur fugit perferendis esse quisquam in! Facere quidem ad blanditiis quas totam nemo.
-		</div>
-	</div>
-
 </div>
-
--->

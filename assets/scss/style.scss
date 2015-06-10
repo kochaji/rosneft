@@ -1,18 +1,28 @@
+@import 'bootstrap/variables';
 @import 'variables';
 @import 'typo';
 @import 'panel';
 @import 'intro';
 @import 'preface';
+@import 'feature';
+@import 'content';
+@import 'support';
+@import 'announce';
+@import 'footer';
 
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
+	color: $color-black;
 }
 
-
-.paragraph {
-	position: relative;
-	background: yellow
+.photo-desc {
+	color: $color-gray;
+	font-size: 18px;
+	@extend .headlineBook;
+	border-bottom: 1px solid $color-black;
+	margin-top: -10px;
+	padding: 0 0 7px;
 }
 
 .vcenter {
@@ -25,14 +35,61 @@ display: table-cell;
 vertical-align: middle
 }
 
-.paragraph {
-	position: relative;
-	background: #fff;
+.first-paragraph:first-letter {
+	font-size: 74px;
+	display: inline-block;
+	float: left;
+	margin: -8px 5px 0 0;
+	line-height: 0.8em;
+	@extend .headlineBlack;
 }
 
-.first-paragraph-header {
-	background: orange;
-	padding: 20px 0;
+.inline-img {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 20px;
 }
+.blockfloat {
+	position: relative;
+}
+.blockfloat:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.blockfloat--left {
+	float: left;
+	margin-right: $container-lg/$grid-columns;
+	margin-left: - $container-lg/$grid-columns * 4;
+}
+.blockfloat--right {
+	float: right;
+	margin-left: $container-lg/$grid-columns;
+	margin-right: - $container-lg/$grid-columns * 3;
+}
+
+
+
+.blockquote {
+	display: block;
+	position: relative;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 50px;
+	font-size: 18px !important;
+	@extend .PTSansCaption;
+}
+.blockquote:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 25px;
+	height: 100%;
+	line-height: 28px;
+	border-left: 1px solid $color-orange;
+}
+
 
 @import 'mobile';

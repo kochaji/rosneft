@@ -2,3 +2,53 @@
 	position: relative;
 	background: #fff;
 }
+.preface__header {
+	padding: 20px 0 0;
+}
+.preface__header__description {
+	position: relative;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.arrow-line {
+	height: 16px;
+	&:before,
+	&:after {
+		position: absolute;
+		content: '';
+		display: block;
+	}
+	&:before {
+		border-top: 1px solid;
+		top: 10px;
+		left: 0;
+		width: 100%;
+	}
+	&:after {
+		width: 16px;
+		height: 16px;
+		border: 1px solid;
+		left: 80%;
+		top: 2px;
+		background: #fff;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+		border-color: rgba(0,0,0,0) #000 #000 rgba(0,0,0,0)
+	}
+}
+.preface .preface__photo-desc {
+	font-size: 16px;
+	border: 0;
+	padding: 0 10px;
+}
+.preface__body {
+	padding-top: 40px;
+}
+.preface__body p {
+	font-size: 18px;
+	line-height: 28px;
+}

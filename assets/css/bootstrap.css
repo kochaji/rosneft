@@ -1864,7 +1864,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 /* line 30, ../scss/bootstrap/_type.scss */
 h1 small,
@@ -1906,7 +1906,7 @@ h1, .h1 {
 
 /* line 48, ../scss/bootstrap/_type.scss */
 h2, .h2 {
-  font-size: 30px;
+  font-size: 36px;
 }
 
 /* line 49, ../scss/bootstrap/_type.scss */
@@ -1931,7 +1931,7 @@ h6, .h6 {
 
 /* line 58, ../scss/bootstrap/_type.scss */
 p {
-  margin: 0 0 10px;
+  margin: 0 0 30px;
 }
 
 /* line 62, ../scss/bootstrap/_type.scss */

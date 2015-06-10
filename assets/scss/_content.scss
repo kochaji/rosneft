@@ -1,0 +1,15 @@
+.content {
+	@extend .PTSerif;
+}
+.content p {
+	line-height: 28px;
+	font-size: 16px;
+}
+
+p.editor-string {
+	font-size: 18px;
+	color: $color-light-gray;
+}
+.editor-string i {
+	color: #000;
+}
