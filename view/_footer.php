@@ -8,7 +8,7 @@
 				<div class="col-sm-9">
 					<a href="chapter1" class="announce__link">
 						<div class="announce__chapter">
-							<div class="announce__chapter__bg" style="background: url(../assets/img/chapter2-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__bg" style="background: url(../img/chapter2-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
 							<div class="announce__chapter__content text-center">
 								<div class="vcenter">
 									<div class="vcentered">
@@ -27,7 +27,7 @@
 				<div class="col-sm-9 col-sm-offset-2">
 					<a href="chapter2" class="announce__link">
 						<div class="announce__chapter">
-							<div class="announce__chapter__bg" style="background: url(../assets/img/chapter3-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__bg" style="background: url(../img/chapter3-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
 							<div class="announce__chapter__content text-center">
 								<div class="vcenter">
 									<div class="vcentered">

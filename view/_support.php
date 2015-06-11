@@ -3,6 +3,6 @@
 		Проект подготовлен при поддержке
 	</p>
 	<a href="#" class="support__logo" target="_blank" title="Роснефть">
-		<img src="../assets/img/rn-logo-lg.jpg" alt="Роснефть" class="support__logo">
+		<img src="../img/rn-logo-lg.jpg" alt="Роснефть" class="support__logo">
 	</a>
 </div>

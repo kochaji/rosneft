@@ -16,8 +16,8 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 	<link rel="shortcut icon" href="favicon.ico"></link>
-	<link rel="stylesheet" href="../assets/css/bootstrap.css">
-	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/style.css">
 
 	<script src="//use.typekit.net/dnu0aez.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
@@ -58,6 +58,6 @@
 	<?php require '_support.php'; ?>
 	<?php require '_footer.php'; ?>
 
-	<script src="../assets/js/script.js"></script>
+	<script src="../js/script.js"></script>
 </body>
 </html>

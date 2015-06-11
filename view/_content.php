@@ -55,7 +55,7 @@
 				</p>
 
 				<div class="blockfloat blockfloat--right iblock">
-					<img src="../assets/img/young-shuhov.jpg" alt="Шухов" class="inline-img">
+					<img src="../img/young-shuhov.jpg" alt="Шухов" class="inline-img">
 				</div>
 
 				<p>
@@ -101,7 +101,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../assets/img/exponat-1876.jpg" class="inline-img" alt="" title="">
+				<img src="../img/exponat-1876.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты Всемирной выставки в&nbsp;Филадельфии, 1876&nbsp;год.
 				</p>
@@ -128,7 +128,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../assets/img/exponat-1876-2.jpg" class="inline-img" alt="" title="">
+				<img src="../img/exponat-1876-2.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
@@ -166,7 +166,7 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../assets/img/m.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
+	<?php renderFeature('../img/m.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
 
 	<div class="container">
 		<div class="row">
@@ -184,7 +184,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../assets/img/exponat-1876-3.jpg" class="inline-img" alt="" title="">
+				<img src="../img/exponat-1876-3.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
@@ -202,7 +202,7 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../assets/img/liquid.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
+	<?php renderFeature('../img/liquid.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
 
 	<div class="container">
 		<div class="row">
@@ -214,7 +214,7 @@
 					Молодые люди действовали стремительно. Александр Бари в&nbsp;1877 году открывает в&nbsp;Баку отделение своей строительно-конструкторской фирмы, в&nbsp;которой главным инженером становится Владимир Шухов. Бари и&nbsp;Шухов быстро оценили обстановку, и&nbsp;поняли что здесь непочатый край работы, где можно применить знания, которыми они насытились в&nbsp;США. Но&nbsp;будучи с&nbsp;другой стороны россиянами (дело&nbsp;же не&nbsp;в&nbsp;паспортах, в&nbsp;конечном счете, а&nbsp;в&nbsp;свойстве души), они понимали, что плетью обуха не&nbsp;перешибешь, и&nbsp;действовать тут надо осмотрительно, заручившись поддержкой влиятельной силы. 
 				</p>
 				<div class="iblock blockfloat blockfloat--right">
-					<img src="../assets/img/exponat-1876-4.jpg" alt="" class="inline-img">
+					<img src="../img/exponat-1876-4.jpg" alt="" class="inline-img">
 					<p class="photo-desc">
 						Экспонаты всемирной выставки в Филадельфии, 1876 год.
 					</p>
@@ -243,7 +243,7 @@
 				<p>
 					Длина трубопровода с&nbsp;технологическими отводами была немногим более 12&nbsp;километров, диаметр трубы&nbsp;&mdash; три дюйма, то&nbsp;есть 76&nbsp;мм. То&nbsp;есть сама по&nbsp;себе труба в&nbsp;итоге была на&nbsp;порядок короче самых длинных американских труб. Но&nbsp;не&nbsp;забываем&nbsp;&mdash; строил этот первый трубопровод молодой человек, в&nbsp;идею которого верило в&nbsp;Баку очень мало людей. 
 				</p>
-				<img src="../assets/img/pipes.jpg" alt="" class="inline-img col-sm-20">
+				<img src="../img/pipes.jpg" alt="" class="inline-img col-sm-20">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
@@ -272,7 +272,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-20">
-				<img src="../assets/img/ships.jpg" alt="" class="inline-img">
+				<img src="../img/ships.jpg" alt="" class="inline-img">
 			</div>
 		</div>
 		<div class="row">
@@ -303,7 +303,7 @@
 				<p>
 					Помните, в&nbsp;самом начале этого рассказа мы&nbsp;упоминали изобретение молодого Шухова&nbsp;&mdash; паровую форсунку для сжигания мазута. Вот патент на&nbsp;нее и&nbsp;покупает у&nbsp;Шухова Людвиг Нобель, что&nbsp;бы использовать на&nbsp;своих предприятиях. Только вот какое дело&nbsp;&mdash; нужно теперь строить мазутопровод. И&nbsp;Владимир Георгиевич вновь садиться за&nbsp;расчеты. Он&nbsp;уже знает, что при повышении температуры мазута его вязкость уменьшится, и&nbsp;перекачивать его будет легче. Он&nbsp;выводит зависимость диаметра труб, температуры и&nbsp;расходу мазута. То&nbsp;бы все было экономичнее, он&nbsp;предлагает греть мазут отработанным паром от&nbsp;паровых насосов, которые этот самый мазут и&nbsp;качают.
 				</p>
-				<img src="../assets/img/horizon.jpg" class="inline-img col-sm-20">
+				<img src="../img/horizon.jpg" class="inline-img col-sm-20">
 				<p class="photo-desc">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta explicabo, corrupti a voluptas, dicta nulla id voluptate eligendi et illo sit quam. Voluptatum nulla consequatur, voluptates distinctio veniam, aliquid dicta.
 				</p>
@@ -317,7 +317,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../assets/img/horizon-2.jpg" class="inline-img">
+				<img src="../img/horizon-2.jpg" class="inline-img">
 				<p class="photo-desc">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, magni!
 				</p>
@@ -335,7 +335,7 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../assets/img/be-hero.jpg', 'Text here') ?>
+	<?php renderFeature('../img/be-hero.jpg', 'Text here') ?>
 
 	<div class="container">
 		<div class="row">
@@ -346,7 +346,7 @@
 				<p>
 					Шухов прожил долгую, и&nbsp;удивительно насыщенную жизнь. Он&nbsp;создал системы подъема нефти из&nbsp;скважин, он&nbsp;изобрел крекинг нефти&nbsp;&mdash; и&nbsp;это будет признано международным патентным судом в&nbsp;Гааге в&nbsp;1923&nbsp;году. Он&nbsp;спроектирует магистральные трубопроводы Баку-Батуми и&nbsp;Грозный-Туапсе, причем первый вступит в&nbsp;строй в&nbsp;начале&nbsp;ХХ века при царе, а&nbsp;второй&nbsp;&mdash; уже при советской власти...
 				</p>
-				<img src="../assets/img/epilogue.jpg" class="inline-img iblock blockfloat blockfloat--right">
+				<img src="../img/epilogue.jpg" class="inline-img iblock blockfloat blockfloat--right">
 				<p>
 					Он&nbsp;будет строить и&nbsp;строить. Он&nbsp;изобретет строительный гиперболоид&nbsp;&mdash; но&nbsp;не&nbsp;машину разрушения, а&nbsp;конструкционную систему. Шуховская башня, опоры над Волгой, Аджигольский маяк под Херсоном&nbsp;&mdash; все это гиперболоиды инженера Шухова. Зайдите в&nbsp;ГУМ, посмотрите вверх&nbsp;&mdash; эта стеклянная крыша&nbsp;&mdash; тоже Шухов. Киевский вокзал и&nbsp;телеграф, Московский художественный театр и&nbsp;Пушкинский музей. Он&nbsp;создал так много, что трудно даже сказать&nbsp;&mdash; где в&nbsp;строительном деле он&nbsp;не&nbsp;оставил свой след. Для холодной России он&nbsp;создал свой вариант отопительного котла, и&nbsp;в&nbsp;1900-м году получил на&nbsp;Всемирной выставке в&nbsp;Париже золотую медаль. Они до&nbsp;сих пор действуют, и&nbsp;их&nbsp;принцип используется по&nbsp;сей день в&nbsp;новых установках. 
 				</p>

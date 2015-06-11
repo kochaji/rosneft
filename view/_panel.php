@@ -33,7 +33,7 @@
 
 			<div class="pull-right col-sm-4">
 				<a href="#" target="_blank" title="Роснефть" class="top-panel__logo">
-					<img src="../assets/img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo">
+					<img src="../img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo">
 				</a>
 			</div>
 
