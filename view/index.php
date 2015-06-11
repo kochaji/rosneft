@@ -26,6 +26,7 @@
 	<script>
 		window.jQuery || document.write('<scr'+'ipt src="../assets/js/jquery-1.11.1.min.js"></scr'+'ipt>');
 	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 	
 
 </head>

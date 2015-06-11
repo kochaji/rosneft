@@ -11,6 +11,9 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+.preface__logo {
+	margin-bottom: 10px;
+}
 .arrow-line {
 	height: 16px;
 	&:before,
@@ -41,12 +44,12 @@
 	}
 }
 .preface .preface__photo-desc {
-	font-size: 16px;
+	font-size: 14px;
 	border: 0;
 	padding: 0 10px;
 }
 .preface__body {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .preface__body p {
 	font-size: 18px;

@@ -1,4 +1,4 @@
-<div class="support text-center">
+<div class="support text-center js-support-waypoint">
 	<p class="support__title headlineBook">
 		Проект подготовлен при поддержке
 	</p>

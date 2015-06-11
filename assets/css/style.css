@@ -4,7 +4,7 @@
 }
 
 /* line 4, ../scss/_typo.scss */
-.headlineBook, .photo-desc {
+.headlineBook, .content-list, .announce__chapter__date, .photo-desc {
   font-family: "ff-good-headline-web-pro-con",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +49,7 @@ a:hover {
   line-height: 70px;
   height: 70px;
   background: #fff;
-  z-index: 1;
+  z-index: 2;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
@@ -214,23 +214,28 @@ a.top-panel__logo {
 }
 
 /* line 14, ../scss/_preface.scss */
+.preface__logo {
+  margin-bottom: 10px;
+}
+
+/* line 17, ../scss/_preface.scss */
 .arrow-line {
   height: 16px;
 }
-/* line 16, ../scss/_preface.scss */
+/* line 19, ../scss/_preface.scss */
 .arrow-line:before, .arrow-line:after {
   position: absolute;
   content: '';
   display: block;
 }
-/* line 22, ../scss/_preface.scss */
+/* line 25, ../scss/_preface.scss */
 .arrow-line:before {
   border-top: 1px solid;
   top: 10px;
   left: 0;
   width: 100%;
 }
-/* line 28, ../scss/_preface.scss */
+/* line 31, ../scss/_preface.scss */
 .arrow-line:after {
   width: 16px;
   height: 16px;
@@ -246,19 +251,19 @@ a.top-panel__logo {
   border-color: transparent #000 #000 transparent;
 }
 
-/* line 43, ../scss/_preface.scss */
+/* line 46, ../scss/_preface.scss */
 .preface .preface__photo-desc {
-  font-size: 16px;
+  font-size: 14px;
   border: 0;
   padding: 0 10px;
 }
 
-/* line 48, ../scss/_preface.scss */
+/* line 51, ../scss/_preface.scss */
 .preface__body {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
-/* line 51, ../scss/_preface.scss */
+/* line 54, ../scss/_preface.scss */
 .preface__body p {
   font-size: 18px;
   line-height: 28px;
@@ -269,21 +274,22 @@ a.top-panel__logo {
   background: #000;
   position: relative;
   margin-bottom: 50px;
+  z-index: 1;
 }
 
-/* line 6, ../scss/_feature.scss */
+/* line 7, ../scss/_feature.scss */
 .feature__media {
   display: block;
   max-width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 6, ../scss/_feature.scss */
+  /* line 7, ../scss/_feature.scss */
   .feature__media {
     padding: 0 !important;
   }
 }
 
-/* line 14, ../scss/_feature.scss */
+/* line 15, ../scss/_feature.scss */
 .feature__text {
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   line-height: 28px;
@@ -295,7 +301,7 @@ a.top-panel__logo {
   border-left: 1px solid #fea600;
 }
 @media (max-width: 959px) {
-  /* line 14, ../scss/_feature.scss */
+  /* line 15, ../scss/_feature.scss */
   .feature__text {
     position: static;
     padding: 20px;
@@ -303,7 +309,7 @@ a.top-panel__logo {
     border: 0;
   }
 }
-/* line 29, ../scss/_feature.scss */
+/* line 30, ../scss/_feature.scss */
 .feature__text p {
   margin: 0 0 0 25px;
 }
@@ -323,6 +329,122 @@ p.editor-string {
 /* line 13, ../scss/_content.scss */
 .editor-string i {
   color: #000;
+}
+
+/* line 17, ../scss/_content.scss */
+.rails {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 23, ../scss/_content.scss */
+.rails__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 29, ../scss/_content.scss */
+.sidebar {
+  z-index: 1;
+  opacity: 0;
+}
+
+/* line 33, ../scss/_content.scss */
+.sidebar.visible {
+  opacity: inherit;
+}
+
+/* line 36, ../scss/_content.scss */
+.sidebar.top {
+  position: absolute;
+  top: 0;
+  bottom: inherit;
+}
+
+/* line 41, ../scss/_content.scss */
+.sidebar.fixed {
+  position: fixed;
+  top: 120px;
+  bottom: inherit;
+}
+
+/* line 46, ../scss/_content.scss */
+.sidebar.bottom {
+  position: absolute;
+  top: inherit;
+  bottom: 0;
+}
+
+/* line 52, ../scss/_content.scss */
+.content-list {
+  font-size: 16px;
+  position: relative;
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+/* line 59, ../scss/_content.scss */
+.content-list:before, .content-list:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 50%;
+  position: absolute;
+  border-left: 1px solid #bbb;
+  left: 16px;
+}
+/* line 69, ../scss/_content.scss */
+.content-list:before {
+  top: 14px;
+}
+/* line 72, ../scss/_content.scss */
+.content-list:after {
+  bottom: 14px;
+}
+
+/* line 77, ../scss/_content.scss */
+.content-list__item {
+  position: relative;
+}
+/* line 79, ../scss/_content.scss */
+.content-list__item:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  background: #bbb;
+  display: none;
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 97, ../scss/_content.scss */
+.content-list__item:first-child:before,
+.content-list__item:last-child:before {
+  display: block;
+}
+
+/* line 102, ../scss/_content.scss */
+.content-list__item a {
+  border: 3px solid transparent;
+  display: block;
+  padding: 3px 0 3px 30px;
+}
+
+/* line 107, ../scss/_content.scss */
+.content-list__item.active a {
+  border: 3px solid #ffcc00;
+  padding-left: 30px;
 }
 
 /* line 1, ../scss/_support.scss */
@@ -345,14 +467,16 @@ p.editor-string {
   color: #fff;
 }
 
-/* line 6, ../scss/_footer.scss */
+/* line 9, ../scss/_footer.scss */
 .announce__chapter {
   width: 100%;
   padding-bottom: 75%;
   position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
-/* line 11, ../scss/_footer.scss */
+/* line 16, ../scss/_footer.scss */
 .announce__chapter__content {
   position: absolute;
   top: 0;
@@ -362,22 +486,51 @@ p.editor-string {
   padding: 20px;
 }
 
-/* line 19, ../scss/_footer.scss */
+/* line 24, ../scss/_footer.scss */
 .announce__chapter__date {
   position: absolute;
   width: 100%;
   top: 10%;
   left: 0;
   text-align: center;
+  font-size: 24px;
+  color: #bbb;
 }
 
-/* line 27, ../scss/_footer.scss */
+/* line 34, ../scss/_footer.scss */
+.announce__chapter__date__inner {
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  padding: 0 30px 15px;
+}
+
+/* line 40, ../scss/_footer.scss */
 .copyright {
   font-size: 16px;
   color: #9a9999;
   margin-top: 50px;
   border-top: 1px solid #fff;
   padding: 30px 0;
+}
+
+/* line 47, ../scss/_footer.scss */
+.announce__chapter__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+/* line 59, ../scss/_footer.scss */
+.announce__link:hover .announce__chapter__bg {
+  top: -10%;
+  height: 120%;
 }
 
 /* line 13, ../scss/style.scss */
@@ -388,6 +541,19 @@ body {
 }
 
 /* line 19, ../scss/style.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 23, ../scss/style.scss */
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 29, ../scss/style.scss */
 .photo-desc {
   color: #666;
   font-size: 18px;
@@ -396,20 +562,20 @@ body {
   padding: 0 0 7px;
 }
 
-/* line 28, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 .vcenter {
   display: table;
   height: 100%;
   width: 100%;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .vcentered {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 38, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .first-paragraph:first-letter {
   font-size: 74px;
   display: inline-block;
@@ -418,40 +584,40 @@ body {
   line-height: 0.8em;
 }
 
-/* line 47, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 .inline-img {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 20px;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 .blockfloat {
   position: relative;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .blockfloat:after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* line 60, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .blockfloat--left {
   float: left;
   margin-right: 50px;
   margin-left: -200px;
 }
 
-/* line 65, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .blockfloat--right {
   float: right;
   margin-left: 50px;
   margin-right: -150px;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .blockquote {
   display: block;
   position: relative;
@@ -462,7 +628,7 @@ body {
   font-size: 18px !important;
 }
 
-/* line 83, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 .blockquote:before {
   content: '';
   display: block;

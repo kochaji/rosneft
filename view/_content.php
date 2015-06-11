@@ -1,9 +1,39 @@
-<div class="content">
+<div class="content js-sticky-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<div class="rails" style="">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium animi enim, repudiandae est odio nisi saepe, nam repellendus expedita iusto id possimus eveniet esse, dicta, hic illo cum molestiae! Saepe.
+				<div class="rails js-sticky-rails">
+					<div class="rails__inner">
+						<div class="sidebar js-sticky-sidebar">
+							<ul class="content-list js-items visible-lg">
+								<li class="content-list__item js-item">
+									<a href="#years13">13 лет спустя</a>
+								</li>
+								<li class="content-list__item js-item active">
+									<a href="#friends">Друзья и конкуренты</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#regress">Осознание антипрогресса</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#noble">Нобель вступает в игру</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#stereotips">Ломая стереотипы</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#pipes">Трубы и люди</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#horizon">Уходящий за горизонт</a>
+								</li>
+								<li class="content-list__item js-item">
+									<a href="#epilog">Эпилог</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -14,59 +44,58 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-sm-offset-5">
-				<h2 class="h2 title">
-					13 лет спустя
+				<h2 class="h2 title js-title" id="years13">
+					13&nbsp;лет спустя....
 				</h2>
 				<p>
-					В наше время принято считать, что свобода поведения и занятий буквально гарантирует появление гигантов мысли. Во что все это выльется, мы увидим через пару поколений. А вот наши предки — не вполне даже далекие, полагали что исключительно дисциплина и организация способны произвести для общества из крикливого засранца достойного гражданина и ценного специалиста. 
+					В&nbsp;наше время принято считать, что свобода поведения и&nbsp;занятий буквально гарантирует появление гигантов мысли. Во&nbsp;что все это выльется, мы&nbsp;увидим через пару поколений. А&nbsp;вот наши предки&nbsp;&mdash; не&nbsp;вполне даже далекие, полагали что исключительно дисциплина и&nbsp;организация способны произвести для общества из&nbsp;крикливого засранца достойного гражданина и&nbsp;ценного специалиста. 
 				</p>
 				<p>
-					По этой причине  Императорское московское инженерное училище отличалось крайне суровым распорядком — думается, что даже в военных казармах сегодня нравы помягче. Профессура полагала, что если запретить студенту делать практически всё — кроме учебы, он окунется в оную с головой, что бы не сойти с ума. Именно в этот вуз и поступил в 1871 году, после окончания гимназии Владимир Шухов.
+					По&nbsp;этой причине Императорское московское инженерное училище отличалось крайне суровым распорядком&nbsp;&mdash; думается, что даже в&nbsp;военных казармах сегодня нравы помягче. Профессура полагала, что если запретить студенту делать практически всё&nbsp;&mdash; кроме учебы, он&nbsp;окунется в&nbsp;оную с&nbsp;головой, что&nbsp;бы не&nbsp;сойти с&nbsp;ума. Именно в&nbsp;этот вуз и&nbsp;поступил в&nbsp;1871&nbsp;году, после окончания гимназии Владимир Шухов. 
 				</p>
 
 				<div class="blockfloat blockfloat--right iblock">
 					<img src="../assets/img/young-shuhov.jpg" alt="Шухов" class="inline-img">
 				</div>
-				
 
 				<p>
-					Владимир вырос в небогатой семье, и в те годы карьера инженера была реальной возможностью добиться успеха в жизни — поскольку спрос на инженеров был велик. В стране начиналась индустриальная эпоха, и предприниматели, желавшие вложить капитал очень нуждались в профессионалах. А Володя Шухов был многообещающим студентом — еще то ли на третьем, то ли на втором курсе он изобрел форсунку — то есть распылитель для сжигания тяжелого жидкого топлива — мазута. 
+					Владимир вырос в&nbsp;небогатой семье, и&nbsp;в&nbsp;те&nbsp;годы карьера инженера была реальной возможностью добиться успеха в&nbsp;жизни&nbsp;&mdash; поскольку спрос на&nbsp;инженеров был велик. В&nbsp;стране начиналась индустриальная эпоха, и&nbsp;предприниматели, желавшие вложить капитал очень нуждались в&nbsp;профессионалах. А&nbsp;Володя Шухов был многообещающим студентом&nbsp;&mdash; еще то&nbsp;ли на&nbsp;третьем, то&nbsp;ли на&nbsp;втором курсе он&nbsp;изобрел форсунку&nbsp;&mdash; то&nbsp;есть распылитель для сжигания тяжелого жидкого топлива&nbsp;&mdash; мазута.
 				</p>
 				<p>
-					То что Шухов заинтересовался нефтью и всем что с ней связано нет ничего удивительного. Дмитрий Менделеев к тому моменту уже несколько лет как открыл свою Периодическую систему, его активная позиция в защиту совершенствования использования нефти естественно поддерживалась студенчеством. Их кумиру тогда не было и 40 лет, и студенты видели в нем старшего товарища, который ведет их вперед, из затхлого мира старой науки и подслеповатой жизни. 
+					То&nbsp;что Шухов заинтересовался нефтью и&nbsp;всем что с&nbsp;ней связано нет ничего удивительного. Дмитрий Менделеев к&nbsp;тому моменту уже несколько лет как открыл свою Периодическую систему, его активная позиция в&nbsp;защиту совершенствования использования нефти естественно поддерживалась студенчеством. Их&nbsp;кумиру тогда не&nbsp;было и&nbsp;40&nbsp;лет, и&nbsp;студенты видели в&nbsp;нем старшего товарища, который ведет их&nbsp;вперед, из&nbsp;затхлого мира старой науки и&nbsp;подслеповатой жизни. 
 				</p>
 			</div>
 		</div>
 		<div class="row">
 			<p class="blockquote col-sm-offset-5 col-sm-12">
-				Особенно их расстраивало то, что из за бюрократических препон останавливались интересные проекты. И они с горечью смотрели, как идеи, высказанные их гуру воплощались за рубежом, в США. 
+				Особенно их&nbsp;расстраивало&nbsp;то, что из&nbsp;за&nbsp;бюрократических препон останавливались интересные проекты. И&nbsp;они с&nbsp;горечью смотрели, как идеи, высказанные их&nbsp;гуру воплощались за&nbsp;рубежом, в&nbsp;США.
 			</p>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					Да и сам Менделеев в общем то был расстроен. Но видно пазл еще не сложился. Нужна была какая-то идея, какой-то толчок. 
+					Да&nbsp;и&nbsp;сам Менделеев в&nbsp;общем то&nbsp;был расстроен. Но&nbsp;видно пазл еще не&nbsp;сложился. Нужна была какая-то идея, какой-то толчок. 
 				</p>
 				<p>
-					Пришло время покидать стены alma mater и Владимир Шухов получил шикарное предложение от математика с мировым именем — Пафнутия Чебышева начать совместную работу. И вот поворот судьбы — если Менделеев в 1863 году отказался от практической работы в пользу науки, то в 1876-ом Шухов отказывается от академической науки в пользу практической работы. Так ему захотелось. 
+					Пришло время покидать стены alma mater и&nbsp;Владимир Шухов получил шикарное предложение от&nbsp;математика с&nbsp;мировым именем&nbsp;&mdash; Пафнутия Чебышева начать совместную работу. И&nbsp;вот поворот судьбы&nbsp;&mdash; если Менделеев в&nbsp;1863 году отказался от&nbsp;практической работы в&nbsp;пользу науки, то&nbsp;в&nbsp;1876-ом Шухов отказывается от&nbsp;академической науки в&nbsp;пользу практической работы. Так ему захотелось. 
 				</p>
 				<p>
-					Но что же делать — как поощрить талант? И Совет вуза решил, что поездка в Америку будет для молодого и подающего надежды инженера в самый раз наградой. Тем более, это была не просто поездка — а служебная командировка на Всемирную выставку. Кто же откажется посмотреть мир, да еще с отличными суточными. И они пустились в путь...					
+					Но&nbsp;что&nbsp;же делать&nbsp;&mdash; как поощрить талант? И&nbsp;Совет вуза решил, что поездка в&nbsp;Америку будет для молодого и&nbsp;подающего надежды инженера в&nbsp;самый раз наградой. Тем более, это была не&nbsp;просто поездка&nbsp;&mdash; а&nbsp;служебная командировка на&nbsp;Всемирную выставку. Кто&nbsp;же откажется посмотреть мир, да&nbsp;еще с&nbsp;отличными суточными. И&nbsp;они пустились в&nbsp;путь...
 				</p>
-				<h2 class="h2 title">
-					Друзья и конкуренты
+				<h2 class="h2 title js-title" id="friends">
+					Друзья и&nbsp;конкуренты
 				</h2>
 				<p>
-					К тому моменту уже прошло 11 лет, как отгремели сражения Гражданской войны в США. Россия занимала в эти годы позицию благожелательного нейтралитета, не признавая сепаратистов-конфедератов, чем немало удивляла весь мир — помещичья Россия по всей логике должна была поддерживать плантаторский Юг. Однако всемудрый канцлер Горчаков как раз полагал, что именно США являются главным торговым соперником Британии, а по большому счету и Европы, и в интересах России было иметь США как партнера, а не как врага. 
+					К&nbsp;тому моменту уже прошло 11&nbsp;лет, как отгремели сражения Гражданской войны в&nbsp;США. Россия занимала в&nbsp;эти годы позицию благожелательного нейтралитета, не&nbsp;признавая сепаратистов-конфедератов, чем немало удивляла весь мир&nbsp;&mdash; помещичья Россия по&nbsp;всей логике должна была поддерживать плантаторский Юг. Однако всемудрый канцлер Горчаков как раз полагал, что именно США являются главным торговым соперником Британии, а&nbsp;по&nbsp;большому счету и&nbsp;Европы, и&nbsp;в&nbsp;интересах России было иметь США как партнера, а&nbsp;не&nbsp;как врага.
 				</p>
 				<p>
-					Особые отношения были между Россией и США в связи с продажей Аляски. Логика России была проста — удержать эту территорию на границе с Британской империей (то есть Канадой) было практически невозможно. А США естественным образом изолировали британцев от Чукотки и Камчатки. Тогда ни о какой атлантической солидарности и слуха не было. Была тихоокеанская солидарность. 
+					Особые отношения были между Россией и&nbsp;США в&nbsp;связи с&nbsp;продажей Аляски. Логика России была проста&nbsp;&mdash; удержаить эту территорию на&nbsp;границе с&nbsp;Британской империей (то&nbsp;есть Канадой) было практически невозможно. А&nbsp;США естественным образом изолировали британцев от&nbsp;Чукотки и&nbsp;Камчатки. Тогда ни&nbsp;о&nbsp;какой атлантической солидарности и&nbsp;слуха не&nbsp;было. Была тихоокеанская солидарность.
 				</p>
 				<p>
-					Общественно мнение в США таким образом было целиком на стороне России. Этим объясняется особый прием, который был устроен русской делегации, прибывшей на Всемирную выставку, посвященную 100-летию американской независимости, которую, кстати, в свое время «вооруженным нейтралитетом» поддержала Екатерина Великая. Делегации пообещали все показать, что интересно, и помочь в закупках высокотехнологичного оборудования. Ну а у Шухова одним из интересов был опыт строительства нефтепроводов. 
+					Общественно мнение в&nbsp;США таким образом было целиком на&nbsp;стороне России. Этим объясняется особый прием, который был устроен русской делегации, прибывшей на&nbsp;Всемирную выставку, посвященную 100-летию американской независимости, которую, кстати, в&nbsp;свое время &laquo;вооруженным нейтралитетом&raquo; поддержала Екатерина Великая. Делегации пообещали все показать, что интересно, и&nbsp;помочь в&nbsp;закупках высокотехнологичного оборудования. Ну&nbsp;а&nbsp;у&nbsp;Шухова одним из&nbsp;интересов был опыт строительства нефтепроводов.
 				</p>
 				<p>
-					У русских гостей в США был свой друг — Александр Бари — личность тоже крайне примечательная. Он был потомком французских иммигрантов, которые бежали в Российскую империю из революционной Франции, но по иронии судьбы отец Александра Бари сам увлекся марксизмом, и после того как им в 1863 году заинтересовались царские спецслужбы счел за благо уехать в США. Поэтому и Александр, родившийся в Петербурге, окончив учебу в Цюрихе перебрался к родным в США, где и принял американское гражданство. Однако это не помешало ему оставаться патриотом России и помогать своим друзьям в их миссии. 
+					У&nbsp;русских гостей в&nbsp;США был свой друг&nbsp;&mdash; Александр Бари&nbsp;&mdash; личность тоже крайне примечательная. Он&nbsp;был потомком французских иммигрантов, которые бежали в&nbsp;Российскую империю из&nbsp;революционной Франции, но&nbsp;по&nbsp;иронии судьбы отец Александра Бари сам увлекся марксизмом, и&nbsp;после того как им&nbsp;в&nbsp;1863 году заинтересовались царские спецслужбы счел за&nbsp;благо уехать в&nbsp;США. Поэтому и&nbsp;Александр, родившийся в&nbsp;Петербурге, окончив учебу в&nbsp;Цюрихе перебрался к&nbsp;родным в&nbsp;США, где и&nbsp;принял американское гражданство. Однако это не&nbsp;помешало ему оставаться патриотом России и&nbsp;помогать своим друзьям в&nbsp;их&nbsp;миссии.
 				</p>
 			</div>
 		</div>
@@ -74,26 +103,26 @@
 			<div class="col-sm-offset-4 col-sm-16">
 				<img src="../assets/img/exponat-1876.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
-					Экспонаты всемирной выставки в Филадельфии, 1876 год.
+					Экспонаты Всемирной выставки в&nbsp;Филадельфии, 1876&nbsp;год.
 				</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					В США у Бари все было хорошо — он занимался конструкционными работами с металлом на  Выставке, за что и был награжден золотой медалью. И вот такой человек устроил для  российской делегации не только плановые закупки оборудования, а специальные экскурсии на заводы и трубопроводы. Шухов увидел то, что могло развиваться в России, в Баку, и что не смогло появиться вовремя. Но при этом он обнаружил «узкие» места в американских решениях... Ими он и займется — но не сразу. Потому что порядок есть порядок, и после дивной командировки надо идти работать «по распределению». Но мечта уже появилась, и мало того — она стала приобретать определенную форму. 
+					В&nbsp;США у&nbsp;Бари все было хорошо&nbsp;&mdash; он&nbsp;занимался конструкционными работами с&nbsp;металлом на&nbsp;Выставке, за&nbsp;что и&nbsp;был награжден золотой медалью. И&nbsp;вот такой человек устроил для российской делегации не&nbsp;только плановые закупки оборудования, а&nbsp;специальные экскурсии на&nbsp;заводы и&nbsp;трубопроводы. Шухов увидел&nbsp;то, что могло развиваться в&nbsp;России, в&nbsp;Баку, и&nbsp;что не&nbsp;смогло появиться вовремя. Но&nbsp;при этом он&nbsp;обнаружил &laquo;узкие&raquo; места в&nbsp;американских решениях... Ими он&nbsp;и&nbsp;займется&nbsp;&mdash; но&nbsp;не&nbsp;сразу. Потому что порядок есть порядок, и&nbsp;после дивной командировки надо идти работать &laquo;по&nbsp;распределению&raquo;. Но&nbsp;мечта уже появилась, и&nbsp;мало того&nbsp;&mdash; она стала приобретать определенную форму.
 				</p>
-				<h2 class="h2 title">
-					Осознание антипрогресса	
+				<h2 class="h2 title js-title" id="regress">
+					Осознание антипрогресса
 				</h2>
 				<p>
-					Все мы можем ошибаться. И Шухову тоже пришлось испить разочарования. По возвращению из США в 1877 году золотой медалист был назначен в чертежное бюро Варшавско-Венской железной дороги. Началась череда нужных, но рутинных проектов — мостовые переходы, водокачки, станционные здания и отдельно стоящие сортиры. Друг семьи Шуховых, известный хирург Пирогов, узнав про тоску молодого Владимира посоветовал заняться чем нибудь более увлекательным — а для начала пойти слушать курс хирургии в Военно-медицинской академии.
+					Все мы&nbsp;можем ошибаться. И&nbsp;Шухову тоже пришлось испить разочарования. По&nbsp;возвращению из&nbsp;США в&nbsp;1877 году золотой медалист был назначен в&nbsp;чертежное бюро Варшавско-Венской железной дороги. Началась череда нужных, но&nbsp;рутинных проектов&nbsp;&mdash; мостовые переходы, водокачки, станционные здания и&nbsp;отдельно стоящие сортиры. Друг семьи Шуховых, известный хирург Пирогов, узнав про тоску молодого Владимира посоветовал заняться чем нибудь более увлекательным&nbsp;&mdash; а&nbsp;для начала пойти слушать курс хирургии в&nbsp;Военно-медицинской академии.
 				</p>
 				<p>
-					Но фортуна была на стороне Шухова.  Летом того же года Александр Бари с семьей возвращается в Россию. Паспорт гражданина США защищает его от всевозможных преследований «охраники» — и он может полностью отдаться бизнесу. Бари понял, что Россия находится в точке старта промышленного развития, и вот тут то можно используя американский опыт и приемы рвануть вперед. Самым перспективным делом в тот момент была нефть. А бакинские нефтепромыслы при этом находились в удивительно архаическом состоянии. 
+					Но&nbsp;фортуна была на&nbsp;стороне Шухова. Летом того&nbsp;же года Александр Бари с&nbsp;семьей возвращается в&nbsp;Россию. Паспорт гражданина США защищает его от&nbsp;всевозможных преследований &laquo;охраники&raquo;&nbsp;&mdash; и&nbsp;он&nbsp;может полностью отдаться бизнесу. Бари понял, что Россия находится в&nbsp;точке старта промышленного развития, и&nbsp;вот тут то&nbsp;можно используя американский опыт и&nbsp;приемы рвануть вперед. Самым перспективным делом в&nbsp;тот момент была нефть. А&nbsp;бакинские нефтепромыслы при этом находились в&nbsp;удивительно архаическом состоянии.
 				</p>
 				<p>
-					Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед. Это кредиты и в одночасье что то ломать далеко не всегда представляется выгодным. Так что добыча нефти на Апшеронском полуострове шла примитивнейшим методом — из колодцев или неглубоких скважин, которые проходились ударным способом. А потом неть заливали в бурдюки, грузили на лошадей и везли к побережью — где из нее выпаривали керосин. Две трети — сливали в огромные озера. 
+					Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес&nbsp;&mdash; это система договоров, многие из&nbsp;которых расчитаны на&nbsp;десятилетия вперед. Это кредиты и&nbsp;в&nbsp;одночасье что то&nbsp;ломать далеко не&nbsp;всегда представляется выгодным. Так что добыча нефти на&nbsp;Апшеронском полуострове шла примитивнейшим методом&nbsp;&mdash; из&nbsp;колодцев или неглубоких скважин, которые проходились ударным способом. А&nbsp;потом неть заливали в&nbsp;бурдюки, грузили на&nbsp;лошадей и&nbsp;везли к&nbsp;побережью&nbsp;&mdash; где из&nbsp;нее выпаривали керосин. Две трети&nbsp;&mdash; сливали в&nbsp;огромные озера.
 				</p>
 			</div>
 		</div>
@@ -108,30 +137,30 @@
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sint natus aliquam ipsa eos repudiandae officiis provident, magnam pariatur perferendis accusamus totam nemo dolores veritatis veniam maxime cumque, repellat nihil.
+					Во&nbsp;времена поездки Менделеева нефть стоила у&nbsp;откупщиков с&nbsp;доставкой к&nbsp;перегонным кубам, где ее&nbsp;кипятили и&nbsp;получали керосин около 30-40 копеек за&nbsp;пуд, (что было соизмеримо со&nbsp;стоимостью пшеничной муки) или, в&nbsp;пересчете на&nbsp;более привычные сегодня меры&nbsp;&mdash; от&nbsp;1.9 до&nbsp;2.5 копеек за&nbsp;кг, или примерно от&nbsp;2&nbsp;рублей 60&nbsp;копеек до&nbsp;3&nbsp;рубля 40&nbsp;копеек за&nbsp;баррель. При этом цена керосина в&nbsp;центрельной части России в&nbsp;тот момент доходила до&nbsp;4&nbsp;рублей за&nbsp;пуд&nbsp;&mdash; или до&nbsp;25&nbsp;копеек за&nbsp;килограмм (или литр)&nbsp;&mdash; то&nbsp;есть готовый продукт стоил в&nbsp;10&nbsp;раз дороже.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa esse autem odit. Temporibus quasi at doloremque in dolorum, modi animi quisquam laboriosam, sequi repellendus excepturi, possimus repellat reiciendis, ipsam ex.
+					Правда, в&nbsp;те&nbsp;времена и&nbsp;слова такого&nbsp;&mdash; &laquo;керосин&raquo; в&nbsp;России не&nbsp;знали. Это была торговая марка в&nbsp;Британии, а&nbsp;жидкость для осветительных ламп в&nbsp;России называлась очень красиво&nbsp;&mdash; &laquo;фотоген&raquo;&nbsp;&mdash; то&nbsp;есть в&nbsp;переводе &laquo;производящий свет&raquo;.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis aperiam aut cumque, esse hic. Iusto, quidem soluta, ab eaque explicabo esse magni perspiciatis, commodi voluptates minima omnis? Illum, optio.
+					С&nbsp;учетом того, что керосиновые лампы того времени потребляли в&nbsp;режиме активного горения около 50&nbsp;граммов в&nbsp;час, килограмма керосина хватало примерно на&nbsp;20&nbsp;часов, то&nbsp;есть час обоходился чуть дороже 1&nbsp;копейки. Но&nbsp;копейка в&nbsp;то&nbsp;время на&nbsp;российских рынках &laquo;весила&raquo; достаточно дорого.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis aperiam aut cumque, esse hic. Iusto, quidem soluta, ab eaque explicabo esse magni perspiciatis, commodi voluptates minima omnis? Illum, optio.
+					Было ясно, что прибыль от&nbsp;керосинового производства по&nbsp;сути дела размазывалась по&nbsp;куче посредников и&nbsp;сторонних участников этой архаичной технологической цепочки, включая заготовителей леса для бочек, бондарей, специалистов по&nbsp;шитью бурдюков. 
 				</p>
 			</div>
 		</div>
 
 		<div class="row">
 			<p class="blockquote col-sm-offset-5 col-sm-12">
-				Особенно их расстраивало то, что из за бюрократических препон останавливались интересные проекты. И они с горечью смотрели, как идеи, высказанные их гуру воплощались за рубежом, в США. 
+				Когда в&nbsp;наше время говорят о&nbsp;коррупции, то&nbsp;понятия уже не&nbsp;имеют, что имело место в&nbsp;Баку 150 лет назад. Все участники призводственного процесса, власти и&nbsp;контрольные органы были просто переплетены в&nbsp;какой то&nbsp;адский клубок. 
 			</p>
 		</div>
 
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sint natus aliquam ipsa eos repudiandae officiis provident, magnam pariatur perferendis accusamus totam nemo dolores veritatis veniam maxime cumque, repellat nihil.
+					В&nbsp;районе Баку действвали куча мелких предприятий, которые жестоко конкурировали друг с&nbsp;другом, в&nbsp;практике были поджоги скважин и&nbsp;перегонных кубов у&nbsp;конкурентов, &laquo;отжимы&raquo; перспективных компаний были рядовым делом. И&nbsp;самой главной силой была организованная армия из&nbsp;10&nbsp;с лишним тысяч возчиков нефти, организованная влиятельными местными силами, по&nbsp;сути дела&nbsp;&mdash; транспортная мафия. И&nbsp;победить ее&nbsp;не&nbsp;представлялось возможным никому.
 				</p>
 			</div>
 		</div>
@@ -142,14 +171,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title">
-					Нобель вступает в игру
+				<h2 class="h2 title js-title" id="noble">
+					Нобель вступает в&nbsp;игру
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laborum incidunt earum cum labore sint non, soluta dolorum doloremque sit reiciendis aut accusantium! Sint ea impedit temporibus, cum adipisci hic.
+					Рассказывают, что в&nbsp;1870 году петербуржский механический завод, принадлежавший шведско-русской семье Нобель получил новый оружейный заказ. Дело, для Нобелей в&nbsp;общем рутинное&nbsp;&mdash; еще Эммануэль Нобель в&nbsp;1842 году приехал в&nbsp;Россию, и&nbsp;открыл производство вооружений и&nbsp;морских мин. Его сыновья, Людвиг и&nbsp;Роберт продолжали дела отца более с&nbsp;механическим уклоном, тогда как Альфред, будущий учередитель Нобелевской премии&nbsp;&mdash; с&nbsp;химическим, увелеченно создавая новые виды взрывчатки. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam impedit ea ipsa cum beatae, reprehenderit cupiditate recusandae quae. Nihil at perspiciatis ullam, delectus vitae adipisci eveniet consectetur ipsum consequatur libero.
+					Итак, Роберт Нобель отправился на&nbsp;юг&nbsp;России закупать древесину грецких орехов для изготовления прикладов для винтовок производства семейной фабрики. По&nbsp;дороге он&nbsp;познакомился с&nbsp;интересным попутчиком&nbsp;&mdash; голландцем, который оказался мелким нефтепромышленником из&nbsp;Баку. Увлеченный рассказом голландца, Роберт решил включиться в&nbsp;новый, перспективный бизнес, увидев там больше возможностей, чем мог их&nbsp;себе представить соотечественник Тиля Уленшпигеля, который уже утомился от&nbsp;восточной экзотики и&nbsp;с&nbsp;радостью продал Роберту и&nbsp;свой небольшой перегонный завод.
 				</p>
 			</div>
 		</div>
@@ -164,10 +193,10 @@
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, excepturi earum repellendus odit magnam laborum autem et aliquam atque, necessitatibus velit distinctio alias quis, laudantium illum veritatis! Molestiae quod, suscipit.
+					То&nbsp;что он&nbsp;сделал это не&nbsp;случайно, Роберт Эммануэлевич понял очень быстро. Но&nbsp;то&nbsp;ли у&nbsp;Нобелей были связи на&nbsp;самом верху, включая самого Государя, то&nbsp;ли жалобы на&nbsp;нефтяных откупщиков достали даже самых упертых бюрократов его правительства&nbsp;&mdash; но&nbsp;в&nbsp;1872 году система откупов была отменена и&nbsp;началась приватизация нефтеносных районов. В&nbsp;1873 году состоялся первый аукцион. Правда собственность была отягощена особым налогом&nbsp;&mdash; по&nbsp;10&nbsp;рублей с&nbsp;десятины (1.1&nbsp;гектара) ежегодно бессрочно.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid excepturi, labore reprehenderit, deserunt officia perferendis eligendi asperiores maxime vel hic quidem veritatis saepe, sit. At tempore laboriosam placeat modi, aliquid.
+					Роберт смог модернизировать завод, и&nbsp;в&nbsp;1875 году привезти в&nbsp;Россию 300 бочек неплохого керосина. Тут то&nbsp;делом заинтересовался его брат Людвиг, который был не&nbsp;только талантливым инженером, как Роберт, но&nbsp;и&nbsp;еще более талантливым предпринимателем, который тут&nbsp;же стал анализировать всю технологическую цепочку производства&nbsp;&mdash; начиная с&nbsp;добычи нефти, ее&nbsp;транспортировку к&nbsp;нефтепергонным заводам, способы перегонки, транспортировку в&nbsp;центральную Россию, дистрибуцию, рекламу продукта. Нобели стали изучать активно американский опыт, и&nbsp;вот тут то&nbsp;на&nbsp;их&nbsp;горизонте и&nbsp;появились Александр Бари и&nbsp;Владимир Шухов&nbsp;&mdash; молодые, импозантные и&nbsp;уже успешные инженеры.
 				</p>
 			</div>
 		</div>
@@ -178,11 +207,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title">
+				<h2 class="h2 title js-title" id="stereotips">
 					Ломая стереотипы
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus placeat unde harum libero quos. Adipisci earum quibusdam commodi laboriosam perspiciatis possimus enim error facere cumque! Voluptatum qui architecto exercitationem sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quae cumque quidem expedita eveniet, sed atque? Velit similique est ad consequuntur natus dolorem, temporibus vero praesentium consectetur, nulla minus in doloribus doloremque voluptas corrupti nesciunt, quas architecto. Necessitatibus minus, neque nobis natus quasi, consectetur perspiciatis sequi, nulla fugiat sed id.
+					Молодые люди действовали стремительно. Александр Бари в&nbsp;1877 году открывает в&nbsp;Баку отделение своей строительно-конструкторской фирмы, в&nbsp;которой главным инженером становится Владимир Шухов. Бари и&nbsp;Шухов быстро оценили обстановку, и&nbsp;поняли что здесь непочатый край работы, где можно применить знания, которыми они насытились в&nbsp;США. Но&nbsp;будучи с&nbsp;другой стороны россиянами (дело&nbsp;же не&nbsp;в&nbsp;паспортах, в&nbsp;конечном счете, а&nbsp;в&nbsp;свойстве души), они понимали, что плетью обуха не&nbsp;перешибешь, и&nbsp;действовать тут надо осмотрительно, заручившись поддержкой влиятельной силы. 
 				</p>
 				<div class="iblock blockfloat blockfloat--right">
 					<img src="../assets/img/exponat-1876-4.jpg" alt="" class="inline-img">
@@ -191,50 +220,53 @@
 					</p>
 				</div>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptatibus possimus, omnis inventore sed odio et ipsam, cum dolorem eius fugiat dignissimos placeat iure voluptas in expedita, debitis unde reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quae repudiandae reprehenderit in. Quae ea corporis harum, molestias beatae enim nesciunt rem repudiandae repellat accusantium, maxime velit vel laboriosam odit magni! Perspiciatis rerum sit optio et odit ea necessitatibus praesentium obcaecati beatae temporibus, nostrum quam, illo accusantium quia repudiandae, sed non expedita, consectetur ad repellendus quo iusto unde atque. Ea veritatis laboriosam rem, dolores voluptatem neque! Sed nulla soluta voluptatum explicabo. Consequatur fugit minima maxime ipsum similique quasi velit vero culpa! Tempore quam, deleniti, veniam deserunt soluta nesciunt, odit qui omnis eveniet asperiores iure accusantium. Earum suscipit maiores corporis et!
+					Самой лучшей силой были как раз Нобели. На&nbsp;их&nbsp;стороне были не&nbsp;только связи, капитал и&nbsp;протестантский капиталистический дух&nbsp;&mdash; они все верили в&nbsp;прогресс. Впрочем, в&nbsp;Баку не&nbsp;считали себя ретроградами&nbsp;&mdash; например, за&nbsp;год до&nbsp;встречи Нобелей, Бари и&nbsp;Шухова бурдюки были полностью заменены бочками емкостью до&nbsp;25&nbsp;пудов, или 400&nbsp;литров, что было уже шагом вперед. Но&nbsp;если на&nbsp;промыслах пуд нефти в&nbsp;1877 году стоил 3&nbsp;копейки, то&nbsp;его доставка на&nbsp;побережье, где и&nbsp;присходила перегонка, в&nbsp;так называемый Черный город&nbsp;&mdash; в&nbsp;шесть раз дороже, почти 20&nbsp;копеек. Бочки были главным тормозом в&nbsp;развитии бизнеса. 
+				</p>
+				<p>
+					Людвиг Нобель сразу оценил предложение Бари и&nbsp;Шухова заменить бочки трубопроводом. Помогли и&nbsp;ссылки на&nbsp;американский опыт, и&nbsp;на&nbsp;авторитет Менделеева, который к&nbsp;тому времени стал звездой мировой величины. Бари и&nbsp;Нобель заключают контракт на&nbsp;строительство трубопровода от&nbsp;Балаханских промыслов к&nbsp;заводу Нобеля в&nbsp;Черном городе с&nbsp;пропускной способностью 50&nbsp;тонн в&nbsp;час, а&nbsp;инженер Шухов&nbsp;&mdash; которому только исполнилось 25&nbsp;лет&nbsp;&mdash; полную свободу инженерных решений.
 				</p>
 				<p class="blockquote">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ipsa molestias vitae cupiditate. Aspernatur vitae, natus quibusdam nostrum iusto, eius possimus libero atque quo quia hic consectetur voluptatibus quas repellat.
+					Но&nbsp;иметь свободу инженерных решений и&nbsp;свободу действий&nbsp;&mdash; это разные степени свободы. Идея прокладки трубопровода наткнулась сразу&nbsp;же на&nbsp;противодействие властей.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae esse repudiandae aspernatur voluptatum eos iure reiciendis, veritatis impedit laudantium, ea dignissimos cum, labore odio culpa. Quas quasi, neque dignissimos placeat?
+					И&nbsp;не&nbsp;потому что они были против технического прогресса, или их&nbsp;не&nbsp;устраивало американской гражданство г-на Бари. Они опасались социального взрыва. Нельзя забывать про коррупционную составляющую. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur eveniet numquam quibusdam quam harum enim minima ipsum non dolore, veniam vitae tenetur unde maiores odio, iste. Nesciunt, quam, dolore!
+					Ведь было нетрудно понять, что трубопровод сделает ненужными тысячи возчиков нефти. И&nbsp;пострадают не&nbsp;только сами возчики, но&nbsp;и&nbsp;те, кто контролировал этот бизнес, и&nbsp;имел тесные контакты с&nbsp;местной администрацией. Грядущие изменения стали восприниматься общественностью с&nbsp;опасениями, публику и&nbsp;власти стали пугать угрозой массовых беспорядков, безработицы и&nbsp;даже конфликтами на&nbsp;национальной почве. Дело дошло до&nbsp;угрозы запрета прокладки трубы по&nbsp;земле, которая находилась в&nbsp;государственной собсвенности. Было ясно, что дело не&nbsp;только в&nbsp;технологии строительства&nbsp;&mdash; но&nbsp;и&nbsp;технологии продвижения инновационных решений, то&nbsp;есть в&nbsp;маркетинге.
 				</p>
-				<h2 class="h2 title">
+				<h2 class="h2 title js-title" id="pipes">
 					Трубы и люди
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores porro, saepe atque! Mollitia, optio, itaque. Officiis quis consequuntur blanditiis, hic, cum aspernatur explicabo iusto, provident nostrum, temporibus ratione. Quasi, commodi.
+					Шухов не&nbsp;терял ни&nbsp;часа. Он&nbsp;вообще умел делать сразу несколько дел одновременно, и&nbsp;практически все мог сделать сам&nbsp;&mdash; и&nbsp;рассчитать изделие, и&nbsp;встать к&nbsp;токарному станку. Он&nbsp;немедленно заказал трубы для трубопровода в&nbsp;США&nbsp;&mdash; в&nbsp;то&nbsp;время они были самые качественные и&nbsp;самые дешевые. Сварки тогда еще не&nbsp;было&nbsp;&mdash; трубы соединялись резьбовыми соединениями с&nbsp;помощью муфт.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores porro, saepe atque! Mollitia, optio, itaque. Officiis quis consequuntur blanditiis, hic, cum aspernatur explicabo iusto, provident nostrum, temporibus ratione. Quasi, commodi.
+					Длина трубопровода с&nbsp;технологическими отводами была немногим более 12&nbsp;километров, диаметр трубы&nbsp;&mdash; три дюйма, то&nbsp;есть 76&nbsp;мм. То&nbsp;есть сама по&nbsp;себе труба в&nbsp;итоге была на&nbsp;порядок короче самых длинных американских труб. Но&nbsp;не&nbsp;забываем&nbsp;&mdash; строил этот первый трубопровод молодой человек, в&nbsp;идею которого верило в&nbsp;Баку очень мало людей. 
 				</p>
 				<img src="../assets/img/pipes.jpg" alt="" class="inline-img col-sm-20">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repellendus rerum facere dolores est illo, quos nemo autem eum, harum fugit maiores ipsa debitis corrupti! Debitis rerum libero ea maxime?
+					Отношение к&nbsp;нему было мало того что скептическим&nbsp;&mdash; откровенно неприязненным. Юнец осмелился ломать сложившиеся традиции! Круг недовольных все время расширялся&nbsp;&mdash; вслед за&nbsp;возчиками в&nbsp;оппозицию проекту встали владельцы бондарных предприятий, которые производили бочки, конторы арматоров&nbsp;&mdash; все они просто мечтали, чтобы шуховский проект рухнул.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolorum sequi illo, quidem nobis, nostrum id eos officia dolorem modi aspernatur sint facere culpa minima harum iure quia maiores autem.
+					Да&nbsp;и&nbsp;Людвигу Нобелю, который взял на&nbsp;себя деловую часть проекта было несладко. Нобель поначалу предложил и&nbsp;другим нефтепромышленникам вложиться в&nbsp;дело&nbsp;&mdash; на&nbsp;паях, так как все они недополучали прибыль из&nbsp;за&nbsp;действий мафии перевозчиков. Но&nbsp;коллеги-конкуренты просто испугались и&nbsp;общественного мнения и&nbsp;возможных личных последствий. Ходят легенды, что другие предприниматели прямо говорили&nbsp;&mdash; &laquo;Вы, шведы в&nbsp;любой момент уедете или в&nbsp;Петербург, или вообще на&nbsp;родину...А наш то&nbsp;дом здесь, нам здесь жить, с&nbsp;этими людьми...&raquo;
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eum reiciendis quos suscipit vel rerum eveniet voluptas obcaecati, et non saepe quaerat ullam nemo. Odit cupiditate, ullam inventore ipsum nulla.
+					В&nbsp;итоге Нобель стал финансировать трубу один. Не&nbsp;успели начать строительство&nbsp;&mdash; как случился поджог склада с&nbsp;деталями, поступившими из&nbsp;Америки.
 				</p>
 				<p class="blockquote">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ab sed, libero vel autem fugiat praesentium dicta delectus quo consequatur, dolores, minus quas sunt ullam harum, impedit voluptatibus aperiam.
+					По&nbsp;ночам проложенные трубы сверлили, соединения обливали кислотой. Нобель был вне себя&nbsp;&mdash; но&nbsp;от&nbsp;проекта отказываться не&nbsp;собирался. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et reprehenderit non quam veritatis voluptatem, vel sunt cupiditate magni eos possimus soluta, at rerum eveniet exercitationem aliquid voluptatum rem nihil. Aperiam!
+					Шухов обратил внимание на&nbsp;то, что среди возчиков есть люди, которые хотели&nbsp;бы для себя лучшей доли, чем всю жизнь тягать бочки от&nbsp;месторождений к&nbsp;заводу. Их&nbsp;наняли за&nbsp;хорошую зарплату возить стройматериалы, других рабочих, чистую воду и&nbsp;продукты. Зарплата и&nbsp;так у&nbsp;Нобеля была выше, а&nbsp;квалифицированные рабочие вообще ходили в&nbsp;элите местного рабочего класса. Что&nbsp;бы охранять трубу Нобель нанимает казаков, устанавливает сторожевые будки и&nbsp;вышки по&nbsp;трассе трубопровода. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, fuga vel necessitatibus molestias a. Quisquam nesciunt doloremque ipsum animi est reprehenderit dolores quis reiciendis, ut sequi quos, expedita explicabo, nisi.
+					Пока Людвиг Нобель организовывал работу трубы, Владимир Шухов закончил ударную стройку всего за&nbsp;несколько месяцев.&nbsp;1878 год вошел в&nbsp;историю российской нефтяной промышленности. Все коллеги и&nbsp;конкуренты Нобелей ахнули&nbsp;&mdash; они поняли какую оплошность совершили, не&nbsp;вложившись в&nbsp;столь выгодное предприятие.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos facilis consequuntur, mollitia laudantium! Assumenda cupiditate fugiat autem voluptatum eaque repellendus, nulla obcaecati id placeat sapiente neque, optio animi nisi!
+					Но&nbsp;Нобели, совсем неожиданно заявили, что перекачают нефть всех желающих. Всего по&nbsp;пятаку за&nbsp;пуд (вместо 20&nbsp;копеек у&nbsp;возчиков&nbsp;&mdash; отличная экономия). А&nbsp;в&nbsp;следующем году нефтяная компания Лианозова заказывает строительство фирме Бари стоить такой&nbsp;же нефтепровод, только не&nbsp;несколько километров длиннее. А&nbsp;спустя 10&nbsp;лет близ Баку будет работать 25&nbsp;трубопроводов общей протяженностью около 300&nbsp;км, а&nbsp;стоимость транспортировки упадет всего до&nbsp;2&nbsp;копеек за&nbsp;пуд&nbsp;&mdash; то&nbsp;есть станет дешевле добычи нефти. Но&nbsp;Шухов все эти трубопроводы не&nbsp;строил&nbsp;&mdash; построив первые, он&nbsp;взялся за&nbsp;решение других задач бизнеса, вступив на&nbsp;доселе неизведанную территорию&nbsp;&mdash; и&nbsp;тут уже американский опыт ему не&nbsp;мог помочь...
 				</p>
 			</div>
 		</div>
@@ -253,33 +285,33 @@
 		<br>
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title">
-					Уходящий за горизонт
+				<h2 class="h2 title js-title" id="horizon">
+					Уходящий за&nbsp;горизонт
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod mollitia accusantium voluptate nisi neque voluptatem consectetur eligendi quia beatae nemo aliquid tempora a placeat dolorum, maxime fuga quaerat laudantium? Eaque corrupti, non cum magnam unde, fuga necessitatibus, et inventore illo a doloribus aliquid deserunt. Dolor nam porro doloremque consequatur.
+					Надо сказать, что американский опыт мог и&nbsp;помешать. Секрет прост&nbsp;&mdash; трубопроводный бизнес в&nbsp;США начинали деятельные, но&nbsp;малограмотные предприниматели. Известен случай, когда зимой рвался трубопровод, проложенный летом, и, в&nbsp;свою очередь &laquo;зимний&raquo; трубопровод с&nbsp;наступлением летней жары извивался жуткой змеей, выползая на&nbsp;дорогу и&nbsp;ломая соседние дома&nbsp;&mdash; просто потому что строители не&nbsp;учитывали температурное расширение металла. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod mollitia accusantium voluptate nisi neque voluptatem consectetur eligendi quia beatae nemo aliquid tempora a placeat dolorum, maxime fuga quaerat laudantium? Eaque corrupti, non cum magnam unde, fuga necessitatibus, et inventore illo a doloribus aliquid deserunt. Dolor nam porro doloremque consequatur.
+					Шухов&nbsp;же был настоящим инженером, европейской школы. Прекрасно владевший математическим аппаратом, знающий физику и&nbsp;химию, говорящий на&nbsp;трех языках свободно, изучающий современную ему профессиональную литературу&nbsp;&mdash; он&nbsp;понимал все многообразие процессов, которые происходили с&nbsp;трубой и&nbsp;в&nbsp;трубе. И, кстати&nbsp;&mdash; около трубы тоже. Он&nbsp;не&nbsp;просто проектировал трубопровод&nbsp;&mdash; Шухов проектировал бизнес. Как и&nbsp;его идейный &laquo;гуру&raquo;&nbsp;&mdash; Менделеев, Владимир Шухов видел в&nbsp;науке инструмент для предпринимательства.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod mollitia accusantium voluptate nisi neque voluptatem consectetur eligendi quia beatae nemo aliquid tempora a placeat dolorum, maxime fuga quaerat laudantium? Eaque corrupti, non cum magnam unde, fuga necessitatibus, et inventore illo a doloribus aliquid deserunt. Dolor nam porro doloremque consequatur.
+					Шухов рассмотрел трубопровод как систему двух станций&nbsp;&mdash; передающей и&nbsp;принимающей. Что&nbsp;бы прокачать нефть по&nbsp;трубам, нужно было создать давление на&nbsp;подающей станции. Но&nbsp;выдержать высокое давление могли только толстые трубы. А&nbsp;такие трубы дороже, лопаются они чаще и&nbsp;монтировать трубопровод&nbsp;&mdash; дороже. Значит, появлялся предел экономичности системы. Решением могли быть разные&nbsp;&mdash; иметь дополнительные перекачивающие станции, или&nbsp;&mdash; увеличение температуры перекачиваемой нефти, или нефтепродукта. Такого как мазут.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod mollitia accusantium voluptate nisi neque voluptatem consectetur eligendi quia beatae nemo aliquid tempora a placeat dolorum, maxime fuga quaerat laudantium? Eaque corrupti, non cum magnam unde, fuga necessitatibus, et inventore illo a doloribus aliquid deserunt. Dolor nam porro doloremque consequatur.
+					Его, мазут, в&nbsp;то&nbsp;время ни&nbsp;за&nbsp;что путное не&nbsp;считали. Мазут&nbsp;&mdash; это то&nbsp;что оставалось от&nbsp;перегонки и&nbsp;выделения керосиновой фракции. Густая, гуще нефти масса. Но&nbsp;чем больше Шухов занимался нефтью, тем горше ему было смотреть на&nbsp;то, что только ее&nbsp;часть идет в&nbsp;дело. Нужно было и&nbsp;мазут заставить приносить прибыль. Например, в&nbsp;качестве топлива для паровых насосов, которые качают нефть по&nbsp;трубам, для любых других паровых утановок&nbsp;&mdash; в&nbsp;том числе и&nbsp;для пароходов, которые везут готовый керосин по&nbsp;Каспию до&nbsp;волжских портов.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod mollitia accusantium voluptate nisi neque voluptatem consectetur eligendi quia beatae nemo aliquid tempora a placeat dolorum, maxime fuga quaerat laudantium? Eaque corrupti, non cum magnam unde, fuga necessitatibus, et inventore illo a doloribus aliquid deserunt. Dolor nam porro doloremque consequatur.
+					Помните, в&nbsp;самом начале этого рассказа мы&nbsp;упоминали изобретение молодого Шухова&nbsp;&mdash; паровую форсунку для сжигания мазута. Вот патент на&nbsp;нее и&nbsp;покупает у&nbsp;Шухова Людвиг Нобель, что&nbsp;бы использовать на&nbsp;своих предприятиях. Только вот какое дело&nbsp;&mdash; нужно теперь строить мазутопровод. И&nbsp;Владимир Георгиевич вновь садиться за&nbsp;расчеты. Он&nbsp;уже знает, что при повышении температуры мазута его вязкость уменьшится, и&nbsp;перекачивать его будет легче. Он&nbsp;выводит зависимость диаметра труб, температуры и&nbsp;расходу мазута. То&nbsp;бы все было экономичнее, он&nbsp;предлагает греть мазут отработанным паром от&nbsp;паровых насосов, которые этот самый мазут и&nbsp;качают.
 				</p>
 				<img src="../assets/img/horizon.jpg" class="inline-img col-sm-20">
 				<p class="photo-desc">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta explicabo, corrupti a voluptas, dicta nulla id voluptate eligendi et illo sit quam. Voluptatum nulla consequatur, voluptates distinctio veniam, aliquid dicta.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nulla rem perspiciatis sint iste, molestiae aut quibusdam cum modi fuga? Reprehenderit enim eligendi dolorum est exercitationem a laborum consequuntur quibusdam quo neque, delectus dicta incidunt voluptatum hic, illo magnam ex tempora odio esse in fugit praesentium velit autem. Eligendi, ad!
+					Шухов идет еще дальше, и&nbsp;рассчитывает соотношения между расходом мазута на&nbsp;обогрев мазутопровода, диаметр труб, расстояния перекачки и&nbsp;другие параметры, и&nbsp;сводит все это в&nbsp;таблицы&nbsp;&mdash; которые актуальны и&nbsp;по&nbsp;сей день. Но&nbsp;вот проблема&nbsp;&mdash; дело не&nbsp;только в&nbsp;том, как и&nbsp;что качать&nbsp;&mdash; вопрос еще как и&nbsp;в&nbsp;чем нефть, полезный продукт и&nbsp;отходы хранить. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nulla rem perspiciatis sint iste, molestiae aut quibusdam cum modi fuga? Reprehenderit enim eligendi dolorum est exercitationem a laborum consequuntur quibusdam quo neque, delectus dicta incidunt voluptatum hic, illo magnam ex tempora odio esse in fugit praesentium velit autem. Eligendi, ad!
+					В&nbsp;Баку отходы нефти, то&nbsp;есть мазут, сливали в&nbsp;котлованы, готовый продукт держали в&nbsp;бочках или мощных прямоугольных баках на&nbsp;толстом, крепком основании. Но&nbsp;Шухов математик&nbsp;&mdash; с&nbsp;его точки зрения мощное основание&nbsp;&mdash; это некрасиво и&nbsp;непрактично. Это дорого. Оно не&nbsp;нужно, нужно сделать площадку, засыпанную песком, положить на&nbsp;него стальной гибкий лист и&nbsp;сделать по&nbsp;краям бетонное кольцо. Да, стенки тоже будут из&nbsp;стальных колец, причем чем выше&nbsp;&mdash; тем тоньше. Ведь давление жидкости в&nbsp;верней части емкости всегда ниже чем в&nbsp;основании. Эта идея была сродни удару молнии. Все тут&nbsp;же стали заказывать инженерной фирме Бари новые нефтехранилища. До&nbsp;1917 года фирма Бари построит 20&nbsp;тысяч таких резервуаров. Их&nbsp;конструкция станет международным стандартом. Да, кстати&nbsp;&mdash; киношный товарищ Сухов именно в&nbsp;таком резервуаре прятал от&nbsp;Абдуллы своих жен. И&nbsp;кстати, стрелял Абдулла в&nbsp;самое прочное место резервуара&nbsp;&mdash; в&nbsp;нижнее кольцо. 
 				</p>
 			</div>
 		</div>
@@ -294,10 +326,10 @@
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil explicabo at fuga, temporibus eum molestias perspiciatis earum! Dolor aperiam quia doloribus distinctio similique a soluta, modi! Corporis, alias nesciunt voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, ipsam saepe recusandae commodi. Nostrum vel iure quod quasi maxime odio, nobis esse soluta aliquid. Omnis, at nemo mollitia corporis commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil explicabo at fuga, temporibus eum molestias perspiciatis earum! Dolor aperiam quia doloribus distinctio similique a soluta, modi! Corporis, alias nesciunt voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, ipsam saepe recusandae commodi. Nostrum vel iure quod quasi maxime odio, nobis esse soluta aliquid. Omnis, at nemo mollitia corporis commodi.
+					Оставалась еще одна проблема&nbsp;&mdash; транспортировка керосина к&nbsp;потребителю. В&nbsp;то&nbsp;время керосин заливали в&nbsp;бочки и&nbsp;грузили на&nbsp;парусники, которые доходили до&nbsp;Астрахани, где бочки перегружали на&nbsp;баржи, которые тащили вверх по&nbsp;реке бурлаки, выписанные Репиным. Стоимость деревянной бочкотары доходила до&nbsp;половинной стоимости залитого в&nbsp;нее керосина. Пароходы в&nbsp;определенной мере решали вопрос&nbsp;&mdash; но&nbsp;далеко не&nbsp;полностью. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque optio, quos est dolores aspernatur quam magnam molestias error voluptate vero quasi, asperiores animi eos, vel alias consequuntur eveniet ea quae ipsum. Culpa ut explicabo in doloribus, eligendi laborum quae dolores consectetur suscipit. Quasi quae explicabo repellat, nobis nulla similique quam, repellendus quisquam incidunt commodi est recusandae iste aliquid doloremque doloribus animi ad obcaecati officiis! Saepe iusto quod pariatur odio hic, deserunt exercitationem ipsum odit debitis asperiores accusamus eaque dolores, vero impedit aperiam voluptatum quisquam dolore ducimus, quis fugiat veritatis, et ipsa. Autem cumque sit molestias sint nihil facere aperiam dolorem!
+					Проблему доставки до&nbsp;низовьев Волги Людвиг Нобель решил сам, заказав на&nbsp;верфях шведской фирмы &laquo;Линдхолмен-Мотала&raquo; в&nbsp;1878 году первый в&nbsp;мире танкер&nbsp;&mdash; нефтеналивное судно &laquo;Зороастр&raquo;, который должен был перевозить керосин в&nbsp;танках&nbsp;&mdash; то&nbsp;есть отсеках своего трюма. А&nbsp;что&nbsp;бы вообще больше не&nbsp;связываться с&nbsp;бочками, Владимир Шухов стал разрабатывать уникальные танкеры-баржи, для плавания по&nbsp;Волге. Нефтяной бизнес стал удивительно походить на&nbsp;то, что мы&nbsp;видим сегодня. Или просто Шухов обогнал время?
 				</p>
 			</div>
 		</div>
@@ -308,21 +340,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title">
+				<h2 class="h2 title js-title" id="epilog">
 					Эпилог
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, sint temporibus facilis, ullam quasi distinctio perspiciatis inventore impedit dignissimos maxime delectus quod illo dicta minus ducimus. Labore, at eveniet quo!
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe asperiores doloribus atque inventore accusantium culpa, nisi odit eligendi dolorum laborum, aliquam. Consequuntur incidunt, quae expedita nemo, at error sit quidem.
+					Шухов прожил долгую, и&nbsp;удивительно насыщенную жизнь. Он&nbsp;создал системы подъема нефти из&nbsp;скважин, он&nbsp;изобрел крекинг нефти&nbsp;&mdash; и&nbsp;это будет признано международным патентным судом в&nbsp;Гааге в&nbsp;1923&nbsp;году. Он&nbsp;спроектирует магистральные трубопроводы Баку-Батуми и&nbsp;Грозный-Туапсе, причем первый вступит в&nbsp;строй в&nbsp;начале&nbsp;ХХ века при царе, а&nbsp;второй&nbsp;&mdash; уже при советской власти...
 				</p>
 				<img src="../assets/img/epilogue.jpg" class="inline-img iblock blockfloat blockfloat--right">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ex ut fugiat cupiditate, amet sequi animi perferendis blanditiis officia quasi, tempora doloremque et. Neque ipsa distinctio, omnis natus tempore corporis rerum temporibus blanditiis soluta. Optio soluta eligendi blanditiis qui? Excepturi deleniti provident quis! Et nemo facere accusamus eius laudantium quae, dolor ab obcaecati quia placeat amet molestiae minima quod expedita, maiores reiciendis labore temporibus officia fugit quis, atque quidem. Itaque pariatur ducimus dolore cum quis suscipit nobis, vero fugit provident dolores, illo expedita labore architecto dolor perspiciatis ratione unde beatae veritatis minima in ullam nam temporibus voluptatibus. Error illo doloremque, laboriosam cupiditate ipsum nostrum iste eaque consequatur reprehenderit perspiciatis dolorum inventore dolorem doloribus, quasi dicta quam soluta neque impedit placeat ad debitis, facilis. Provident nemo, minus quaerat magni doloribus? Similique veritatis doloremque, reprehenderit quia quis amet adipisci optio blanditiis recusandae numquam unde, vel perspiciatis aut natus rem voluptas quidem quae.
+					Он&nbsp;будет строить и&nbsp;строить. Он&nbsp;изобретет строительный гиперболоид&nbsp;&mdash; но&nbsp;не&nbsp;машину разрушения, а&nbsp;конструкционную систему. Шуховская башня, опоры над Волгой, Аджигольский маяк под Херсоном&nbsp;&mdash; все это гиперболоиды инженера Шухова. Зайдите в&nbsp;ГУМ, посмотрите вверх&nbsp;&mdash; эта стеклянная крыша&nbsp;&mdash; тоже Шухов. Киевский вокзал и&nbsp;телеграф, Московский художественный театр и&nbsp;Пушкинский музей. Он&nbsp;создал так много, что трудно даже сказать&nbsp;&mdash; где в&nbsp;строительном деле он&nbsp;не&nbsp;оставил свой след. Для холодной России он&nbsp;создал свой вариант отопительного котла, и&nbsp;в&nbsp;1900-м году получил на&nbsp;Всемирной выставке в&nbsp;Париже золотую медаль. Они до&nbsp;сих пор действуют, и&nbsp;их&nbsp;принцип используется по&nbsp;сей день в&nbsp;новых установках. 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat odit, aperiam reiciendis molestias inventore deserunt soluta, vitae accusantium veniam blanditiis tempore dolores, aliquam neque enim, quod totam maiores nam eligendi!
+					Он&nbsp;не&nbsp;был коммерсантом&nbsp;&mdash; но&nbsp;самые успешные коммерсанты восторгались его талантом и&nbsp;вставали в&nbsp;очередь, что&nbsp;бы он&nbsp;принял их&nbsp;заказ. Он&nbsp;соглашался, что его эксплуатировали&nbsp;&mdash; но&nbsp;и&nbsp;он&nbsp;эксплуатировал своих заказчиков, которые финансировали его самые смелые проекты. Его любили женщины, он&nbsp;был окружен восторгом публики. Он&nbsp;сделал карьеру, стяжал славу, добился международного профессионального признания, и&nbsp;ни&nbsp;разу не&nbsp;изменил своим принципам.
 				</p>
 			</div>
 		</div>
