@@ -56,10 +56,7 @@ var resize = function resize() {
 
 var initApp = function initApp(){
 	recalcScreenParams();
-	setTimeout(function(){
-		fitSidebar();
-	},1000)
-
+	fitSidebar();
 };
 
 var changeItem = function changeItem(item) {
@@ -68,7 +65,81 @@ var changeItem = function changeItem(item) {
 	$item.addClass('active');
 };
 
-initApp();
+
+var initWaypoints = function initWaypoints() {
+	$stickyRails.waypoint({
+		handler: function(dir) {
+			if (dir == 'down') {
+				$stickySidebar.addClass('fixed').removeClass('top');
+			} else {
+				$stickySidebar.removeClass('fixed').addClass('top');
+			}
+		},
+		offset: screenParams.panelHeight + 50
+	})
+
+	$('.js-support-waypoint').waypoint({
+		handler: function(dir) {
+			if (dir == 'down') {
+				$stickySidebar.addClass('bottom').removeClass('fixed');
+			} else {
+				$stickySidebar.removeClass('bottom').addClass('fixed');
+			}
+
+		},
+		offset: 120/1 + $stickySidebar.outerHeight(true) /* 120 = topPanelHeight + sidbar.fixed top */
+	})
+
+	$('.js-title').waypoint({
+		handler: function(dir) {
+			var id = $(this).attr('id');
+			var $link = $('[href="#'+id+'"]').parent();
+			if (dir == 'up') {
+				if (!$link.index()) return;
+				$link = $('.js-item').eq($link.index()-1);
+			}
+			changeItem($link);
+		},
+		offset: $.waypoints('viewportHeight')/2 + screenParams.panelHeight
+	})
+};
+
+
+$('.loader').imgloader({
+	resources: [
+		'../img/mendeleev.jpg',
+		'../img/young-shuhov.jpg',
+		'../img/1.jpg',
+		'../img/2.jpg',
+		'../img/3.jpg',
+		'../img/4.jpg',
+		'../img/pipes.jpg',
+		'../img/ships.jpg',
+		'../img/horizon.jpg',
+		'../img/horizon-2.jpg',
+		'../img/epilogue.jpg',
+
+
+	/*
+		'http://lorempixel.com/100/200/abstract/',
+		'http://lorempixel.com/1920/1080/abstract/',
+		'http://lorempixel.com/1920/1080/city/',
+		'http://lorempixel.com/1920/1080/people/',
+		'http://lorempixel.com/1920/1080/transport/',
+		'http://lorempixel.com/1920/1080/animals/',
+		'http://lorempixel.com/1920/1080/food/'
+	*/
+	],
+	waiting: 12000,
+	callback: function() {
+		$('.loader-overlay').remove();
+		$('body').removeClass('fixed');
+		$('.js-panel').removeClass('top');
+		initApp();
+		initWaypoints();
+	}
+});
+
 
 $('.js-item').click(function(e){
 	e.preventDefault();
@@ -83,38 +154,3 @@ $(window).resize(function(){
 	$.waypoints('refresh');
 });
 
-$stickyRails.waypoint({
-	handler: function(dir) {
-		if (dir == 'down') {
-			$stickySidebar.addClass('fixed').removeClass('top');
-		} else {
-			$stickySidebar.removeClass('fixed').addClass('top');
-		}
-	},
-	offset: screenParams.panelHeight + 50
-})
-
-$('.js-support-waypoint').waypoint({
-	handler: function(dir) {
-		if (dir == 'down') {
-			$stickySidebar.addClass('bottom').removeClass('fixed');
-		} else {
-			$stickySidebar.removeClass('bottom').addClass('fixed');
-		}
-
-	},
-	offset: $stickySidebar.css('top').split('px')[0]/1 + $stickySidebar.outerHeight(true)
-})
-
-$('.js-title').waypoint({
-	handler: function(dir) {
-		var id = $(this).attr('id');
-		var $link = $('[href="#'+id+'"]').parent();
-		if (dir == 'up') {
-			if (!$link.index()) return;
-			$link = $('.js-item').eq($link.index()-1);
-		}
-		changeItem($link);
-	},
-	offset: $.waypoints('viewportHeight')/2 + screenParams.panelHeight
-})

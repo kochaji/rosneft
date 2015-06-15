@@ -1,8 +1,8 @@
 <?php 
 	$media = array(
-		'webm' => 'http://bg.ru/media/specprojects/oscar/seq.webm',
-		'mp4'  => 'http://bg.ru/media/specprojects/oscar/seq.mp4',
-		'ogv'  => 'http://bg.ru/media/specprojects/oscar/seq.ogv'
+		'webm' => '../video/1.webm',
+		'mp4'  => '../video/1.mp4'
+		//'ogv'  => ''
 	);
 	$text = 'Описанаие для блока';
 	renderFeature($media, $text); 
@@ -111,7 +111,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../img/exponat-1876.jpg" class="inline-img" alt="" title="">
+				<img src="../img/1.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты Всемирной выставки в&nbsp;Филадельфии, 1876&nbsp;год.
 				</p>
@@ -138,7 +138,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../img/exponat-1876-2.jpg" class="inline-img" alt="" title="">
+				<img src="../img/2.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
@@ -176,7 +176,14 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../img/m.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
+	<?php 
+		$media = array(
+			'webm' => '../video/2.webm',
+			'mp4'  => '../video/2.mp4'
+			//'ogv'  => ''
+		);	
+		renderFeature($media, '')  
+	?>
 
 	<div class="container">
 		<div class="row">
@@ -194,7 +201,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-4 col-sm-16">
-				<img src="../img/exponat-1876-3.jpg" class="inline-img" alt="" title="">
+				<img src="../img/3.jpg" class="inline-img" alt="" title="">
 				<p class="photo-desc">
 					Экспонаты всемирной выставки в Филадельфии, 1876 год.
 				</p>
@@ -212,7 +219,12 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../img/liquid.jpg', 'Это только кажется, что промышленники должны всегда поддерживать прогресс. Отнюдь нет. Большой бизнес — это система договоров, многие из которых расчитаны на десятилетия вперед')  ?>
+	<?php 
+		$media = array(
+			'webm' => '../video/3.webm',
+			'mp4'  => '../video/3.mp4'
+		);
+		renderFeature($media, '')  ?>
 
 	<div class="container">
 		<div class="row">
@@ -224,7 +236,7 @@
 					Молодые люди действовали стремительно. Александр Бари в&nbsp;1877 году открывает в&nbsp;Баку отделение своей строительно-конструкторской фирмы, в&nbsp;которой главным инженером становится Владимир Шухов. Бари и&nbsp;Шухов быстро оценили обстановку, и&nbsp;поняли что здесь непочатый край работы, где можно применить знания, которыми они насытились в&nbsp;США. Но&nbsp;будучи с&nbsp;другой стороны россиянами (дело&nbsp;же не&nbsp;в&nbsp;паспортах, в&nbsp;конечном счете, а&nbsp;в&nbsp;свойстве души), они понимали, что плетью обуха не&nbsp;перешибешь, и&nbsp;действовать тут надо осмотрительно, заручившись поддержкой влиятельной силы. 
 				</p>
 				<div class="iblock blockfloat blockfloat--right">
-					<img src="../img/exponat-1876-4.jpg" alt="" class="inline-img">
+					<img src="../img/4.jpg" alt="" class="inline-img">
 					<p class="photo-desc">
 						Экспонаты всемирной выставки в Филадельфии, 1876 год.
 					</p>
@@ -345,7 +357,13 @@
 		</div>
 	</div>
 
-	<?php renderFeature('../img/be-hero.jpg', 'Text here') ?>
+	<?php 
+		$media = array(
+			'webm' => '../video/4.webm',
+			'mp4'  => '../video/4.mp4'
+		);
+		renderFeature($media, '') 
+	?>
 
 	<div class="container">
 		<div class="row">

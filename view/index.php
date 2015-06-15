@@ -38,7 +38,7 @@
 	
 
 </head>
-<body class="fixed">
+<body class="">
 
 	<?php require '_panel.php'; ?>
 	<?php require '_intro.php'; ?>

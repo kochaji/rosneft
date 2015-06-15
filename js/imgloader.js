@@ -26,8 +26,10 @@ jQuery.fn.imgloader = function(params) {
 
 	var finish = function() {
 		clearTimeout(timer);
-		if (error) {console.warn(failText)} else {successText};
-		callback();
+		if (error) {console.warn(failText)} else {console.log(successText)};
+		setTimeout(function(){
+			callback();
+		}, 500);
 	}
 
 	$.each(params.resources, function(i, src){

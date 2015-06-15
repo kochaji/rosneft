@@ -370,43 +370,51 @@ p.editor-string {
 .sidebar {
   z-index: 1;
   opacity: 0;
+  margin: 0 0 50px;
+  -webkit-transition: 0.5s opacity;
+  -moz-transition: 0.5s opacity;
+  -ms-transition: 0.5s opacity;
+  -o-transition: 0.5s opacity;
+  transition: 0.5s opacity;
 }
 
-/* line 39, ../scss/_content.scss */
+/* line 45, ../scss/_content.scss */
 .sidebar.visible {
-  opacity: inherit;
+  opacity: 1;
 }
 
-/* line 42, ../scss/_content.scss */
+/* line 48, ../scss/_content.scss */
 .sidebar.top {
   position: absolute;
   top: 0;
   bottom: inherit;
+  opacity: 0;
 }
 
-/* line 47, ../scss/_content.scss */
+/* line 54, ../scss/_content.scss */
 .sidebar.fixed {
   position: fixed;
   top: 120px;
   bottom: inherit;
 }
 
-/* line 52, ../scss/_content.scss */
+/* line 59, ../scss/_content.scss */
 .sidebar.bottom {
   position: absolute;
   top: inherit;
   bottom: 0;
+  opacity: 0;
 }
 
-/* line 58, ../scss/_content.scss */
+/* line 66, ../scss/_content.scss */
 .content-list {
   font-size: 16px;
   position: relative;
-  margin: 0 0 50px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 65, ../scss/_content.scss */
+/* line 73, ../scss/_content.scss */
 .content-list:before, .content-list:after {
   content: '';
   display: block;
@@ -416,20 +424,20 @@ p.editor-string {
   border-left: 1px solid #bbb;
   left: 16px;
 }
-/* line 75, ../scss/_content.scss */
+/* line 83, ../scss/_content.scss */
 .content-list:before {
   top: 14px;
 }
-/* line 78, ../scss/_content.scss */
+/* line 86, ../scss/_content.scss */
 .content-list:after {
   bottom: 14px;
 }
 
-/* line 83, ../scss/_content.scss */
+/* line 91, ../scss/_content.scss */
 .content-list__item {
   position: relative;
 }
-/* line 85, ../scss/_content.scss */
+/* line 93, ../scss/_content.scss */
 .content-list__item:before {
   content: '';
   width: 6px;
@@ -448,20 +456,20 @@ p.editor-string {
   border-radius: 50%;
 }
 
-/* line 103, ../scss/_content.scss */
+/* line 111, ../scss/_content.scss */
 .content-list__item:first-child:before,
 .content-list__item:last-child:before {
   display: block;
 }
 
-/* line 108, ../scss/_content.scss */
+/* line 116, ../scss/_content.scss */
 .content-list__item a {
   border: 3px solid transparent;
   display: block;
   padding: 3px 0 3px 30px;
 }
 
-/* line 113, ../scss/_content.scss */
+/* line 121, ../scss/_content.scss */
 .content-list__item.active a {
   border: 3px solid #ffcc00;
   padding-left: 30px;
@@ -660,7 +668,7 @@ a:focus {
   border-left: 1px solid #fea600;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 2, ../scss/_preloader.scss */
 .imgloader-wrap {
   height: 10px;
   width: 100%;
@@ -671,7 +679,7 @@ a:focus {
   z-index: 2;
 }
 
-/* line 113, ../scss/style.scss */
+/* line 11, ../scss/_preloader.scss */
 .imgloader-progress {
   position: relative;
   width: 0%;
@@ -689,7 +697,7 @@ a:focus {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 129, ../scss/style.scss */
+/* line 27, ../scss/_preloader.scss */
 .loader-overlay {
   position: fixed;
   left: 0;
@@ -699,13 +707,12 @@ a:focus {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background: url(../img/intro-img.jpg) no-repeat 50% 50%;
-  background-size: cover;
+  background: rgba(0, 0, 0, 0.75);
   color: #fff;
   font-size: 18px;
 }
 
-/* line 143, ../scss/style.scss */
+/* line 40, ../scss/_preloader.scss */
 body.fixed {
   overflow: hidden;
 }
