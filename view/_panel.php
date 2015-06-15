@@ -1,4 +1,4 @@
-<div class="top-panel js-panel">
+<div class="top-panel js-panel top">
 	<div class="container">
 		<div class="row">
 			<h4 class="h3 title col-sm-4 title--panel pull-left">

@@ -12,6 +12,14 @@
 	-ms-box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	-o-box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	-webkit-transition: 0.3s top;
+	-moz-transition: 0.3s top;
+	-ms-transition: 0.3s top;
+	-o-transition: 0.3s top;
+	transition: 0.3s top;
+}
+.top-panel.top {
+	top: - $panelHeight;
 }
 
 .timeline-wrap {

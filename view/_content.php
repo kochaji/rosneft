@@ -1,3 +1,13 @@
+<?php 
+	$media = array(
+		'webm' => 'http://bg.ru/media/specprojects/oscar/seq.webm',
+		'mp4'  => 'http://bg.ru/media/specprojects/oscar/seq.mp4',
+		'ogv'  => 'http://bg.ru/media/specprojects/oscar/seq.ogv'
+	);
+	$text = 'Описанаие для блока';
+	renderFeature($media, $text); 
+?>
+
 <div class="content js-sticky-wrap">
 	<div class="container">
 		<div class="row">
@@ -6,10 +16,10 @@
 					<div class="rails__inner">
 						<div class="sidebar js-sticky-sidebar">
 							<ul class="content-list js-items visible-lg">
-								<li class="content-list__item js-item">
+								<li class="content-list__item js-item active">
 									<a href="#years13">13 лет спустя</a>
 								</li>
-								<li class="content-list__item js-item active">
+								<li class="content-list__item js-item">
 									<a href="#friends">Друзья и конкуренты</a>
 								</li>
 								<li class="content-list__item js-item">
@@ -44,7 +54,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-sm-offset-5">
-				<h2 class="h2 title js-title" id="years13">
+				<h2 class="h2 title title--start js-title" id="years13">
 					13&nbsp;лет спустя....
 				</h2>
 				<p>
@@ -82,7 +92,7 @@
 				<p>
 					Но&nbsp;что&nbsp;же делать&nbsp;&mdash; как поощрить талант? И&nbsp;Совет вуза решил, что поездка в&nbsp;Америку будет для молодого и&nbsp;подающего надежды инженера в&nbsp;самый раз наградой. Тем более, это была не&nbsp;просто поездка&nbsp;&mdash; а&nbsp;служебная командировка на&nbsp;Всемирную выставку. Кто&nbsp;же откажется посмотреть мир, да&nbsp;еще с&nbsp;отличными суточными. И&nbsp;они пустились в&nbsp;путь...
 				</p>
-				<h2 class="h2 title js-title" id="friends">
+				<h2 class="h2 title js-title title--divider" id="friends">
 					Друзья и&nbsp;конкуренты
 				</h2>
 				<p>
@@ -112,7 +122,7 @@
 				<p>
 					В&nbsp;США у&nbsp;Бари все было хорошо&nbsp;&mdash; он&nbsp;занимался конструкционными работами с&nbsp;металлом на&nbsp;Выставке, за&nbsp;что и&nbsp;был награжден золотой медалью. И&nbsp;вот такой человек устроил для российской делегации не&nbsp;только плановые закупки оборудования, а&nbsp;специальные экскурсии на&nbsp;заводы и&nbsp;трубопроводы. Шухов увидел&nbsp;то, что могло развиваться в&nbsp;России, в&nbsp;Баку, и&nbsp;что не&nbsp;смогло появиться вовремя. Но&nbsp;при этом он&nbsp;обнаружил &laquo;узкие&raquo; места в&nbsp;американских решениях... Ими он&nbsp;и&nbsp;займется&nbsp;&mdash; но&nbsp;не&nbsp;сразу. Потому что порядок есть порядок, и&nbsp;после дивной командировки надо идти работать &laquo;по&nbsp;распределению&raquo;. Но&nbsp;мечта уже появилась, и&nbsp;мало того&nbsp;&mdash; она стала приобретать определенную форму.
 				</p>
-				<h2 class="h2 title js-title" id="regress">
+				<h2 class="h2 title js-title title--divider" id="regress">
 					Осознание антипрогресса
 				</h2>
 				<p>
@@ -171,7 +181,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title js-title" id="noble">
+				<h2 class="h2 title js-title title--start" id="noble">
 					Нобель вступает в&nbsp;игру
 				</h2>
 				<p>
@@ -207,7 +217,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title js-title" id="stereotips">
+				<h2 class="h2 title js-title title--start" id="stereotips">
 					Ломая стереотипы
 				</h2>
 				<p>
@@ -234,7 +244,7 @@
 				<p>
 					Ведь было нетрудно понять, что трубопровод сделает ненужными тысячи возчиков нефти. И&nbsp;пострадают не&nbsp;только сами возчики, но&nbsp;и&nbsp;те, кто контролировал этот бизнес, и&nbsp;имел тесные контакты с&nbsp;местной администрацией. Грядущие изменения стали восприниматься общественностью с&nbsp;опасениями, публику и&nbsp;власти стали пугать угрозой массовых беспорядков, безработицы и&nbsp;даже конфликтами на&nbsp;национальной почве. Дело дошло до&nbsp;угрозы запрета прокладки трубы по&nbsp;земле, которая находилась в&nbsp;государственной собсвенности. Было ясно, что дело не&nbsp;только в&nbsp;технологии строительства&nbsp;&mdash; но&nbsp;и&nbsp;технологии продвижения инновационных решений, то&nbsp;есть в&nbsp;маркетинге.
 				</p>
-				<h2 class="h2 title js-title" id="pipes">
+				<h2 class="h2 title title--divider js-title" id="pipes">
 					Трубы и люди
 				</h2>
 				<p>
@@ -272,7 +282,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-20">
-				<img src="../img/ships.jpg" alt="" class="inline-img">
+				<img src="../img/ships.jpg" alt="" class="inline-img" style="position: relative; z-index: 1">
 			</div>
 		</div>
 		<div class="row">
@@ -285,7 +295,7 @@
 		<br>
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title js-title" id="horizon">
+				<h2 class="h2 title title--start js-title" id="horizon">
 					Уходящий за&nbsp;горизонт
 				</h2>
 				<p>
@@ -340,7 +350,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-offset-5 col-sm-12">
-				<h2 class="h2 title js-title" id="epilog">
+				<h2 class="h2 title title--start js-title" id="epilog">
 					Эпилог
 				</h2>
 				<p>

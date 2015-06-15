@@ -31,7 +31,7 @@ var fitSidebar = function fitSidebar() {
 		height: $stickyWrap.outerHeight()
 	})
 	$stickySidebar.css({
-		width: $stickyRails.width()
+		width: $stickyRails.width() - 15
 	})
 	$stickySidebar.addClass('visible');
 }
@@ -111,6 +111,7 @@ $('.js-title').waypoint({
 		var id = $(this).attr('id');
 		var $link = $('[href="#'+id+'"]').parent();
 		if (dir == 'up') {
+			if (!$link.index()) return;
 			$link = $('.js-item').eq($link.index()-1);
 		}
 		changeItem($link);

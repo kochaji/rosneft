@@ -1,3 +1,10 @@
+<?php 
+	function renderFeature($media, $text) {
+		$type = gettype($media);
+		require '_feature.php';
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -27,33 +34,16 @@
 		window.jQuery || document.write('<scr'+'ipt src="../assets/js/jquery-1.11.1.min.js"></scr'+'ipt>');
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+	<script src="../js/imgloader.js"></script>
 	
 
 </head>
-<body>
-	
-	<?php 
-		function renderFeature($media, $text) {
-			$type = gettype($media);
-			require '_feature.php';
-		}
-	?>
+<body class="fixed">
 
 	<?php require '_panel.php'; ?>
 	<?php require '_intro.php'; ?>
+	<?php require '_preloader.php'; ?>
 	<?php require '_preface.php'; ?>
-	<?php 
-		$media = array(
-			'webm' => 'http://bg.ru/media/specprojects/oscar/seq.webm',
-			'mp4'  => 'http://bg.ru/media/specprojects/oscar/seq.mp4',
-			'ogv'  => 'http://bg.ru/media/specprojects/oscar/seq.ogv'
-		);
-		$text = 'Описанаие для блока';
-		renderFeature($media, $text) 
-	?>
-
-	<?php //renderFeature('../assets/img/mendeleev.jpg', 'ddfdfd sdf s sdf sdf ')  ?>
-
 	<?php require '_content.php'; ?>
 	<?php require '_support.php'; ?>
 	<?php require '_footer.php'; ?>

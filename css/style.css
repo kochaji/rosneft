@@ -55,10 +55,20 @@ a:hover {
   -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s top;
+  -moz-transition: 0.3s top;
+  -ms-transition: 0.3s top;
+  -o-transition: 0.3s top;
+  transition: 0.3s top;
+}
+
+/* line 21, ../scss/_panel.scss */
+.top-panel.top {
+  top: -70px;
 }
 
 @media (max-width: 767px) {
-  /* line 17, ../scss/_panel.scss */
+  /* line 25, ../scss/_panel.scss */
   .timeline-wrap {
     position: absolute;
     top: 0;
@@ -70,36 +80,36 @@ a:hover {
   }
 }
 
-/* line 29, ../scss/_panel.scss */
+/* line 37, ../scss/_panel.scss */
 .timeline {
   font-size: 18px;
 }
 
-/* line 32, ../scss/_panel.scss */
+/* line 40, ../scss/_panel.scss */
 .timeline__item {
   float: left;
   list-style-type: none;
   margin-left: 15px;
 }
 
-/* line 37, ../scss/_panel.scss */
+/* line 45, ../scss/_panel.scss */
 .timeline__item:first-child {
   margin-left: 0;
 }
 
-/* line 40, ../scss/_panel.scss */
+/* line 48, ../scss/_panel.scss */
 .timeline__item.active,
 .timeline__item:hover {
   color: #fea600;
 }
 
-/* line 47, ../scss/_panel.scss */
+/* line 55, ../scss/_panel.scss */
 a.top-panel__logo {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 52, ../scss/_panel.scss */
+/* line 60, ../scss/_panel.scss */
 .top-panel__logo img {
   display: inline-block;
   max-height: 70px;
@@ -320,18 +330,28 @@ a.top-panel__logo {
   font-size: 16px;
 }
 
-/* line 9, ../scss/_content.scss */
+/* line 8, ../scss/_content.scss */
+.title--start {
+  margin-top: 0;
+}
+
+/* line 11, ../scss/_content.scss */
+.title--divider {
+  margin-top: 50px;
+}
+
+/* line 15, ../scss/_content.scss */
 p.editor-string {
   font-size: 18px;
   color: #9a9999;
 }
 
-/* line 13, ../scss/_content.scss */
+/* line 19, ../scss/_content.scss */
 .editor-string i {
   color: #000;
 }
 
-/* line 17, ../scss/_content.scss */
+/* line 23, ../scss/_content.scss */
 .rails {
   position: absolute;
   left: 0;
@@ -339,46 +359,46 @@ p.editor-string {
   width: 100%;
 }
 
-/* line 23, ../scss/_content.scss */
+/* line 29, ../scss/_content.scss */
 .rails__inner {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* line 29, ../scss/_content.scss */
+/* line 35, ../scss/_content.scss */
 .sidebar {
   z-index: 1;
   opacity: 0;
 }
 
-/* line 33, ../scss/_content.scss */
+/* line 39, ../scss/_content.scss */
 .sidebar.visible {
   opacity: inherit;
 }
 
-/* line 36, ../scss/_content.scss */
+/* line 42, ../scss/_content.scss */
 .sidebar.top {
   position: absolute;
   top: 0;
   bottom: inherit;
 }
 
-/* line 41, ../scss/_content.scss */
+/* line 47, ../scss/_content.scss */
 .sidebar.fixed {
   position: fixed;
   top: 120px;
   bottom: inherit;
 }
 
-/* line 46, ../scss/_content.scss */
+/* line 52, ../scss/_content.scss */
 .sidebar.bottom {
   position: absolute;
   top: inherit;
   bottom: 0;
 }
 
-/* line 52, ../scss/_content.scss */
+/* line 58, ../scss/_content.scss */
 .content-list {
   font-size: 16px;
   position: relative;
@@ -386,7 +406,7 @@ p.editor-string {
   padding: 0;
   list-style: none;
 }
-/* line 59, ../scss/_content.scss */
+/* line 65, ../scss/_content.scss */
 .content-list:before, .content-list:after {
   content: '';
   display: block;
@@ -396,20 +416,20 @@ p.editor-string {
   border-left: 1px solid #bbb;
   left: 16px;
 }
-/* line 69, ../scss/_content.scss */
+/* line 75, ../scss/_content.scss */
 .content-list:before {
   top: 14px;
 }
-/* line 72, ../scss/_content.scss */
+/* line 78, ../scss/_content.scss */
 .content-list:after {
   bottom: 14px;
 }
 
-/* line 77, ../scss/_content.scss */
+/* line 83, ../scss/_content.scss */
 .content-list__item {
   position: relative;
 }
-/* line 79, ../scss/_content.scss */
+/* line 85, ../scss/_content.scss */
 .content-list__item:before {
   content: '';
   width: 6px;
@@ -428,20 +448,20 @@ p.editor-string {
   border-radius: 50%;
 }
 
-/* line 97, ../scss/_content.scss */
+/* line 103, ../scss/_content.scss */
 .content-list__item:first-child:before,
 .content-list__item:last-child:before {
   display: block;
 }
 
-/* line 102, ../scss/_content.scss */
+/* line 108, ../scss/_content.scss */
 .content-list__item a {
   border: 3px solid transparent;
   display: block;
   padding: 3px 0 3px 30px;
 }
 
-/* line 107, ../scss/_content.scss */
+/* line 113, ../scss/_content.scss */
 .content-list__item.active a {
   border: 3px solid #ffcc00;
   padding-left: 30px;
@@ -638,6 +658,56 @@ a:focus {
   height: 100%;
   line-height: 28px;
   border-left: 1px solid #fea600;
+}
+
+/* line 104, ../scss/style.scss */
+.imgloader-wrap {
+  height: 10px;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 113, ../scss/style.scss */
+.imgloader-progress {
+  position: relative;
+  width: 0%;
+  height: 100%;
+  background: #000;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 129, ../scss/style.scss */
+.loader-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: url(../img/intro-img.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 143, ../scss/style.scss */
+body.fixed {
+  overflow: hidden;
 }
 
 @media (max-width: 767px) {
