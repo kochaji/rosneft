@@ -48,6 +48,7 @@ var recalcScreenParams = function recalcScreenParams() {
 	};
 	fitIntro();
 	$.waypoints('refresh');
+
 };
 
 var resize = function resize() {
@@ -102,6 +103,21 @@ var initWaypoints = function initWaypoints() {
 		},
 		offset: $.waypoints('viewportHeight')/2 + screenParams.panelHeight
 	})
+
+	$('.js-video-featue').waypoint({
+		handler: function(dir) {
+			this[ dir=='down' ? 'play' : 'pause' ]();
+		},
+		offset: $.waypoints('viewportHeight')/2
+	})
+
+	$('.js-video-featue').waypoint({
+		handler: function(dir) {
+			this[ dir=='up' ? 'play' : 'pause' ]();
+		},
+		offset: - $(this).height()*0.7 // + $.waypoints('viewportHeight')/2
+	})
+
 };
 
 
