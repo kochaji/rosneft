@@ -149,9 +149,9 @@
 
 <div class="feature js-feature-video active">
 	<video preload="meta" class="feature__video" loop>
-		<source src="/rosneft/video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-		<source src="/rosneft/video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-		<source src="/rosneft/video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+		<source src="../video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+		<source src="../video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+		<source src="../video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 	</video>
 </div>
 
@@ -328,9 +328,9 @@
 
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video" loop>
-			<source src="/rosneft/video/2.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="/rosneft/video/2.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="/rosneft/video/2.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+			<source src="../video/2.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+			<source src="../video/2.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+			<source src="../video/2.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
 
@@ -372,9 +372,9 @@
 
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video" loop>
-			<source src="/rosneft/video/3.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="/rosneft/video/3.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="/rosneft/video/3.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+			<source src="../video/3.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+			<source src="../video/3.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+			<source src="../video/3.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
 	
@@ -505,9 +505,9 @@
 
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video" loop>
-			<source src="/rosneft/video/4.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="/rosneft/video/4.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="/rosneft/video/4.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+			<source src="../video/4.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+			<source src="../video/4.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+			<source src="../video/4.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
 
