@@ -1,4 +1,4 @@
-<div class="feature" style="border: 1px solid #000; height: 100vh; position: static">
+<div class="feature">
 	<!--
 		<?php if ($type == 'string') : ?>
 		<img src="<?= $media ?>" class="container feature__media feature__media--image" alt="<?= $text ?>">

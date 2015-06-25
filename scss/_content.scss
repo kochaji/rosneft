@@ -1,7 +1,5 @@
 .content {
 	@extend .PTSerif;
-	position: relative;
-	z-index: 122;
 }
 
 .content>.container {
@@ -19,7 +17,7 @@
 	font-size: 16px;
 }
 .title--start {
-	margin-top: 0;
+	margin-top: 50px;
 }
 .title--divider {
 	margin-top: 50px
@@ -49,11 +47,11 @@ p.editor-string {
 	z-index: 1;
 	opacity: 0;
 	margin: 0 0 50px;
-	-webkit-transition: 0.5s opacity;
-	-moz-transition: 0.5s opacity;
-	-ms-transition: 0.5s opacity;
-	-o-transition: 0.5s opacity;
-	transition: 0.5s opacity;
+	-webkit-transition: 0.2s opacity;
+	-moz-transition: 0.2s opacity;
+	-ms-transition: 0.2s opacity;
+	-o-transition: 0.2s opacity;
+	transition: 0.2s opacity;
 }
 .sidebar.visible {
 	opacity: 1;

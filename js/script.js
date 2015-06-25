@@ -104,6 +104,51 @@ var initWaypoints = function initWaypoints() {
 		offset: $.waypoints('viewportHeight')/2 + screenParams.panelHeight
 	})
 
+
+	/* Video */
+
+	/* change video background */
+	$('.js-feature-video').waypoint({
+		handler: function(dir) {
+			$('.js-feature-video').removeClass('active');
+			var curr = $('.js-feature-video').index(this);
+			var next = curr + 1;
+			var ix = dir == 'down' ? next : curr;
+			$('.js-feature-video').eq(ix).addClass('active');
+		}, offset: - $(this).outerHeight(true)
+	})
+
+	/* stop or play video */
+	$('.js-feature-video').waypoint({
+		handler: function(dir) {
+			var video = this.getElementsByTagName('video')[0];
+			console.log(video)
+			video[ dir == 'down' ? 'play' : 'pause' ]();
+		}, offset: $.waypoints('viewportHeight')/2
+	})
+
+	$('.js-feature-video').waypoint({
+		handler: function(dir) {
+			var video = this.getElementsByTagName('video')[0];
+			console.log(video)
+			video[ dir == 'up' ? 'play' : 'pause' ]();
+		}, offset: - $(this).outerHeight(true)/2
+	})
+
+	/* show or hide nav */
+	$('.js-feature-video').waypoint({
+		handler: function(dir) {
+			$stickySidebar[dir == 'up' ? 'addClass' : 'removeClass']('visible');
+		}, offset: $.waypoints('viewportHeight') - (screenParams.panelHeight + $stickySidebar.outerHeight(true))
+	})
+
+	$('.js-feature-video').waypoint({
+		handler: function(dir) {
+			$stickySidebar[dir == 'down' ? 'addClass' : 'removeClass']('visible');
+		}, offset: - $(this).outerHeight(true) + screenParams.panelHeight
+	})
+
+	/*
 	$('.js-video-featue').waypoint({
 		handler: function(dir) {
 			this[ dir=='down' ? 'play' : 'pause' ]();
@@ -117,6 +162,7 @@ var initWaypoints = function initWaypoints() {
 		},
 		offset: $(this).height() * -0.4 //- ($(this).height() - 200)  //- $(this).height()*0.7 // + $.waypoints('viewportHeight')/2
 	})
+	*/
 
 };
 
