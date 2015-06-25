@@ -115,7 +115,7 @@ var initWaypoints = function initWaypoints() {
 		handler: function(dir) {
 			this[ dir=='up' ? 'play' : 'pause' ]();
 		},
-		offset: - $(this).height()*0.7 // + $.waypoints('viewportHeight')/2
+		offset: $(this).height() * -0.4 //- ($(this).height() - 200)  //- $(this).height()*0.7 // + $.waypoints('viewportHeight')/2
 	})
 
 };
@@ -134,17 +134,6 @@ $('.loader').imgloader({
 		'../img/horizon.jpg',
 		'../img/horizon-2.jpg',
 		'../img/epilogue.jpg',
-
-
-	/*
-		'http://lorempixel.com/100/200/abstract/',
-		'http://lorempixel.com/1920/1080/abstract/',
-		'http://lorempixel.com/1920/1080/city/',
-		'http://lorempixel.com/1920/1080/people/',
-		'http://lorempixel.com/1920/1080/transport/',
-		'http://lorempixel.com/1920/1080/animals/',
-		'http://lorempixel.com/1920/1080/food/'
-	*/
 	],
 	waiting: 12000,
 	callback: function() {
@@ -169,4 +158,7 @@ $(window).resize(function(){
 	resize();
 	$.waypoints('refresh');
 });
+
+
+window.v = $('.js-video-featue')
 

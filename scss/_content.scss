@@ -1,6 +1,19 @@
 .content {
 	@extend .PTSerif;
+	position: relative;
+	z-index: 122;
 }
+
+.content>.container {
+	//position: relative;
+	//z-index: 122;
+	//background: #fff
+}
+
+.content .ib { 
+	background: #fff
+}
+
 .content p {
 	line-height: 28px;
 	font-size: 16px;

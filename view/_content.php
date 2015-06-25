@@ -1,7 +1,8 @@
 <?php 
 	$media = array(
 		'webm' => '../video/1.webm',
-		'mp4'  => '../video/1.mp4'
+		'mp4'  => '../video/1.mp4',
+		'ogv'  => '../video/1.ogv'
 		//'ogv'  => ''
 	);
 	$text = 'Описанаие для блока';
@@ -50,7 +51,7 @@
 	</div>
 
 
-
+	
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-sm-offset-5">
