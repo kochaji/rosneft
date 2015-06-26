@@ -1,3 +1,8 @@
+
+
+
+
+
 <div class="loader-overlay">
 	<div class="imgloader-wrap">
 		<div class="imgloader-progress loader">
@@ -23,22 +28,22 @@
 						<a href="">До 1917</a>
 					</li>
 					<li class="timeline__item">
-						<a href="">1917-1941</a>
+						<span href="">1917-1941</span>
 					</li>
 					<li class="timeline__item">
-						<a href="">1941-1945</a>
+						<span href="">1941-1945</span>
 					</li>
 					<li class="timeline__item">
-						<a href="">1941-1991</a>
+						<span href="">1941-1991</span>
 					</li>
 					<li class="timeline__item">
-						<a href="">После 1991</a>
+						<span href="">После 1991</span>
 					</li>
 					<li class="timeline__item">
-						<a href="">Тест</a>
+						<span href="">Тест</span>
 					</li>
 					<li class="timeline__item">
-						<a href="">Инфографика</a>
+						<span href="">Инфографика</span>
 					</li>
 				</ul>
 			</div>
@@ -56,7 +61,12 @@
 <div class="white-block">
 
 	<div class="intro js-intro">
-		<div class="intro__bg js-intro-bg"></div>
+
+		<div class="intro__bg js-intro-bg">
+			
+		</div>
+		
+
 		<div class="vcenter">
 			<div class="vcentered">
 				<div class="intro__content">
@@ -83,7 +93,7 @@
 
 
 
-	<div class="preface">
+	<div class="preface js-preface">
 		<div class="container preface__inner">
 			<div class="preface__header js-preface-header">
 				<div class="row">
@@ -148,12 +158,14 @@
 
 
 <div class="feature js-feature-video active">
-	<video preload="meta" class="feature__video" loop>
+	<video preload="meta" class="feature__video hidden" loop muted>
 		<source src="../video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
 		<source src="../video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 		<source src="../video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 	</video>
 </div>
+
+
 
 
 
@@ -326,8 +338,9 @@
 	</div>
 
 
+
 	<div class="feature js-feature-video">
-		<video preload="meta" class="feature__video" loop>
+		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="../video/2.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
 			<source src="../video/2.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 			<source src="../video/2.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
@@ -370,14 +383,16 @@
 		<!-- Noble -->
 	</div>
 
+
+
 	<div class="feature js-feature-video">
-		<video preload="meta" class="feature__video" loop>
+		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="../video/3.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
 			<source src="../video/3.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 			<source src="../video/3.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
-	
+
 
 	<div class="white-block white-block--text">
 		<!-- stereotips -->
@@ -503,13 +518,16 @@
 	</div>
 	
 
+
 	<div class="feature js-feature-video">
-		<video preload="meta" class="feature__video" loop>
+		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="../video/4.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
 			<source src="../video/4.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 			<source src="../video/4.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
+
+
 
 	<div class="white-block white-block--text">
 		<!-- epilog -->
@@ -534,15 +552,6 @@
 				<p class="strange-square text-center">&#9724</p>
 			</div>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-offset-4 col-sm-16">
-						<p class="editor-string">
-							Редактор: <i>Константи Константинопольский</i>
-						</p>
-					</div>
-				</div>
-			</div>
 		<!-- epilog -->
 	</div>
 

@@ -13,7 +13,7 @@
 								<div class="vcenter">
 									<div class="vcentered">
 										<h2 class="h2 title">
-											Индустриализация пятилетки
+											Надо написать Первые пятилетки и&nbsp;индустриализация
 										</h2>
 									</div>
 								</div>
@@ -38,7 +38,7 @@
 								</div>
 							</div>
 							<div class="announce__chapter__date">
-								<span class="announce__chapter__date__inner">1941-1991</span>
+								<span class="announce__chapter__date__inner">1941-1945</span>
 							</div>
 						</div>
 					</a>

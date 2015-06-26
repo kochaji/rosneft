@@ -13,7 +13,9 @@
 	height: 120%;
 	background: url($imgpath+'/intro-img.jpg') no-repeat 50% 100%;
 	background-size: cover;
+	background-attachment: fixed
 }
+
 .intro__content {
 	position: relative;
 }

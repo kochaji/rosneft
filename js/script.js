@@ -122,7 +122,6 @@ var initWaypoints = function initWaypoints() {
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
 			var video = this.getElementsByTagName('video')[0];
-			console.log(video)
 			video[ dir == 'down' ? 'play' : 'pause' ]();
 		}, offset: $.waypoints('viewportHeight')/2
 	})
@@ -130,7 +129,6 @@ var initWaypoints = function initWaypoints() {
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
 			var video = this.getElementsByTagName('video')[0];
-			console.log(video)
 			video[ dir == 'up' ? 'play' : 'pause' ]();
 		}, offset: - $(this).outerHeight(true)/2
 	})
@@ -146,6 +144,13 @@ var initWaypoints = function initWaypoints() {
 		handler: function(dir) {
 			$stickySidebar[dir == 'down' ? 'addClass' : 'removeClass']('visible');
 		}, offset: - $(this).outerHeight(true) + screenParams.panelHeight
+	})
+
+	$('.js-preface').waypoint({
+		handler: function(dir) {
+			console.log('sd')
+			$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
+		}, offset: - $(this).outerHeight(true)
 	})
 
 	/*

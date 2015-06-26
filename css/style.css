@@ -98,18 +98,23 @@ a:hover {
 }
 
 /* line 48, ../scss/_panel.scss */
-.timeline__item.active,
-.timeline__item:hover {
+.timeline__item.active a,
+.timeline__item:hover a {
   color: #fea600;
 }
 
-/* line 55, ../scss/_panel.scss */
+/* line 52, ../scss/_panel.scss */
+.timeline__item span {
+  color: #999;
+}
+
+/* line 58, ../scss/_panel.scss */
 a.top-panel__logo {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 60, ../scss/_panel.scss */
+/* line 63, ../scss/_panel.scss */
 .top-panel__logo img {
   display: inline-block;
   max-height: 70px;
@@ -132,25 +137,26 @@ a.top-panel__logo {
   height: 120%;
   background: url("../img/intro-img.jpg") no-repeat 50% 100%;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-/* line 17, ../scss/_intro.scss */
+/* line 19, ../scss/_intro.scss */
 .intro__content {
   position: relative;
 }
 
-/* line 28, ../scss/_intro.scss */
+/* line 30, ../scss/_intro.scss */
 .chapter__number {
   position: relative;
 }
 @media (max-width: 767px) {
-  /* line 28, ../scss/_intro.scss */
+  /* line 30, ../scss/_intro.scss */
   .chapter__number {
     margin-bottom: 30px;
   }
 }
 
-/* line 34, ../scss/_intro.scss */
+/* line 36, ../scss/_intro.scss */
 .chapter__number__title {
   position: absolute;
   right: -8px;
@@ -160,7 +166,7 @@ a.top-panel__logo {
   padding: 10px 0;
 }
 
-/* line 43, ../scss/_intro.scss */
+/* line 45, ../scss/_intro.scss */
 .chapter__title {
   line-height: normal;
   position: relative;
@@ -169,13 +175,13 @@ a.top-panel__logo {
   padding-left: 50px;
 }
 @media (max-width: 767px) {
-  /* line 43, ../scss/_intro.scss */
+  /* line 45, ../scss/_intro.scss */
   .chapter__title {
     padding: 0;
   }
 }
 
-/* line 53, ../scss/_intro.scss */
+/* line 55, ../scss/_intro.scss */
 .chapter__title:before,
 .chapter__title:after {
   content: '';
@@ -185,20 +191,20 @@ a.top-panel__logo {
   border-left: 1px solid #ffcc00;
 }
 @media (max-width: 767px) {
-  /* line 53, ../scss/_intro.scss */
+  /* line 55, ../scss/_intro.scss */
   .chapter__title:before,
   .chapter__title:after {
     display: none;
   }
 }
 
-/* line 65, ../scss/_intro.scss */
+/* line 67, ../scss/_intro.scss */
 .chapter__title:before {
   top: 0;
   height: 30px;
 }
 
-/* line 69, ../scss/_intro.scss */
+/* line 71, ../scss/_intro.scss */
 .chapter__title:after {
   top: 74px;
   height: 100%;
@@ -400,11 +406,11 @@ p.editor-string {
   z-index: 1;
   opacity: 0;
   margin: 0 0 50px;
-  -webkit-transition: 0.5s opacity;
-  -moz-transition: 0.5s opacity;
-  -ms-transition: 0.5s opacity;
-  -o-transition: 0.5s opacity;
-  transition: 0.5s opacity;
+  -webkit-transition: 0.2s opacity;
+  -moz-transition: 0.2s opacity;
+  -ms-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
+  transition: 0.2s opacity;
 }
 
 /* line 56, ../scss/_content.scss */

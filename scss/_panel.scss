@@ -45,9 +45,12 @@
 .timeline__item:first-child {
 	margin-left: 0;
 }
-.timeline__item.active,
-.timeline__item:hover {
+.timeline__item.active a,
+.timeline__item:hover a {
 	color: $color-orange;
+}
+.timeline__item span {
+	color: #999
 }
 
 
