@@ -36,6 +36,7 @@
 }
 .timeline {
 	font-size: 18px;
+	margin: 0
 }
 .timeline__item {
 	float: left;
@@ -59,9 +60,16 @@ a.top-panel__logo {
 	display: inline-block;
 	vertical-align: top
 }
+a.top-panel__logo:last-child {
+	margin-left: 20px;
+}
 
 .top-panel__logo img {
 	display: inline-block;
 	max-height: $panelHeight;
 	vertical-align: top
+}
+
+img.top-panel__logo--middle {
+	vertical-align: middle;
 }

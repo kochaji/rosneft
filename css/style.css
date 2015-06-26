@@ -83,42 +83,53 @@ a:hover {
 /* line 37, ../scss/_panel.scss */
 .timeline {
   font-size: 18px;
+  margin: 0;
 }
 
-/* line 40, ../scss/_panel.scss */
+/* line 41, ../scss/_panel.scss */
 .timeline__item {
   float: left;
   list-style-type: none;
   margin-left: 15px;
 }
 
-/* line 45, ../scss/_panel.scss */
+/* line 46, ../scss/_panel.scss */
 .timeline__item:first-child {
   margin-left: 0;
 }
 
-/* line 48, ../scss/_panel.scss */
+/* line 49, ../scss/_panel.scss */
 .timeline__item.active a,
 .timeline__item:hover a {
   color: #fea600;
 }
 
-/* line 52, ../scss/_panel.scss */
+/* line 53, ../scss/_panel.scss */
 .timeline__item span {
   color: #999;
 }
 
-/* line 58, ../scss/_panel.scss */
+/* line 59, ../scss/_panel.scss */
 a.top-panel__logo {
   display: inline-block;
   vertical-align: top;
 }
 
 /* line 63, ../scss/_panel.scss */
+a.top-panel__logo:last-child {
+  margin-left: 20px;
+}
+
+/* line 67, ../scss/_panel.scss */
 .top-panel__logo img {
   display: inline-block;
   max-height: 70px;
   vertical-align: top;
+}
+
+/* line 73, ../scss/_panel.scss */
+img.top-panel__logo--middle {
+  vertical-align: middle;
 }
 
 /* line 2, ../scss/_intro.scss */

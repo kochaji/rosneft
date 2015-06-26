@@ -1,8 +1,4 @@
 
-
-
-
-
 <div class="loader-overlay">
 	<div class="imgloader-wrap">
 		<div class="imgloader-progress loader">
@@ -22,7 +18,7 @@
 				История нефти
 			</h4>
 			
-			<div class="col-sm-12 timeline-wrap visible-lg">
+			<div class="timeline-wrap visible-lg">
 				<ul class="timeline headlineBook">
 					<li class="timeline__item active">
 						<a href="">До 1917</a>
@@ -48,9 +44,12 @@
 				</ul>
 			</div>
 
-			<div class="pull-right col-sm-4">
-				<a href="#" target="_blank" title="Роснефть" class="top-panel__logo">
+			<div class="pull-right">
+				<a href="//rosneft.ru/" target="_blank" title="Роснефть" class="top-panel__logo">
 					<img src="../img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo">
+				</a>
+				<a href="//interfax.ru/" target="_blank" title="Интерфакс" class="top-panel__logo">
+					<img src="../img/if-logo.png" alt="Интерфакс" class="top-panel__logo top-panel__logo--middle">
 				</a>
 			</div>
 
