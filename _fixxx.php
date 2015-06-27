@@ -132,7 +132,7 @@
 				<div class="row">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="iblock blockfloat blockfloat--left">
-							<img src="/rosneft/img/mendeleev.jpg" alt="Менделеев" class="inline-img">	
+							<img src="img/mendeleev.jpg" alt="Менделеев" class="inline-img">	
 						</div>
 						<p>
 							Мы&nbsp;представляем Дмитрия Ивановича стариком с&nbsp;седой львиной гривой. Но&nbsp;в&nbsp;29&nbsp;лет он&nbsp;был атлетическим, крепким и&nbsp;решительным человеком с&nbsp;выраженной деловой хваткой. До&nbsp;наших дней дошла его сентенция: &laquo;ругайся направо-налево и&nbsp;будешь здоров!&raquo; Он&nbsp;буквально прочесал все нефтепромыслы. Что именно он&nbsp;налаживал в&nbsp;Баку, какими мерами воздействовал на&nbsp;тамошний менеджмент&nbsp;&mdash; это отдельная история. Но&nbsp;уже через год завод Кокорева стал приносить пару сотен тысяч рублей прибыли. 
