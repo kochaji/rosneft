@@ -1,4 +1,4 @@
-
+var path = '';
 var $intro = $('.js-intro');
 var $introContent = $('.js-intro-content');
 var $introBg = $('.js-intro-bg');
@@ -174,17 +174,17 @@ var initWaypoints = function initWaypoints() {
 
 $('.loader').imgloader({
 	resources: [
-		'../img/mendeleev.jpg',
-		'../img/young-shuhov.jpg',
-		'../img/1.jpg',
-		'../img/2.jpg',
-		'../img/3.jpg',
-		'../img/4.jpg',
-		'../img/pipes.jpg',
-		'../img/ships.jpg',
-		'../img/horizon.jpg',
-		'../img/horizon-2.jpg',
-		'../img/epilogue.jpg',
+		path + 'img/mendeleev.jpg',
+		path + 'img/young-shuhov.jpg',
+		path + 'img/1.jpg',
+		path + 'img/2.jpg',
+		path + 'img/3.jpg',
+		path + 'img/4.jpg',
+		path + 'img/pipes.jpg',
+		path + 'img/ships.jpg',
+		path + 'img/horizon.jpg',
+		path + 'img/horizon-2.jpg',
+		path + 'img/epilogue.jpg',
 	],
 	waiting: 12000,
 	callback: function() {
