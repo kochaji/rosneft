@@ -166,7 +166,7 @@
 	array(
 		'webm'		=> '1.webm',
 		'mp4'			=> '1.mp4'
-	)
+	),true
 ) ?>
 
 
@@ -589,12 +589,6 @@
 	<?php require '_footer.php'; ?>
 </div>
 
-<script>
-	$('.feature__controls').click(function(){
-		var video = $(this).parent().find('video').get(0);
-		video[ video.paused ? 'play' : 'pause' ]();
-	})
-</script>
 
 
 

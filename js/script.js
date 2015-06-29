@@ -210,6 +210,10 @@ $(window).resize(function(){
 	$.waypoints('refresh');
 });
 
+$('.feature__controls').click(function(){
+	$('video').get(0).pause();
+	var video = $(this).parent().find('video').get(0);
+	video[ video.paused ? 'play' : 'pause' ]();
+})
 
-window.v = $('.js-video-featue')
 
