@@ -13,7 +13,6 @@
 
 
 .feature__video {
-	
 	position: fixed; 
 	top: 50%; 
 	left: 50%; 
@@ -27,6 +26,8 @@
 	transform: translateX(-50%) translateY(-50%);
 	display: none;
 	//z-index: -1000;
+	background: url($imgpath+'/intro-img.jpg') no-repeat 50% 50%;
+	background-size: cover;
 }
 
 .feature.active .feature__video {

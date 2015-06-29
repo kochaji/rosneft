@@ -7,5 +7,3 @@
 	</video>
 	<div class="feature__controls"></div>
 </div>
-
-

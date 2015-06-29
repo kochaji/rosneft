@@ -123,6 +123,7 @@ var initWaypoints = function initWaypoints() {
 	/* stop or play video */
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
+			console.log('wayp')
 			if ( $(window).width() < mobWidth) return;
 			var video = this.getElementsByTagName('video')[0];
 			video[ dir == 'down' ? 'play' : 'pause' ]();
@@ -214,7 +215,7 @@ $(window).resize(function(){
 });
 
 $('.feature__controls').click(function(){
-
+	if ( $(window).width() > mobWidth) return;
 	var video = $(this).parent().find('video').get(0);
 	video[ video.paused ? 'play' : 'pause' ]();
 

@@ -1,5 +1,5 @@
 <?php 
-	function renderFeature($media, $active) {
+	function renderFeature($media, $active = null) {
 		require '_feature.php';
 	}
 ?>
