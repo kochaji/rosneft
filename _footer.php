@@ -13,7 +13,7 @@
 								<div class="vcenter">
 									<div class="vcentered">
 										<h2 class="h2 title">
-											Надо написать Первые пятилетки и&nbsp;индустриализация
+											Первые пятилетки и&nbsp;индустриализация
 										</h2>
 									</div>
 								</div>

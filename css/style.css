@@ -127,7 +127,7 @@ a.top-panel__logo:last-child {
   vertical-align: top;
 }
 
-/* line 73, ../scss/_panel.scss */
+/* line 77, ../scss/_panel.scss */
 img.top-panel__logo--middle {
   vertical-align: middle;
 }
@@ -137,9 +137,10 @@ img.top-panel__logo--middle {
   color: #fff;
   position: relative;
   padding-top: 70px;
+  min-height: 640px;
 }
 
-/* line 8, ../scss/_intro.scss */
+/* line 9, ../scss/_intro.scss */
 .intro__bg {
   position: absolute;
   left: 0;
@@ -151,23 +152,23 @@ img.top-panel__logo--middle {
   background-attachment: fixed;
 }
 
-/* line 19, ../scss/_intro.scss */
+/* line 20, ../scss/_intro.scss */
 .intro__content {
   position: relative;
 }
 
-/* line 30, ../scss/_intro.scss */
+/* line 31, ../scss/_intro.scss */
 .chapter__number {
   position: relative;
 }
 @media (max-width: 767px) {
-  /* line 30, ../scss/_intro.scss */
+  /* line 31, ../scss/_intro.scss */
   .chapter__number {
     margin-bottom: 30px;
   }
 }
 
-/* line 36, ../scss/_intro.scss */
+/* line 37, ../scss/_intro.scss */
 .chapter__number__title {
   position: absolute;
   right: -8px;
@@ -177,7 +178,7 @@ img.top-panel__logo--middle {
   padding: 10px 0;
 }
 
-/* line 45, ../scss/_intro.scss */
+/* line 46, ../scss/_intro.scss */
 .chapter__title {
   line-height: normal;
   position: relative;
@@ -186,13 +187,14 @@ img.top-panel__logo--middle {
   padding-left: 50px;
 }
 @media (max-width: 767px) {
-  /* line 45, ../scss/_intro.scss */
+  /* line 46, ../scss/_intro.scss */
   .chapter__title {
     padding: 0;
+    font-size: 50px;
   }
 }
 
-/* line 55, ../scss/_intro.scss */
+/* line 57, ../scss/_intro.scss */
 .chapter__title:before,
 .chapter__title:after {
   content: '';
@@ -202,20 +204,20 @@ img.top-panel__logo--middle {
   border-left: 1px solid #ffcc00;
 }
 @media (max-width: 767px) {
-  /* line 55, ../scss/_intro.scss */
+  /* line 57, ../scss/_intro.scss */
   .chapter__title:before,
   .chapter__title:after {
     display: none;
   }
 }
 
-/* line 67, ../scss/_intro.scss */
+/* line 69, ../scss/_intro.scss */
 .chapter__title:before {
   top: 0;
   height: 30px;
 }
 
-/* line 71, ../scss/_intro.scss */
+/* line 73, ../scss/_intro.scss */
 .chapter__title:after {
   top: 74px;
   height: 100%;
@@ -796,5 +798,16 @@ body.fixed {
     display: block;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* line 16, ../scss/_mobile.scss */
+  .top-panel__logo img {
+    max-height: 25px;
+    vertical-align: middle;
+  }
+
+  /* line 20, ../scss/_mobile.scss */
+  .top-panel__logo--rosneft {
+    margin-bottom: 10px;
   }
 }

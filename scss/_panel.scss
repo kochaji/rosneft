@@ -67,7 +67,11 @@ a.top-panel__logo:last-child {
 .top-panel__logo img {
 	display: inline-block;
 	max-height: $panelHeight;
-	vertical-align: top
+	vertical-align: top;
+}
+
+.top-panel__logo--rosneft {
+	
 }
 
 img.top-panel__logo--middle {

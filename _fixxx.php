@@ -1,3 +1,9 @@
+<?php 
+
+	
+
+?>
+
 
 <div class="loader-overlay">
 	<div class="imgloader-wrap">
@@ -45,11 +51,11 @@
 			</div>
 
 			<div class="pull-right">
-				<a href="//rosneft.ru/" target="_blank" title="Роснефть" class="top-panel__logo">
-					<img src="img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo">
+				<a href="//rosneft.ru/" target="_blank" title="Роснефть" class="top-panel__logo top-panel__logo--rosneft">
+					<img src="img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo top-panel__logo--rosneft">
 				</a>
-				<a href="//interfax.ru/" target="_blank" title="Интерфакс" class="top-panel__logo">
-					<img src="img/if-logo.png" alt="Интерфакс" class="top-panel__logo top-panel__logo--middle">
+				<a href="//interfax.ru/" target="_blank" title="Интерфакс" class="top-panel__logo top-panel__logo--interfax">
+					<img src="img/if-logo.png" alt="Интерфакс" class="top-panel__logo top-panel__logo--middle top-panel__logo--interfax">
 				</a>
 			</div>
 
@@ -155,7 +161,7 @@
 
 </div>
 
-
+<!--
 <div class="feature js-feature-video active">
 	<video preload="meta" class="feature__video hidden" loop muted>
 		<source src="video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
@@ -163,6 +169,14 @@
 		<source src="video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 	</video>
 </div>
+-->
+
+<?php renderFeature(
+	array(
+		'webm'		=> '1.webm',
+		'mp4'			=> '1.mp4'
+	)
+) ?>
 
 
 

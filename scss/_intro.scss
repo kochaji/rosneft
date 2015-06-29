@@ -3,6 +3,7 @@
 	color: #fff;
 	position: relative;
 	padding-top: $panelHeight;
+	min-height: 640px;
 }
 
 .intro__bg {
@@ -50,6 +51,7 @@ $chapter-number-padding: 10px;
 	padding-left: 50px;
 	@media (max-width: 767px) {
 		padding: 0;	
+		font-size: 50px;
 	}
 }
 .chapter__title:before,
