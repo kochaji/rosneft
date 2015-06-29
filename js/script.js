@@ -13,6 +13,8 @@ var $stickySidebar = $('.js-sticky-sidebar')
 
 var screenParams = {};
 
+var mobWidth = 1024
+
 var scrollTo = function scrollTo(pos) {
 	$('html,body').animate({
 		scrollTop: pos - screenParams.panelHeight - 30
@@ -121,6 +123,7 @@ var initWaypoints = function initWaypoints() {
 	/* stop or play video */
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
+			if ( $(window).width() < mobWidth) return;
 			var video = this.getElementsByTagName('video')[0];
 			video[ dir == 'down' ? 'play' : 'pause' ]();
 		}, offset: $.waypoints('viewportHeight')/2
@@ -128,6 +131,7 @@ var initWaypoints = function initWaypoints() {
 
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
+			if ( $(window).width() < mobWidth) return;
 			var video = this.getElementsByTagName('video')[0];
 			video[ dir == 'up' ? 'play' : 'pause' ]();
 		}, offset: - $(this).outerHeight(true)/2
@@ -148,7 +152,6 @@ var initWaypoints = function initWaypoints() {
 
 	$('.js-preface').waypoint({
 		handler: function(dir) {
-			console.log('sd')
 			$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
 		}, offset: - $(this).outerHeight(true)
 	})
@@ -211,9 +214,10 @@ $(window).resize(function(){
 });
 
 $('.feature__controls').click(function(){
-	$('video').get(0).pause();
+
 	var video = $(this).parent().find('video').get(0);
 	video[ video.paused ? 'play' : 'pause' ]();
+
 })
 
 
