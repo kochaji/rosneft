@@ -1,11 +1,19 @@
 .feature {
 	height: 100vh;
+	position: relative;
 	/*
 	//background: #000;
-	//position: relative;
 	//position: static;
 	//margin-bottom: 50px;
 	//z-index: 1;*/
+}
+
+.feature__controls {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 

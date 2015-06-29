@@ -161,15 +161,6 @@
 
 </div>
 
-<!--
-<div class="feature js-feature-video active">
-	<video preload="meta" class="feature__video hidden" loop muted>
-		<source src="video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-		<source src="video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-		<source src="video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
-	</video>
-</div>
--->
 
 <?php renderFeature(
 	array(
@@ -187,7 +178,7 @@
 <div class="content js-sticky-wrap">
 	<div class="white-block white-block--with-nav white-block--text">
 		<!-- NAV -->
-			<div class="container">
+			<div class="container visible-lg">
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="rails js-sticky-rails">
@@ -351,7 +342,7 @@
 	</div>
 
 
-
+	<!--
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="video/2.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
@@ -359,6 +350,14 @@
 			<source src="video/2.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
+	-->
+
+	<?php renderFeature(
+	array(
+		'webm'		=> '2.webm',
+		'mp4'			=> '2.mp4'
+	)
+) ?>
 
 	
 	<div class="white-block white-block--text">
@@ -397,7 +396,7 @@
 	</div>
 
 
-
+<!--
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="video/3.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
@@ -405,6 +404,14 @@
 			<source src="video/3.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
+-->
+
+<?php renderFeature(
+	array(
+		'webm'		=> '3.webm',
+		'mp4'			=> '3.mp4'
+	)
+) ?>
 
 
 	<div class="white-block white-block--text">
@@ -531,7 +538,7 @@
 	</div>
 	
 
-
+<!--
 	<div class="feature js-feature-video">
 		<video preload="meta" class="feature__video hidden" loop muted>
 			<source src="video/4.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
@@ -539,7 +546,13 @@
 			<source src="video/4.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
-
+-->
+<?php renderFeature(
+	array(
+		'webm'		=> '4.webm',
+		'mp4'			=> '4.mp4'
+	)
+) ?>
 
 
 	<div class="white-block white-block--text">
@@ -575,4 +588,13 @@
 	<?php require '_support.php'; ?>
 	<?php require '_footer.php'; ?>
 </div>
+
+<script>
+	$('.feature__controls').click(function(){
+		var video = $(this).parent().find('video').get(0);
+		video[ video.paused ? 'play' : 'pause' ]();
+	})
+</script>
+
+
 
