@@ -1,8 +1,3 @@
-<?php 
-
-	
-
-?>
 
 
 <div class="loader-overlay">
@@ -166,7 +161,7 @@
 	array(
 		'webm'		=> '1.webm',
 		'mp4'			=> '1.mp4'
-	),true
+	), 1, true
 ) ?>
 
 
@@ -356,7 +351,7 @@
 	array(
 		'webm'		=> '2.webm',
 		'mp4'			=> '2.mp4'
-	)
+	), 2
 ) ?>
 
 	
@@ -410,7 +405,7 @@
 	array(
 		'webm'		=> '3.webm',
 		'mp4'			=> '3.mp4'
-	)
+	), 3
 ) ?>
 
 
@@ -551,7 +546,7 @@
 	array(
 		'webm'		=> '4.webm',
 		'mp4'			=> '4.mp4'
-	)
+	),4 
 ) ?>
 
 

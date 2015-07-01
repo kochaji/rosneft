@@ -5,5 +5,5 @@
 		<source src="video/<?= $media['mp4']  ?>"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
 		<source src="video/<?= $media['ogv']  ?>"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 	</video>
-	<div class="feature__controls"></div>
+	<div class="feature__controls <?= 'feature__controls--'.$n ?>"></div>
 </div>

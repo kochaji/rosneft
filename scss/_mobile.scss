@@ -1,3 +1,26 @@
+@media (max-width: 1023px) {
+	.feature__controls {
+		background: url(../img/play.svg) no-repeat 50% 50%, rgba(0,0,0,0.8);
+		background-size: 5%;
+	}
+	.feature__controls--1 {
+		background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/1.jpg) no-repeat 50% 50%;
+		background-size: cover;
+	}
+	.feature__controls--2 {
+		background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/2.jpg) no-repeat 50% 50%;
+		background-size: cover;
+	}
+	.feature__controls--3 {
+		background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/3.jpg) no-repeat 50% 50%;
+		background-size: cover;
+	}
+	.feature__controls--4 {
+		background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/4.jpg) no-repeat 50% 50%;
+		background-size: cover;
+	}
+}
+
 @media (max-width: 767px) {
 	.container {
 		padding: 0 20px;			

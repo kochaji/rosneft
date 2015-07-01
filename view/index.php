@@ -1,5 +1,5 @@
 <?php 
-	function renderFeature($media, $text) {
+	function renderFeature($media, $n=null) {
 		$type = gettype($media);
 		require '_feature.php';
 	}

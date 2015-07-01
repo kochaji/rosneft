@@ -311,16 +311,14 @@ img.top-panel__logo--middle {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url(../img/play.svg) no-repeat 50% 50%, rgba(0, 0, 0, 0.8);
-  background-size: 5%;
 }
 
-/* line 15, ../scss/_feature.scss */
+/* line 14, ../scss/_feature.scss */
 .feature.playing .feature__controls {
   background: none;
 }
 
-/* line 20, ../scss/_feature.scss */
+/* line 19, ../scss/_feature.scss */
 .feature__video {
   position: fixed;
   top: 50%;
@@ -338,24 +336,24 @@ img.top-panel__logo--middle {
   background-size: cover;
 }
 
-/* line 38, ../scss/_feature.scss */
+/* line 37, ../scss/_feature.scss */
 .feature.active .feature__video {
   display: inline-block;
 }
 
-/* line 43, ../scss/_feature.scss */
+/* line 42, ../scss/_feature.scss */
 .feature__media {
   display: block;
   width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 43, ../scss/_feature.scss */
+  /* line 42, ../scss/_feature.scss */
   .feature__media {
     padding: 0 !important;
   }
 }
 
-/* line 54, ../scss/_feature.scss */
+/* line 53, ../scss/_feature.scss */
 .feature__text {
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   line-height: 28px;
@@ -367,7 +365,7 @@ img.top-panel__logo--middle {
   border-left: 1px solid #fea600;
 }
 @media (max-width: 959px) {
-  /* line 54, ../scss/_feature.scss */
+  /* line 53, ../scss/_feature.scss */
   .feature__text {
     position: static;
     padding: 20px;
@@ -375,7 +373,7 @@ img.top-panel__logo--middle {
     border: 0;
   }
 }
-/* line 69, ../scss/_feature.scss */
+/* line 68, ../scss/_feature.scss */
 .feature__text p {
   margin: 0 0 0 25px;
 }
@@ -795,13 +793,44 @@ body.fixed {
   overflow: hidden;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   /* line 2, ../scss/_mobile.scss */
+  .feature__controls {
+    background: url(../img/play.svg) no-repeat 50% 50%, rgba(0, 0, 0, 0.8);
+    background-size: 5%;
+  }
+
+  /* line 6, ../scss/_mobile.scss */
+  .feature__controls--1 {
+    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  /* line 10, ../scss/_mobile.scss */
+  .feature__controls--2 {
+    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  /* line 14, ../scss/_mobile.scss */
+  .feature__controls--3 {
+    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  /* line 18, ../scss/_mobile.scss */
+  .feature__controls--4 {
+    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  /* line 25, ../scss/_mobile.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 5, ../scss/_mobile.scss */
+  /* line 28, ../scss/_mobile.scss */
   .iblock {
     right: inherit;
     left: inherit;
@@ -813,13 +842,13 @@ body.fixed {
     margin-right: 0;
   }
 
-  /* line 16, ../scss/_mobile.scss */
+  /* line 39, ../scss/_mobile.scss */
   .top-panel__logo img {
     max-height: 25px;
     vertical-align: middle;
   }
 
-  /* line 20, ../scss/_mobile.scss */
+  /* line 43, ../scss/_mobile.scss */
   .top-panel__logo--rosneft {
     margin-bottom: 10px;
   }

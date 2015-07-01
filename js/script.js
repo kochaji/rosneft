@@ -74,8 +74,8 @@ function videoControl(controls, action) {
 	var action = action ? action : (video.paused ? 'play' : 'pause');
 	video[action]();
 	$feature[ action == 'pause' ? 'removeClass' : 'addClass' ]('playing');
-	//video[ video.paused ? 'play' : 'pause' ]();
-	//$feature[ video.paused ? 'removeClass' : 'addClass' ]('playing');
+	if ($(window).width() > mobWidth ) return;
+	$('.js-panel')[ action == 'pause' ? 'removeClass' : 'addClass']('top'); //hide top panel on mobile devices when play video
 }
 
 
