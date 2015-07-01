@@ -68,6 +68,16 @@ var changeItem = function changeItem(item) {
 	$item.addClass('active');
 };
 
+function videoControl(controls, action) {
+	var $feature = $(controls).closest('.feature');
+	var video = $feature.find('video').get(0);
+	var action = action ? action : (video.paused ? 'play' : 'pause');
+	video[action]();
+	$feature[ action == 'pause' ? 'removeClass' : 'addClass' ]('playing');
+	//video[ video.paused ? 'play' : 'pause' ]();
+	//$feature[ video.paused ? 'removeClass' : 'addClass' ]('playing');
+}
+
 
 var initWaypoints = function initWaypoints() {
 	$stickyRails.waypoint({
@@ -123,24 +133,21 @@ var initWaypoints = function initWaypoints() {
 	/* stop or play video */
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
-			console.log('wayp')
-			if ( $(window).width() < mobWidth) return;
-			var video = this.getElementsByTagName('video')[0];
-			video[ dir == 'down' ? 'play' : 'pause' ]();
+			//if ( $(window).width() < mobWidth) return;
+			videoControl(this, dir == 'down' ? 'play' : 'pause');
 		}, offset: $.waypoints('viewportHeight')/2
 	})
 
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
 			if ( $(window).width() < mobWidth) return;
-			var video = this.getElementsByTagName('video')[0];
-			video[ dir == 'up' ? 'play' : 'pause' ]();
+			videoControl(this, dir == 'up' ? 'play' : 'pause');
 		}, offset: - $(this).outerHeight(true)/2
 	})
 
 	/* show or hide nav */
 	$('.js-feature-video').waypoint({
-		handler: function(dir) {
+handler: function(dir) {
 			$stickySidebar[dir == 'up' ? 'addClass' : 'removeClass']('visible');
 		}, offset: $.waypoints('viewportHeight') - (screenParams.panelHeight + $stickySidebar.outerHeight(true))
 	})
@@ -156,22 +163,6 @@ var initWaypoints = function initWaypoints() {
 			$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
 		}, offset: - $(this).outerHeight(true)
 	})
-
-	/*
-	$('.js-video-featue').waypoint({
-		handler: function(dir) {
-			this[ dir=='down' ? 'play' : 'pause' ]();
-		},
-		offset: $.waypoints('viewportHeight')/2
-	})
-
-	$('.js-video-featue').waypoint({
-		handler: function(dir) {
-			this[ dir=='up' ? 'play' : 'pause' ]();
-		},
-		offset: $(this).height() * -0.4 //- ($(this).height() - 200)  //- $(this).height()*0.7 // + $.waypoints('viewportHeight')/2
-	})
-	*/
 
 };
 
@@ -214,11 +205,11 @@ $(window).resize(function(){
 	$.waypoints('refresh');
 });
 
+
 $('.feature__controls').click(function(){
 	if ( $(window).width() > mobWidth) return;
-	var video = $(this).parent().find('video').get(0);
-	video[ video.paused ? 'play' : 'pause' ]();
-
+	videoControl(this)
 })
+
 
 
