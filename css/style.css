@@ -796,41 +796,58 @@ body.fixed {
 @media (max-width: 1023px) {
   /* line 2, ../scss/_mobile.scss */
   .feature__controls {
-    background: url(../img/play.svg) no-repeat 50% 50%, rgba(0, 0, 0, 0.8);
     background-size: 5%;
   }
 
   /* line 6, ../scss/_mobile.scss */
+  .feature__controls:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/play.svg) no-repeat 50% 50%;
+    background-size: 5%;
+  }
+
+  /* line 17, ../scss/_mobile.scss */
+  .playing .feature__controls:after {
+    background: none;
+  }
+
+  /* line 20, ../scss/_mobile.scss */
   .feature__controls--1 {
-    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/1.jpg) no-repeat 50% 50%;
+    background: url(../video/fallback/1.jpg) no-repeat 50% 50%;
     background-size: cover;
   }
 
-  /* line 10, ../scss/_mobile.scss */
+  /* line 24, ../scss/_mobile.scss */
   .feature__controls--2 {
-    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/2.jpg) no-repeat 50% 50%;
+    background: url(../video/fallback/2.jpg) no-repeat 50% 50%;
     background-size: cover;
   }
 
-  /* line 14, ../scss/_mobile.scss */
+  /* line 28, ../scss/_mobile.scss */
   .feature__controls--3 {
-    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/3.jpg) no-repeat 50% 50%;
+    background: url(../video/fallback/3.jpg) no-repeat 50% 50%;
     background-size: cover;
   }
 
-  /* line 18, ../scss/_mobile.scss */
+  /* line 32, ../scss/_mobile.scss */
   .feature__controls--4 {
-    background: url(../img/play.svg) no-repeat 50% 50%, url(../video/fallback/4.jpg) no-repeat 50% 50%;
+    background: url(../video/fallback/4.jpg) no-repeat 50% 50%;
     background-size: cover;
   }
 }
 @media (max-width: 767px) {
-  /* line 25, ../scss/_mobile.scss */
+  /* line 39, ../scss/_mobile.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 28, ../scss/_mobile.scss */
+  /* line 42, ../scss/_mobile.scss */
   .iblock {
     right: inherit;
     left: inherit;
@@ -842,13 +859,13 @@ body.fixed {
     margin-right: 0;
   }
 
-  /* line 39, ../scss/_mobile.scss */
+  /* line 53, ../scss/_mobile.scss */
   .top-panel__logo img {
     max-height: 25px;
     vertical-align: middle;
   }
 
-  /* line 43, ../scss/_mobile.scss */
+  /* line 57, ../scss/_mobile.scss */
   .top-panel__logo--rosneft {
     margin-bottom: 10px;
   }
