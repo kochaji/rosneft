@@ -133,7 +133,7 @@ var initWaypoints = function initWaypoints() {
 	/* stop or play video */
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
-			//if ( $(window).width() < mobWidth) return;
+			if ( $(window).width() < mobWidth) return;
 			videoControl(this, dir == 'down' ? 'play' : 'pause');
 		}, offset: $.waypoints('viewportHeight')/2
 	})
