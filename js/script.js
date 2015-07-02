@@ -147,7 +147,7 @@ var initWaypoints = function initWaypoints() {
 
 	/* show or hide nav */
 	$('.js-feature-video').waypoint({
-handler: function(dir) {
+		handler: function(dir) {
 			$stickySidebar[dir == 'up' ? 'addClass' : 'removeClass']('visible');
 		}, offset: $.waypoints('viewportHeight') - (screenParams.panelHeight + $stickySidebar.outerHeight(true))
 	})
@@ -158,10 +158,11 @@ handler: function(dir) {
 		}, offset: - $(this).outerHeight(true) + screenParams.panelHeight
 	})
 
-	$('.js-preface').waypoint({
+	$('.js-feature-video').waypoint({
 		handler: function(dir) {
+			console.log('!!!!!!!')
 			$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
-		}, offset: - $(this).outerHeight(true)
+		}, offset: $.waypoints('viewportHeight')
 	})
 
 };
