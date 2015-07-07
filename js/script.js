@@ -1,3 +1,4 @@
+
 var path = '';
 var $intro = $('.js-intro');
 var $introContent = $('.js-intro-content');
@@ -160,8 +161,8 @@ var initWaypoints = function initWaypoints() {
 
 	$('.js-feature-video').waypoint({
 		handler: function(dir) {
-			console.log('!!!!!!!')
-			$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
+			//$('.js-feature-video').find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
+			$(this).find('video')[dir=='up' ? 'addClass' : 'removeClass']('hidden');
 		}, offset: $.waypoints('viewportHeight')
 	})
 
