@@ -3,6 +3,8 @@
 <link rel="stylesheet" href="css/test.css">
 <script src="js/test.js"></script>
 
+<?php require_once '_panel.php' ?>
+
 <div class="test-screen js-test-screen">
 	<div class="vcenter">
 		<div class="vcentered">

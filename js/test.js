@@ -1,5 +1,7 @@
 $(function(){
 
+	$('.js-panel').removeClass('top');
+
 	function fitTest() {
 		$('.js-test-screen').height( $(window).height() - $('.js-panel').outerHeight(true) )
 	}

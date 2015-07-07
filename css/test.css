@@ -44,54 +44,56 @@ a:hover {
 .test-screen {
   background: green;
   padding-top: 70px;
+  background: url("../img/test_bg.jpg") no-repeat 50% 50%;
+  background-size: cover;
 }
 
-/* line 11, ../scss/test.scss */
+/* line 13, ../scss/test.scss */
 .test {
   background: #fff;
 }
 
-/* line 14, ../scss/test.scss */
+/* line 16, ../scss/test.scss */
 .test__inner {
   padding: 30px 65px;
 }
 
-/* line 17, ../scss/test.scss */
+/* line 19, ../scss/test.scss */
 .test__header {
   border-bottom: 1px solid #ffcc00;
 }
 
-/* line 21, ../scss/test.scss */
+/* line 23, ../scss/test.scss */
 .test__btn--to-results {
   display: none;
 }
 
-/* line 25, ../scss/test.scss */
+/* line 27, ../scss/test.scss */
 .in-results .for-progress {
   display: none;
 }
 
-/* line 26, ../scss/test.scss */
+/* line 28, ../scss/test.scss */
 .in-progress .for-results {
   display: none;
 }
 
-/* line 28, ../scss/test.scss */
+/* line 30, ../scss/test.scss */
 .in-last .test__btn--next {
   display: none;
 }
 
-/* line 29, ../scss/test.scss */
+/* line 31, ../scss/test.scss */
 .in-last .test__btn--to-results {
   display: inherit;
 }
 
-/* line 32, ../scss/test.scss */
+/* line 34, ../scss/test.scss */
 .test__result__header {
   margin-bottom: 0;
 }
 
-/* line 37, ../scss/test.scss */
+/* line 39, ../scss/test.scss */
 .test__header__numbers {
   background: #fff;
   float: right;
@@ -99,36 +101,36 @@ a:hover {
   margin-bottom: -0.3em;
   padding: 0 0 0 10px;
 }
-/* line 43, ../scss/test.scss */
+/* line 45, ../scss/test.scss */
 .test__header__numbers__current, .test__header__numbers__total {
   margin: 0;
   display: inline-block;
 }
-/* line 48, ../scss/test.scss */
+/* line 50, ../scss/test.scss */
 .test__header__numbers__current {
   font-size: 47px;
 }
-/* line 51, ../scss/test.scss */
+/* line 53, ../scss/test.scss */
 .test__header__numbers__total {
   font-size: 28px;
 }
 
-/* line 57, ../scss/test.scss */
+/* line 59, ../scss/test.scss */
 .test__answer__list {
   overflow: hidden;
 }
-/* line 59, ../scss/test.scss */
+/* line 61, ../scss/test.scss */
 .test__answer__list__item {
   background: #f0f0f0;
   float: left;
 }
-/* line 62, ../scss/test.scss */
+/* line 64, ../scss/test.scss */
 .test__answer__list__item span {
   display: block;
   padding: 18px 25px;
   font-weight: bold;
 }
-/* line 66, ../scss/test.scss */
+/* line 68, ../scss/test.scss */
 .test__answer__list__item span:before {
   content: '';
   display: inline-block;
@@ -144,30 +146,30 @@ a:hover {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 83, ../scss/test.scss */
+/* line 85, ../scss/test.scss */
 .test__answer__list__item:hover span:before {
   background: #ffcc00;
 }
-/* line 87, ../scss/test.scss */
+/* line 89, ../scss/test.scss */
 .test__answer__list__item.checked, .test__answer__list__item.success, .test__answer__list__item.fail {
   background: none;
 }
-/* line 92, ../scss/test.scss */
+/* line 94, ../scss/test.scss */
 .test__answer__list__item.success {
   color: #ffcc00;
 }
-/* line 95, ../scss/test.scss */
+/* line 97, ../scss/test.scss */
 .test__answer__list__item.fail {
   color: #f78b8b;
   text-decoration: line-through;
 }
 
-/* line 102, ../scss/test.scss */
+/* line 104, ../scss/test.scss */
 .test__text {
   background: #f2f1ed;
 }
 
-/* line 106, ../scss/test.scss */
+/* line 108, ../scss/test.scss */
 .test__btn {
   color: #ffcc00;
   border: 2px solid #ffcc00;
@@ -180,13 +182,13 @@ a:hover {
   cursor: pointer;
   letter-spacing: 1px;
 }
-/* line 117, ../scss/test.scss */
+/* line 119, ../scss/test.scss */
 .test__btn:hover {
   background: #ffcc00;
   color: #fff;
 }
 
-/* line 123, ../scss/test.scss */
+/* line 125, ../scss/test.scss */
 .test__results {
   background: #4a4a4a;
   padding: 40px 0;
