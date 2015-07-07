@@ -1,0 +1,130 @@
+@import 'bootstrap/variables';
+@import 'variables';
+@import 'typo';
+.test-screen {
+	//min-height: 640px;
+	//min-height: 100vh;
+	background: green;
+	padding-top: $panelHeight;
+}
+
+.test {
+	background: #fff;
+}
+.test__inner {
+	padding: 30px 65px;
+}
+.test__header {
+	border-bottom: 1px solid $color-yellow;
+}
+
+.test__btn--to-results {
+	display: none;
+}
+
+.in-results .for-progress {	display: none } 
+.in-progress .for-results {	display: none }
+
+.in-last .test__btn--next { display: none }
+.in-last .test__btn--to-results { display: inherit; }
+
+
+.test__result__header {
+	margin-bottom: 0;
+}
+
+
+.test__header__numbers {
+	background: #fff;
+	float: right;
+	font-size: 34px;
+	margin-bottom: -0.3em;
+	padding: 0 0 0 10px;
+	&__current,
+	&__total {
+		margin: 0;
+		display: inline-block;
+	}
+	&__current {
+		font-size: 47px;
+	}
+	&__total {
+		font-size: 28px;
+	}
+}
+
+
+.test__answer__list {
+	overflow: hidden;
+	&__item {
+		background: #f0f0f0;
+		float: left;
+		span {
+			display: block;
+			padding: 18px 25px;
+			font-weight: bold;
+			&:before {
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				width: 1em;
+				height:1em;
+				border: 1px solid #D0D0D0;
+				background: #fff;
+				margin-right: 10px;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-ms-border-radius: 50%;
+				-o-border-radius: 50%;
+				border-radius: 50%;
+			}
+		}
+		&:hover {
+			span:before {
+				background: $color-yellow;
+			}
+		}
+		&.checked,
+		&.success,
+		&.fail {
+			background: none;
+		}
+		&.success {
+			color: $color-yellow; 
+		}
+		&.fail {
+			color: #f78b8b;
+			text-decoration: line-through;
+		}
+	}
+}
+
+.test__text {
+	background: #f2f1ed; 
+}
+
+.test__btn {
+	color: $color-yellow;
+	border: 2px solid $color-yellow;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem; 
+	font-weight: bold;
+	cursor: pointer;
+	letter-spacing: 1px;
+	&:hover {
+		background: $color-yellow;
+		color: #fff;
+	}
+}
+
+.test__results {
+	background: #4a4a4a;
+	padding: 40px 0;
+	
+}
+.test__footer {
+
+}
