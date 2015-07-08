@@ -6,26 +6,26 @@
 			</h4>
 			
 			<div class="timeline-wrap visible-lg">
-				<ul class="timeline headlineBook">
-					<li class="timeline__item active">
-						<a href="">До 1917</a>
+				<ul class="timeline headlineBook" role='navigation'>
+					<li class="timeline__item" data-nav-id="term-1">
+						<a href="index.php">До 1917</a>
 					</li>
-					<li class="timeline__item">
+					<li class="timeline__item" data-nav-id="term-2">
 						<span href="">1917-1941</span>
 					</li>
-					<li class="timeline__item">
+					<li class="timeline__item" data-nav-id="term-3">
 						<span href="">1941-1945</span>
 					</li>
-					<li class="timeline__item">
+					<li class="timeline__item" data-nav-id="term-4">
 						<span href="">1941-1991</span>
 					</li>
-					<li class="timeline__item">
+					<li class="timeline__item" data-nav-id="term-5">
 						<span href="">После 1991</span>
 					</li>
-					<li class="timeline__item">
-						<span href="">Тест</span>
+					<li class="timeline__item" data-nav-id="test">
+						<a href="test.php">Проверь себя</a>
 					</li>
-					<li class="timeline__item">
+					<li class="timeline__item" data-nav-id="infographic">
 						<span href="">Инфографика</span>
 					</li>
 				</ul>

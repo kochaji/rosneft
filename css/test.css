@@ -42,12 +42,13 @@ a:hover {
 
 /* line 4, ../scss/test.scss */
 .test-screen {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
+  padding: 140px 0 70px;
   background: #000;
 }
 
-/* line 14, ../scss/test.scss */
+/* line 10, ../scss/test.scss */
 .test-screen__bg {
   overflow: hidden;
   position: absolute;
@@ -57,7 +58,7 @@ a:hover {
   height: 100%;
 }
 
-/* line 22, ../scss/test.scss */
+/* line 18, ../scss/test.scss */
 .test-screen__bg__video {
   display: block;
   position: absolute;
@@ -73,52 +74,58 @@ a:hover {
   transform: translateX(-50%) translateY(-50%);
 }
 
-/* line 37, ../scss/test.scss */
+/* line 33, ../scss/test.scss */
 .test {
   background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-/* line 40, ../scss/test.scss */
+/* line 37, ../scss/test.scss */
 .test__inner {
   padding: 30px 65px;
 }
 
-/* line 43, ../scss/test.scss */
+/* line 40, ../scss/test.scss */
 .test__header {
   border-bottom: 1px solid #ffcc00;
 }
 
-/* line 47, ../scss/test.scss */
+/* line 44, ../scss/test.scss */
 .test__btn--to-results {
   display: none;
 }
 
-/* line 51, ../scss/test.scss */
+/* line 50, ../scss/test.scss */
 .in-results .for-progress {
   display: none;
 }
 
-/* line 52, ../scss/test.scss */
+/* line 51, ../scss/test.scss */
 .in-progress .for-results {
   display: none;
 }
 
-/* line 54, ../scss/test.scss */
+/* line 53, ../scss/test.scss */
 .in-last .test__btn--next {
   display: none;
 }
 
-/* line 55, ../scss/test.scss */
+/* line 54, ../scss/test.scss */
 .in-last .test__btn--to-results {
   display: inherit;
 }
 
-/* line 58, ../scss/test.scss */
+/* line 56, ../scss/test.scss */
+.checked .test__btn--next {
+  opacity: inherit;
+}
+
+/* line 60, ../scss/test.scss */
 .test__result__header {
   margin-bottom: 0;
 }
 
-/* line 63, ../scss/test.scss */
+/* line 65, ../scss/test.scss */
 .test__header__numbers {
   background: #fff;
   float: right;
@@ -126,36 +133,36 @@ a:hover {
   margin-bottom: -0.3em;
   padding: 0 0 0 10px;
 }
-/* line 69, ../scss/test.scss */
+/* line 71, ../scss/test.scss */
 .test__header__numbers__current, .test__header__numbers__total {
   margin: 0;
   display: inline-block;
 }
-/* line 74, ../scss/test.scss */
+/* line 76, ../scss/test.scss */
 .test__header__numbers__current {
   font-size: 47px;
 }
-/* line 77, ../scss/test.scss */
+/* line 79, ../scss/test.scss */
 .test__header__numbers__total {
   font-size: 28px;
 }
 
-/* line 83, ../scss/test.scss */
+/* line 85, ../scss/test.scss */
 .test__answer__list {
   overflow: hidden;
 }
-/* line 85, ../scss/test.scss */
+/* line 87, ../scss/test.scss */
 .test__answer__list__item {
   background: #f0f0f0;
   float: left;
 }
-/* line 88, ../scss/test.scss */
+/* line 90, ../scss/test.scss */
 .test__answer__list__item span {
   display: block;
   padding: 18px 25px;
   font-weight: bold;
 }
-/* line 92, ../scss/test.scss */
+/* line 94, ../scss/test.scss */
 .test__answer__list__item span:before {
   content: '';
   display: inline-block;
@@ -171,30 +178,52 @@ a:hover {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 109, ../scss/test.scss */
+/* line 111, ../scss/test.scss */
 .test__answer__list__item:hover span:before {
-  background: #ffcc00;
+  background: #000;
+  border-color: #000;
 }
-/* line 113, ../scss/test.scss */
+/* line 116, ../scss/test.scss */
 .test__answer__list__item.checked, .test__answer__list__item.success, .test__answer__list__item.fail {
   background: none;
 }
-/* line 118, ../scss/test.scss */
+/* line 121, ../scss/test.scss */
 .test__answer__list__item.success {
   color: #ffcc00;
 }
-/* line 121, ../scss/test.scss */
+/* line 122, ../scss/test.scss */
+.test__answer__list__item.success span:before {
+  background: #ffcc00;
+  border-color: #ffcc00;
+}
+/* line 128, ../scss/test.scss */
 .test__answer__list__item.fail {
   color: #f78b8b;
   text-decoration: line-through;
 }
+/* line 129, ../scss/test.scss */
+.test__answer__list__item.fail span:before {
+  background: #f78b8b;
+  border-color: #f78b8b;
+}
 
-/* line 128, ../scss/test.scss */
+/* line 139, ../scss/test.scss */
+.js-test-text {
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+/* line 143, ../scss/test.scss */
+.js-test-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 148, ../scss/test.scss */
 .test__text {
   background: #f2f1ed;
 }
 
-/* line 132, ../scss/test.scss */
+/* line 152, ../scss/test.scss */
 .test__btn {
   color: #ffcc00;
   border: 2px solid #ffcc00;
@@ -207,19 +236,38 @@ a:hover {
   cursor: pointer;
   letter-spacing: 1px;
 }
-/* line 143, ../scss/test.scss */
+/* line 163, ../scss/test.scss */
 .test__btn:hover {
   background: #ffcc00;
   color: #fff;
 }
 
-/* line 149, ../scss/test.scss */
+/* line 170, ../scss/test.scss */
+.wait .test__btn--next,
+.wait .test__btn--to-results {
+  cursor: auto;
+  border-color: #9a9999;
+  color: #9a9999;
+}
+
+/* line 176, ../scss/test.scss */
+.wait .test__btn--next:hover,
+.wait .test__btn--to-results:hover {
+  background: #fff;
+  color: #9a9999;
+}
+
+/* line 182, ../scss/test.scss */
 .test__results {
   background: #4a4a4a;
   padding: 40px 0;
+  color: #fff;
+  font-size: 18px;
+  background: url("../img/test_bg.jpg") no-repeat 50% 50%;
+  background-size: cover;
 }
 
-/* line 158, ../scss/test.scss */
+/* line 194, ../scss/test.scss */
 .js-test-text {
   display: none;
 }

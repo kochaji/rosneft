@@ -48,7 +48,12 @@
 	</div>
 	<div class="container">
 		<div class="copyright">
-			© Интерфакс
+			© Интерфакс 
 		</div>
 	</div>
 </div>
+
+<script src="js/script.js"></script>
+<?php if ($app['page_type'] == 'test') : ?>
+<script src="js/test.js"></script>
+<?php endif ?>

@@ -58,9 +58,17 @@ var resize = function resize() {
 	recalcScreenParams();
 }
 
+var detectPage = function() {
+	var pageId = $('body').data('page-id');
+	var pageType = $('body').data('page-type');
+	console.log(pageId, pageType);
+	$('.timeline').find('[data-nav-id='+pageId+']').addClass('active');
+}
+
 var initApp = function initApp(){
 	recalcScreenParams();
 	fitSidebar();
+	detectPage();
 };
 
 var changeItem = function changeItem(item) {

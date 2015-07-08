@@ -94,40 +94,45 @@ a:hover {
 }
 
 /* line 46, ../scss/_panel.scss */
+.timeline__item a {
+  display: block;
+}
+
+/* line 49, ../scss/_panel.scss */
 .timeline__item:first-child {
   margin-left: 0;
 }
 
-/* line 49, ../scss/_panel.scss */
+/* line 52, ../scss/_panel.scss */
 .timeline__item.active a,
 .timeline__item:hover a {
   color: #fea600;
 }
 
-/* line 53, ../scss/_panel.scss */
+/* line 56, ../scss/_panel.scss */
 .timeline__item span {
   color: #999;
 }
 
-/* line 59, ../scss/_panel.scss */
+/* line 62, ../scss/_panel.scss */
 a.top-panel__logo {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 63, ../scss/_panel.scss */
+/* line 66, ../scss/_panel.scss */
 a.top-panel__logo:last-child {
   margin-left: 20px;
 }
 
-/* line 67, ../scss/_panel.scss */
+/* line 70, ../scss/_panel.scss */
 .top-panel__logo img {
   display: inline-block;
   max-height: 70px;
   vertical-align: top;
 }
 
-/* line 77, ../scss/_panel.scss */
+/* line 80, ../scss/_panel.scss */
 img.top-panel__logo--middle {
   vertical-align: middle;
 }

@@ -18,14 +18,13 @@ $(function(){
 	};
 	TestApp.prototype = {
 		calcResult: function() {
+			var _this = this;
 			this.$element.addClass('in-results').removeClass('in-progress')
-			//console.log(this.scores)
-			console.log(this.parts.total)
 			this.parts.scores.html(this.scores)
 			this.parts.scoresTotal.html(this.total);
 
 			$('.social-likes').socialLikes({
-				title: 'hohoho'
+				title: 'Я ответил на ' + _this.scores + ' вопросов из ' + _this.total
 			})
 		},
 		checkQuestion: function(element) {
@@ -36,12 +35,11 @@ $(function(){
 			var checked = $(element).index();
 			var correct = this.item.correct - 1;
 
-			this.$element.addClass('checked');
+			this.$element.addClass('checked').removeClass('wait');
 			$(element).addClass('checked').addClass( checked == correct ? '' : 'fail');
 			this.parts.answers.find('.js-test-answer').eq(correct).addClass('success');
 			this.current++;
 			checked == correct && this.scores++;
-
 			this.parts.text.slideDown();
 
 		},
@@ -56,7 +54,7 @@ $(function(){
 			return result.join('');
 		},
 		renderQuestion: function() {
-			this.$element.removeClass('checked');
+			this.$element.removeClass('checked').addClass('wait');
 			var _this = this;
 			if (this.current == this.total) {	
 				this.calcResult();
@@ -110,6 +108,7 @@ $(function(){
 
 			this.parts.next.on('click', function(){
 				!_this.clickable && _this.renderQuestion();
+				_this.$element[ _this.current == _this.total-1 ? 'addClass' : 'removeClass' ]('in-last');
 			});
 
 			this.parts.startBtn.on('click', function(e){

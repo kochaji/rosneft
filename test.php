@@ -1,16 +1,24 @@
-<?php require_once '_header.php' ?>
 
-<link rel="stylesheet" href="css/test.css">
-<script src="js/test.js"></script>
 
-<?php require_once '_panel.php' ?>
+<?php 
+	$app = array(
+		'page_id' 		=> 'test',
+		'page_type'		=> 'test',
+		'title'			=> 'История нефти: проверь себя',
+		'description'	=> 'Хорошо ли вы знаете историю российской нефти?',
+		'image'			=> 'test-img.jpg',
+	);
+
+	require_once '_header.php';
+	require_once '_panel.php';
+?>
 
 <div class="test-screen js-test-screen">
 	<div class="test-screen__bg">
 		<video autoplay class="test-screen__bg__video" loop muted>
 			<source src="video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="video/1.webm"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="video/1.webm"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+			<source src="video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+			<source src="video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
 	<div class="vcenter">
@@ -47,7 +55,12 @@
 							</div>
 							<div class="test__results for-results">
 								<div class="test__inner">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugit porro repellat excepturi, eius tempore, error, minima doloribus laboriosam molestias cupiditate! Ratione id, sed itaque rem quisquam natus non hic.
+									<p>
+										&laquo;Вам, господа русские капиталисты, предстоит осветить и&nbsp;смазать Россию и&nbsp;Европу, разделить эту службу с&nbsp;Америкой да&nbsp;по&nbsp;пути превратить четырехкопеечный продукт в&nbsp;пятирублевый, отчего пристанет кое-что и&nbsp;к&nbsp;вашим рукам, и&nbsp;к&nbsp;рукам тысяч рабочих, которые потребуются для того, чтобы поворотить эти миллионы пудов, втуне лежащие под землей&raquo;
+									</p>
+									<p style="margin: 0">
+										Д.&nbsp;И.&nbsp;Менделеев
+									</p>
 								</div>
 							</div>
 							<div class="test__text test__inner for-progress">
@@ -64,7 +77,7 @@
 								<div class="row">
 									<div class="pull-left">
 										<span>Поделиться</span>
-										<div class="social-likes" data-zeroes="yes">
+										<div class="social-likes" data-zeroes="yes" data-counters="no">
 											<div class="vkontakte"></div>
 											<div class="facebook"></div>
 											<div class="twitter"></div>

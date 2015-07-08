@@ -43,6 +43,9 @@
 	list-style-type: none;
 	margin-left: 15px;
 }
+.timeline__item a {
+	display: block;
+}
 .timeline__item:first-child {
 	margin-left: 0;
 }
