@@ -271,3 +271,8 @@ a:hover {
 .js-test-text {
   display: none;
 }
+
+/* line 200, ../scss/test.scss */
+.test__start {
+  float: right;
+}

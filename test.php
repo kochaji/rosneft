@@ -75,16 +75,16 @@
 							</div>
 							<div class="test__footer for-results test__inner">
 								<div class="row">
-									<div class="pull-left">
-										<span>Поделиться</span>
+									<div class="col-lg-14">
+										<span style='margin-right: 15px'>Поделиться</span>
 										<div class="social-likes" data-zeroes="yes" data-counters="no">
-											<div class="vkontakte"></div>
-											<div class="facebook"></div>
-											<div class="twitter"></div>
+											<div class="facebook" title="Поделиться на Facebook">Facebook</div>
+											<div class="vkontakte" title="Поделиться Вконтакте">Вконтакте</div>
+											<div class="twitter" title="Ретвитнуть">Twitter</div>
 										</div>
 									</div>
-									<div class="pull-right">
-										<a href="#" class="js-test-start">
+									<div class="col-lg-6">
+										<a href="#" class="test__start js-test-start">
 											Пройти заново
 										</a>
 									</div>

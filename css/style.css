@@ -845,14 +845,36 @@ body.fixed {
     background: url(../video/fallback/4.jpg) no-repeat 50% 50%;
     background-size: cover;
   }
-}
-@media (max-width: 767px) {
+
+  /* line 36, ../scss/_mobile.scss */
+  .test__start {
+    float: inherit !important;
+  }
+
   /* line 39, ../scss/_mobile.scss */
+  .social-likes {
+    display: block;
+    margin: 10px 0 20px;
+  }
+  /* line 42, ../scss/_mobile.scss */
+  .social-likes > .social-likes__widget {
+    margin: 0 5px 8px 0;
+  }
+
+  /* line 46, ../scss/_mobile.scss */
+  .test__answer__list__item {
+    display: block !important;
+    float: inherit !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 54, ../scss/_mobile.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 42, ../scss/_mobile.scss */
+  /* line 57, ../scss/_mobile.scss */
   .iblock {
     right: inherit;
     left: inherit;
@@ -864,14 +886,20 @@ body.fixed {
     margin-right: 0;
   }
 
-  /* line 53, ../scss/_mobile.scss */
+  /* line 68, ../scss/_mobile.scss */
   .top-panel__logo img {
     max-height: 25px;
     vertical-align: middle;
   }
 
-  /* line 57, ../scss/_mobile.scss */
+  /* line 72, ../scss/_mobile.scss */
   .top-panel__logo--rosneft {
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 77, ../scss/_mobile.scss */
+  .social-likes > .social-likes__widget {
+    display: block;
   }
 }

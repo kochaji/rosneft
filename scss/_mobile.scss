@@ -33,9 +33,24 @@
 		background: url(../video/fallback/4.jpg) no-repeat 50% 50%;
 		background-size: cover;
 	}
+	.test__start {
+		float: inherit !important;
+	}
+	.social-likes {
+		display: block;
+		margin: 10px 0 20px;
+		&>.social-likes__widget {
+			margin: 0 5px 8px 0;
+		}
+	}
+	.test__answer__list__item {
+		display: block !important;
+		float: inherit !important;
+		margin-bottom: 10px;
+	}
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.container {
 		padding: 0 20px;			
 	}
@@ -56,5 +71,10 @@
 	}
 	.top-panel__logo--rosneft {
 		margin-bottom: 10px
+	}
+}
+@media (max-width: 479px) {
+	.social-likes>.social-likes__widget {
+		display: block;
 	}
 }
