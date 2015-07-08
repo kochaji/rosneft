@@ -6,7 +6,7 @@ $(function(){
 		$('.js-test-screen').height( $(window).height() - $('.js-panel').outerHeight(true) )
 	}
 
-	fitTest();
+	//fitTest();
 
 
 	var TestApp = function(element) {
@@ -41,6 +41,9 @@ $(function(){
 			this.parts.answers.find('.js-test-answer').eq(correct).addClass('success');
 			this.current++;
 			checked == correct && this.scores++;
+
+			this.parts.text.slideDown();
+
 		},
 		renderAnswers: function() {
 			var data = this.item.answers;
@@ -54,7 +57,7 @@ $(function(){
 		},
 		renderQuestion: function() {
 			this.$element.removeClass('checked');
-
+			var _this = this;
 			if (this.current == this.total) {	
 				this.calcResult();
 				return;
@@ -66,7 +69,12 @@ $(function(){
 			this.parts.question.html('');
 
 			this.parts.question.html(this.item.question);
-			this.parts.text.html(this.item.text);
+
+
+			this.parts.text.hide();
+
+			_this.parts.text.html(_this.item.text);
+
 			this.parts.total.html(this.total);
 			this.parts.current.html(this.current + 1 );
 			this.parts.answers.html(this.renderAnswers());
