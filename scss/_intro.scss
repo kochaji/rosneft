@@ -17,6 +17,17 @@
 	background-attachment: fixed
 }
 
+.intro__bg__infographic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 120%;
+	background: url($imgpath+'/infographic-bg.jpg') no-repeat 50% 100%;
+	background-size: cover;
+	background-attachment: fixed
+}
+
 .intro__content {
 	position: relative;
 }

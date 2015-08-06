@@ -26,7 +26,7 @@
 						<a href="test.php">Проверь себя</a>
 					</li>
 					<li class="timeline__item" data-nav-id="infographic">
-						<span href="">Инфографика</span>
+						<a href="infographic.php">Инфографика</a>
 					</li>
 				</ul>
 			</div>

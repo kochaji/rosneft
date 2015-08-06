@@ -8,6 +8,9 @@
 		case 'test':
 			$a = 'test';
 			break;
+		case 'infographic':
+			$a = 'infographic';
+			break;
 		default:
 			# code...
 			break;
