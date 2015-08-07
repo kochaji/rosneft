@@ -30,7 +30,6 @@
 		</div>
 	</div>
 
-
 	<div class="preface js-preface">
 		<div class="container preface__inner">
 			<div class="preface__header js-preface-header">
@@ -73,7 +72,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="digit-2">
 							<div class="whitewrap">
@@ -100,7 +99,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-1 charts">
 							<h3>
@@ -110,20 +109,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<h2 class="h2 title title--start js-title">
 							Задачи индустриализации
 						</h2>
 						<div class="chart-2 charts">
 							<h3>
-								Добыча нефти в СССР, млн тонн
+								Добыча нефти в&nbsp;СССР, млн&nbsp;тонн
 							</h3>
 							<img src="img/infographic/chart_2.png">
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-3 charts">
 							<h3>
@@ -133,7 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<h2 class="h2 title title--start js-title">
 							Война
@@ -143,36 +142,56 @@
 								<span class="headlineBlack">8 000</span>
 							</div>
 							<p> 
-								тонн бензина требовала одна мотострелковая дивизия для передвижения на 100 км 
+								тонн бензина требовала одна мотострелковая дивизия для&nbsp;передвижения на&nbsp;100&nbsp;км 
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="digit-4">
-							<div class="white headlineBook">
-								<span class="headlineBlack">52</span> тонны
+							<img src="img/infographic/cruiser.jpg">
+							<div class="wrapper">
+								<div class="white headlineBook">
+									<span class="headlineBlack">52</span> тонны
+								</div>
+								<p> 
+									мазута расходовал крейсер «Киров» за&nbsp;час хода
+								</p>
 							</div>
-							<p> 
-								мазута расходовал крейсер «Киров» за&nbsp;час хода
-							</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="digit-5">
-							<div class="white headlineBook">
-								<span class="headlineBlack">155</span> литров 
+							<img src="img/infographic/t_34.jpg">
+							<div class="wrapper">
+								<div class="white headlineBook">
+									<span class="headlineBlack">155</span> литров 
+								</div>
+								<p> 
+									на&nbsp;100&nbsp;км&nbsp;— таков был расход топлива танка&nbsp;Т-34
+								</p>
 							</div>
-							<p> 
-								на&nbsp;100&nbsp;км&nbsp;— таков был расход топлива танка&nbsp;Т-34
-							</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
+					<div class="col-sm-13 col-sm-offset-4">
+						<div class="digit-6">
+							<div class="whitewrap">
+								<div class="yellow headlineBook">
+									<span class="headlineBlack">13 400 000</span> тонн
+								</div>
+								<p> 
+									горюче-смазочных материалов потребили вооруженные силы за&nbsp;время Великой Отечественной войны
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-4 charts">
 							<h3>
@@ -182,19 +201,25 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
-						<div class="digit-6">
-							<div class="yellow headlineBook">
-								<span class="headlineBlack">1 500 000</span> тонн
+						<div class="digit-7">
+							<img src="img/infographic/barrel.png">
+							
+							<div class="whitewrap">
+
+								<div class="yellow headlineBook">
+									<span class="headlineBlack">1 500 000</span> тонн
+								</div>
+								<p> 
+									или&nbsp;1/3 от&nbsp;общего израсходованного объема авиационного бензина была поставлена по&nbsp;ленд-лизу
+								</p>
+
 							</div>
-							<p> 
-								или&nbsp;1/3 от&nbsp;общего израсходованного объема авиационного бензина была поставлена по&nbsp;ленд-лизу
-							</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<h2 class="h2 title title--start js-title">
 							Конец паровой эпохи
@@ -207,7 +232,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-6 charts">
 							<h3>
@@ -217,7 +242,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<h2 class="h2 title title--start js-title">
 							Период великих планов и&nbsp;больших денег
@@ -226,18 +251,18 @@
 							<h3>
 								Советские планы по &nbsp;обыче нефти 1980&nbsp;г., млн&nbsp;тонн
 							</h3>
-							<img src="img/infographic/chart_7.png">v
+							<img src="img/infographic/chart_7.png">
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 							<p class="text-on-yellow">
-								Реальность оказалась более скромной, но&nbsp;все же&nbsp;впечатляющей 
+								Реальность оказалась более скромной, но&nbsp;все&nbsp;же&nbsp;впечатляющей 
 							</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-8 charts">
 							<h3>
@@ -247,7 +272,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-9 charts">
 							<h3>
@@ -263,7 +288,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-11 charts">
 							<h3>
@@ -273,7 +298,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-12 charts">
 							<h3>
@@ -290,13 +315,7 @@
 
 </div>
 
-
-
 <div class="white-block">
 	<?php require '_support.php'; ?>
 	<?php require '_footer.php'; ?>
 </div>
-
-
-
-

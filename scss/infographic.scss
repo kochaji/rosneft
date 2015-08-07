@@ -1,6 +1,12 @@
 @import 'bootstrap/variables';
 @import 'variables';
 @import 'typo';
+@import 'mixin';
+
+.row {
+	-webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+}
 
 .charts {
 	h3 {
@@ -105,12 +111,220 @@
 	    display: block;
     	position: relative;
     	top: 20px;
-    	background: $color-white;
+	}
+}
+.digit-3 {
+	.yellow span {
+		font-size: 3em;
+		display: block;
+		float: left;
+		margin-right: 20px;
+		line-height: 30px;
+	}
+	p {
+		margin-bottom: 20px;
+	}
+}
+.digit-4 {
+	display: table;
+	background-color: $color-radical-black;
+	.wrapper {
+	    display: table;
+		background-color: $color-radical-black;
+		height: 100%;
+		padding: 10px;
+		margin-top: 80px;
+	}
+	p {
+		color: $color-white;
+		margin-bottom: 0px
+	}
+	img {
+		float: left;
+	    margin-right: 10px;
+	    width: 100%;
+	    max-width: 450px;
+	}
+	.white span {
+		font-size: 2.4em;
+		line-height: 52px;
+	}
+}
+.digit-5 {
+	display: table;
+	background-color: $color-radical-black;
+	margin-top: 1px;
+	.wrapper {
+	    display: table;
+		background-color: $color-radical-black;
+		height: 100%;
+		padding: 10px;
+		margin-top: 50px;
+	}
+	p {
+		color: $color-white;
+		margin-bottom: 0px
+	}
+	img {
+		float: right;
+	    margin-left: 10px;
+	    width: 100%;
+	    max-width: 450px;
+	}
+	.white span {
+		font-size: 2em;
+		line-height: 42px;
+	}
+}
+.digit-6 {
+	background: url($imgpath+'/infographic/border.png') repeat;
+	padding: 10px;
+	.whitewrap {
+		background-color: $color-white;
+		padding: 16px;
+		p {
+			margin-bottom: 0;
+		}
+		.yellow span {
+			font-size: 4em;
+			line-height: 80px;
+		}
+	}
+}
+.digit-7 {
+	background: url($imgpath+'/infographic/border.png') repeat;
+	padding: 10px;
+	margin-top: 40px;
+	img {
+		float: right;
+		margin-left: 10px;
+	    position: relative;
+	    right: -15px;
+	    margin-top: -40px;
+	}
+	.whitewrap {
+		background-color: $color-white;
+		padding: 16px;
+		p {
+			margin-bottom: 0;
+		}
+		.yellow span {
+			font-size: 3em;
+			line-height: 60px;
+		}
+	}
+}
+.text-on-yellow {
+	font-size: 1.5em !important;
+	color: $color-white;
+	font-weight: bold;
+	text-align: center;
+	background-color: $color-yellow;
+	padding: 30px;
+	display: block;
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.chart-9 {
+	width: 49%;
+	display: table;
+	float: left;
+	margin-right: 5px;
+	img {
+		margin-top: 25px;
+	}
+}
+.chart-10 {
+	width: 49%;
+	display: table;
+	margin-left: 5px;
+}
+h2.h2 {
+	&:after {
+		content: '';
+		display: block;
+		background-color: $color-black;
+		width: 100%;
+		height: 4px;
+		position: relative;
+		top: 3px;
 	}
 }
 
-h2.h2 {
-	background-color: #fff;
-	display: inline-block;
+.animatedblock {
+		visibility: hidden;
+	}
 
+.animated {
+	visibility: visible;
+	@include animation(cd-bounce-1 1s);
+}
+
+@media (max-width: 1023px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media (max-width: 479px) {
+	.digit-1 {
+		p {
+			left: 5.2%;
+		}
+		.yellow, .white {
+			left: 3%;
+			span {
+				font-size: 3em;
+			}
+		}
+	}
+	.digit-2 {
+		.whitewrap {
+			.left-digit {
+				width: 100%;
+				display: block;
+				.yellow span {
+					font-size: 2.6em;
+				}
+			}
+			.right-digit {
+				width: 100%;
+			}
+		}
+	}
+	.digit-6 {
+		.whitewrap {
+			.yellow span {
+				font-size: 2em;
+			}
+		}
+	}
+	.digit-7 {
+		img {
+			display: none;
+			visibility: hidden;
+		}
+		.whitewrap {
+			.yellow span {
+				font-size: 2.4em;
+			}
+		}
+	}
+	.chart-9 {
+		width: 100%;
+	}
+	.chart-10 {
+		width: 100%;
+	}
+}
+
+@include keyframes(cd-bounce-1) {
+	0% {
+		opacity: 0;
+		@include transform(translateY(3em));
+	}
+	100% {
+		opacity: 1;
+		@include transform(translateY(0em));
+	}
 }
