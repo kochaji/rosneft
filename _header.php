@@ -42,6 +42,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<?php if ($app['page_type'] == 'test') : ?>
 	<link rel="stylesheet" href="css/test.css">
+	<?php elseif ($app['page_type'] == 'infographic') : ?>
+	<link rel="stylesheet" href="css/infographic.css">	
 	<?php endif; ?>
 
 	<script src="//use.typekit.net/dnu0aez.js"></script>

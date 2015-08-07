@@ -1,0 +1,116 @@
+@import 'bootstrap/variables';
+@import 'variables';
+@import 'typo';
+
+.charts {
+	h3 {
+		font-size: 22px;
+		margin: 50px 0 20px 0;
+	}
+	img {
+		display: inline-block;
+		max-width: 100%;
+	}
+}
+.yellow {
+	color: $color-yellow;
+	font-size: 2.4em;
+}
+.white {
+	color: $color-white;
+	font-size: 2.4em;
+}
+.digit-1 {
+	background: url($imgpath+'/infographic/fontain.jpg') no-repeat center top;
+	max-width: 653px;
+	max-height: 796px;
+	display: block;
+	height: 796px;
+	.yellow {
+		top: 470px;
+	}
+	.white {
+		top: 450px;
+	}
+	p {
+		display: block;
+		position: relative;
+		left: 20.2%;
+		color: $color-white;
+		top: 430px;
+		max-width: 400px;
+	}
+	.yellow, .white {
+		display: block;
+		position: relative;
+		left: 19%;
+		line-height: 2em;
+		font-size: 3.6em;
+		span {
+			font-size: 3em;
+		}
+	}
+}
+.digit-2 {
+	background: url($imgpath+'/infographic/border.png') repeat;
+	padding: 0 10px 10px 10px;
+	.whitewrap {
+		background-color: $color-white;
+		padding: 16px;
+		p {
+			margin-bottom: 0;
+		}
+		.centered {
+			font-weight: bold;
+			font-size: 1.6em;
+			line-height: 1.2em;
+			text-align: center;
+			padding: 0 10px 20px 10px;
+			border-bottom: 1px solid $color-black;
+			margin-bottom: 10px;
+		}
+		.left-digit {
+			width: 54%;
+			padding: 10px 10px 10px 0;
+			display: table-cell;
+			.yellow span {
+				font-size: 3em;
+				line-height: 1em;
+				display: block;
+    			margin-bottom: -18px
+			}
+		}
+		.right-digit {
+			width: 46%;
+			border-left: 1px solid $color-black;
+			padding-left: 20px;
+			display: table-cell;
+			.yellow span {
+				font-size: 2em;
+				line-height: 1em;
+				display: block;
+    			margin-bottom: -18px
+			}
+		}
+	}
+}
+.chart-1 {
+	img {
+		margin-top: -48px;
+	}
+	h3 {
+		color: $color-white;
+		margin: 0 0 0 24px;
+    	width: 300px;
+	    display: block;
+    	position: relative;
+    	top: 20px;
+    	background: $color-white;
+	}
+}
+
+h2.h2 {
+	background-color: #fff;
+	display: inline-block;
+
+}
