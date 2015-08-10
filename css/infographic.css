@@ -359,11 +359,6 @@ h2.h2:after {
   .animatedblock {
     visibility: visible;
   }
-
-  /* line 271, ../scss/infographic.scss */
-  .animated {
-    visibility: hidden;
-  }
 }
 @media (max-width: 479px) {
   /* line 278, ../scss/infographic.scss */
