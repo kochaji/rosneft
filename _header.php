@@ -47,8 +47,8 @@
 	<?php endif; ?>
 
 	<script src="//use.typekit.net/dnu0aez.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
-	
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>
 		window.jQuery || document.write('<scr'+'ipt src="assets/js/jquery-1.11.1.min.js"></scr'+'ipt>');

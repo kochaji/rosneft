@@ -354,55 +354,66 @@ h2.h2:after {
   animation: cd-bounce-1 1s;
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 767px) {
+  /* line 267, ../scss/infographic.scss */
+  .animatedblock {
+    visibility: visible;
+  }
+
   /* line 271, ../scss/infographic.scss */
+  .animated {
+    visibility: hidden;
+  }
+}
+@media (max-width: 479px) {
+  /* line 278, ../scss/infographic.scss */
   .digit-1 p {
     left: 5.2%;
   }
-  /* line 274, ../scss/infographic.scss */
+  /* line 281, ../scss/infographic.scss */
   .digit-1 .yellow, .digit-1 .white {
     left: 3%;
   }
-  /* line 276, ../scss/infographic.scss */
+  /* line 283, ../scss/infographic.scss */
   .digit-1 .yellow span, .digit-1 .white span {
     font-size: 3em;
   }
 
-  /* line 283, ../scss/infographic.scss */
+  /* line 290, ../scss/infographic.scss */
   .digit-2 .whitewrap .left-digit {
     width: 100%;
     display: block;
   }
-  /* line 286, ../scss/infographic.scss */
+  /* line 293, ../scss/infographic.scss */
   .digit-2 .whitewrap .left-digit .yellow span {
     font-size: 2.6em;
   }
-  /* line 290, ../scss/infographic.scss */
+  /* line 297, ../scss/infographic.scss */
   .digit-2 .whitewrap .right-digit {
     width: 100%;
   }
 
-  /* line 297, ../scss/infographic.scss */
+  /* line 304, ../scss/infographic.scss */
   .digit-6 .whitewrap .yellow span {
     font-size: 2em;
   }
 
-  /* line 303, ../scss/infographic.scss */
+  /* line 310, ../scss/infographic.scss */
   .digit-7 img {
     display: none;
     visibility: hidden;
   }
-  /* line 308, ../scss/infographic.scss */
+  /* line 315, ../scss/infographic.scss */
   .digit-7 .whitewrap .yellow span {
     font-size: 2.4em;
   }
 
-  /* line 313, ../scss/infographic.scss */
+  /* line 320, ../scss/infographic.scss */
   .chart-9 {
     width: 100%;
   }
 
-  /* line 316, ../scss/infographic.scss */
+  /* line 323, ../scss/infographic.scss */
   .chart-10 {
     width: 100%;
   }
