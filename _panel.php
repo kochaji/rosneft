@@ -4,14 +4,14 @@
 			<h4 class="h3 title col-sm-4 title--panel pull-left">
 				История нефти
 			</h4>
-			
+
 			<div class="timeline-wrap visible-lg">
 				<ul class="timeline headlineBook" role='navigation'>
 					<li class="timeline__item" data-nav-id="term-1">
 						<a href="index.php">До 1917</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-2">
-						<span href="">1917-1941</span>
+						<a href="chapter2.php">1917-1941</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-3">
 						<span href="">1941-1945</span>

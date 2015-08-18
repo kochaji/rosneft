@@ -11,11 +11,17 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 120%;
+	// height: 120%;
+
+
+}
+
+.intro__bg--main {
 	background: url($imgpath+'/intro-img.jpg') no-repeat 50% 100%;
 	background-size: cover;
-	background-attachment: fixed
+	background-attachment: fixed;
 }
+
 
 .intro__bg__infographic {
 	position: absolute;
@@ -25,8 +31,9 @@
 	height: 120%;
 	background: url($imgpath+'/infographic-bg.jpg') no-repeat 50% 100%;
 	background-size: cover;
-	background-attachment: fixed
+	background-attachment: fixed;
 }
+
 
 .intro__content {
 	position: relative;
@@ -61,8 +68,15 @@ $chapter-number-padding: 10px;
 	margin: 0;
 	padding-left: 50px;
 	@media (max-width: 767px) {
-		padding: 0;	
+		padding: 0;
 		font-size: 50px;
+	}
+	&--small {
+		font-size: 54px;
+		@media (max-width: 767px) {
+
+			font-size: 44px;
+		}
 	}
 }
 .chapter__title:before,
@@ -73,7 +87,7 @@ $chapter-number-padding: 10px;
 	left: 0;
 	border-left: 1px solid $color-yellow;
 	@media (max-width: 767px) {
-		display: none	
+		display: none
 	}
 }
 

@@ -4,3 +4,4 @@ sftp-config.*
 bower_components
 config.rb
 *sublime-*
+prepros.cfg

@@ -6,7 +6,7 @@ var $introBg = $('.js-intro-bg');
 var $panel = $('.js-panel');
 var $introTitle = $('.js-intro-title');
 var $prefaceHeader = $('.js-preface-header');
-var $introTitleScreen = $('.js-intro-title-screen') 
+var $introTitleScreen = $('.js-intro-title-screen')
 
 var $stickyWrap = $('.js-sticky-wrap');
 var $stickyRails = $('.js-sticky-rails');
@@ -23,7 +23,7 @@ var scrollTo = function scrollTo(pos) {
 };
 
 var fitIntro = function fitIntro() {
-	var introHeight = screenParams.screenHeight - screenParams.panelHeight - $prefaceHeader.outerHeight(true); 
+	var introHeight = screenParams.screenHeight - screenParams.panelHeight - $prefaceHeader.outerHeight(true);
 	var bgHeight = (screenParams.screenHeight - screenParams.panelHeight) * 1.2;
 	$intro.height(introHeight);
 	$introBg.height(bgHeight);
@@ -222,4 +222,5 @@ $('.feature__controls').click(function(){
 })
 
 
-
+document.createElement('figure');
+document.createElement('figcaption');

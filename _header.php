@@ -1,4 +1,4 @@
-<?php 	
+<?php
 
 
 	switch ($app['page_type']) {
@@ -36,14 +36,14 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
-	<link rel="shortcut icon" href="favicon.ico"></link>
+	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes_flat.css">
 	<link rel="stylesheet" href="css/style.css">
 	<?php if ($app['page_type'] == 'test') : ?>
 	<link rel="stylesheet" href="css/test.css">
 	<?php elseif ($app['page_type'] == 'infographic') : ?>
-	<link rel="stylesheet" href="css/infographic.css">	
+	<link rel="stylesheet" href="css/infographic.css">
 	<?php endif; ?>
 
 	<script src="//use.typekit.net/dnu0aez.js"></script>
