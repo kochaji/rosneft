@@ -14,13 +14,13 @@
 						<a href="chapter2.php">1917-1941</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-3">
-						<span href="">1941-1945</span>
+						<a href="chapter3.php">1941-1945</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-4">
-						<span href="">1941-1991</span>
+						<a href="chapter4.php">1941-1991</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-5">
-						<span href="">После 1991</span>
+						<a href="chapter5.php">После 1991</a>
 					</li>
 					<li class="timeline__item" data-nav-id="test">
 						<a href="test.php">Проверь себя</a>
