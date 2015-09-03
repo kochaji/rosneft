@@ -541,9 +541,76 @@
 
 
 <div class="white-block">
-	<?php require '_support.php'; ?>
-	<?php require '_footer.php'; ?>
+  <?php require '_support.php'; ?>
+    <div class="footer">
+     <div class="announce">
+        <div class="container">
+          <h2 class="h2 title">
+            История нефти
+          </h2>
+          <div class="row">
+          	<!-- item -->
+          	<div class="col-sm-9">
+          	  <a href="chapter2.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/chapter2-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Первые пятилетки и&nbsp;индустриализация
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">1917-1941</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+          	<!-- item -->
+          	<div class="col-sm-9 col-sm-offset-2">
+          	  <a href="chapter3.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/chapter3-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Годы Великой Отечественной Войны
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">1941-1945</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+
+
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        © Интерфакс
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <?php if ($app['page_type'] == 'test') : ?>
+  <script src="js/test.js"></script>
+  <?php elseif ($app['page_type'] == 'infographic') : ?>
+  <script src="js/animate.js"></script>
+  <?php endif ?>
 </div>
+
 
 
 

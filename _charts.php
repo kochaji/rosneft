@@ -4,9 +4,9 @@
 	<div class="intro js-intro">
 
 		<div class="intro__bg__infographic js-intro-bg">
-			
+
 		</div>
-		
+
 
 		<div class="vcenter">
 			<div class="vcentered">
@@ -25,7 +25,7 @@
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</div>
@@ -66,7 +66,7 @@
 							<div class="white headlineBlack">
 								<span>1866</span> года
 							</div>
-							<p> 
+							<p>
 								из&nbsp;скважины с&nbsp;глубины 37,6&nbsp;метров ударил первый в&nbsp;стране нефтяной фонтан
 							</p>
 						</div>
@@ -141,8 +141,8 @@
 							<div class="yellow headlineBook">
 								<span class="headlineBlack">8 000</span>
 							</div>
-							<p> 
-								тонн бензина требовала одна мотострелковая дивизия для&nbsp;передвижения на&nbsp;100&nbsp;км 
+							<p>
+								тонн бензина требовала одна мотострелковая дивизия для&nbsp;передвижения на&nbsp;100&nbsp;км
 							</p>
 						</div>
 					</div>
@@ -155,7 +155,7 @@
 								<div class="white headlineBook">
 									<span class="headlineBlack">52</span> тонны
 								</div>
-								<p> 
+								<p>
 									мазута расходовал крейсер «Киров» за&nbsp;час хода
 								</p>
 							</div>
@@ -168,9 +168,9 @@
 							<img src="img/infographic/t_34.jpg">
 							<div class="wrapper">
 								<div class="white headlineBook">
-									<span class="headlineBlack">155</span> литров 
+									<span class="headlineBlack">155</span> литров
 								</div>
-								<p> 
+								<p>
 									на&nbsp;100&nbsp;км&nbsp;— таков был расход топлива танка&nbsp;Т-34
 								</p>
 							</div>
@@ -184,7 +184,7 @@
 								<div class="yellow headlineBook">
 									<span class="headlineBlack">13 400 000</span> тонн
 								</div>
-								<p> 
+								<p>
 									горюче-смазочных материалов потребили вооруженные силы за&nbsp;время Великой Отечественной войны
 								</p>
 							</div>
@@ -205,13 +205,13 @@
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="digit-7">
 							<img src="img/infographic/barrel.png">
-							
+
 							<div class="whitewrap">
 
 								<div class="yellow headlineBook">
 									<span class="headlineBlack">1 500 000</span> тонн
 								</div>
-								<p> 
+								<p>
 									или&nbsp;1/3 от&nbsp;общего израсходованного объема авиационного бензина была поставлена по&nbsp;ленд-лизу
 								</p>
 
@@ -236,7 +236,7 @@
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-6 charts">
 							<h3>
-								Доля источников энергии для&nbsp;железнодорожного транспорта,&nbsp;% 
+								Доля источников энергии для&nbsp;железнодорожного транспорта,&nbsp;%
 							</h3>
 							<img src="img/infographic/chart_6.png">
 						</div>
@@ -258,7 +258,7 @@
 				<div class="row animatedblock">
 					<div class="col-sm-13 col-sm-offset-4">
 							<p class="text-on-yellow">
-								Реальность оказалась более скромной, но&nbsp;все&nbsp;же&nbsp;впечатляющей 
+								Реальность оказалась более скромной, но&nbsp;все&nbsp;же&nbsp;впечатляющей
 							</p>
 					</div>
 				</div>
@@ -266,7 +266,7 @@
 					<div class="col-sm-13 col-sm-offset-4">
 						<div class="chart-8 charts">
 							<h3>
-								Добыча нефти в&nbsp;СССР и&nbsp;США, млн&nbsp;тонн  
+								Добыча нефти в&nbsp;СССР и&nbsp;США, млн&nbsp;тонн
 							</h3>
 							<img src="img/infographic/chart_8.png">
 						</div>
@@ -316,6 +316,73 @@
 </div>
 
 <div class="white-block">
-	<?php require '_support.php'; ?>
-	<?php require '_footer.php'; ?>
+  <?php require '_support.php'; ?>
+    <div class="footer">
+     <div class="announce">
+        <div class="container">
+          <h2 class="h2 title">
+            История нефти
+          </h2>
+          <div class="row">
+          	<!-- item -->
+          	<div class="col-sm-9 ">
+          	  <a href="chapter5.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/chapter5/chapter5__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Что дальше
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">После 1991</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+          	<!-- item -->
+          	<div class="col-sm-9 col-sm-offset-2">
+          	  <a href="chapter.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/test__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Проверь себя
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">Тест</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+
+
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        © Интерфакс
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <?php if ($app['page_type'] == 'test') : ?>
+  <script src="js/test.js"></script>
+  <?php elseif ($app['page_type'] == 'infographic') : ?>
+  <script src="js/animate.js"></script>
+  <?php endif ?>
 </div>
+

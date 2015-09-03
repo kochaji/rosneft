@@ -149,7 +149,7 @@
 			</div>
 		</div>
 		<!-- NAV -->
-		<!-- Умение держать удар -->
+		<!-- Сказания о Сибири -->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-sm-offset-5">
@@ -171,8 +171,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Умение держать удар -->
-	<!-- Время принятия решений -->
+	<!-- END Сказания о Сибири -->
+	<!-- Отрочество и юность -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -194,8 +194,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Время принятия решений -->
-	<!-- Как стать гением -->
+	<!-- END Отрочество и юность -->
+	<!-- О природе нефти -->
 	<div class="container">
 		<figure class="bg-img">
 			<img src="img/chapter4/chapter4__2.jpg" class="figure__img ">
@@ -232,9 +232,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Как стать гением  -->
+	<!-- END О природе нефти  -->
 	<!-- img -->
-	<!-- Сланцевый комиссар -->
+	<!-- Побег из Кузбасса -->
 	<div class="container">
 		<figure class="bg-img">
 			<img src="img/chapter4/chapter4__3.jpg" class="figure__img">
@@ -265,8 +265,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Сланцевый комиссар -->
-	<!-- Два Баку -->
+	<!-- END Побег из Кузбасса -->
+	<!-- Триумф -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -296,8 +296,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Два Баку -->
-	<!-- Черное и красное -->
+	<!-- END Триумф -->
+	<!-- Нефть и власть -->
 	<div class="container">
 		<figure class="bg-img">
 			<img src="img/chapter4/chapter4__5.jpg" class="figure__img">
@@ -335,8 +335,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Черное и красное -->
-	<!-- EPILOG -->
+	<!-- END ЧНефть и власть -->
+	<!-- Те, кто ехал за туманом... -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -371,8 +371,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END EPILOG -->
-	<!-- EPILOG -->
+	<!-- END Те, кто ехал за туманом... -->
+	<!-- Путь нефти -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -409,7 +409,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- END EPILOG -->
+	<!-- END Путь нефти -->
 	<div class="feature bg-img bg-img--fluid" style="background: url(img/chapter4/chapter4__9.jpg) no-repeat center center; background-size:cover;">
 	</div>
 	<!-- EPILOG -->
@@ -435,6 +435,73 @@
 	<!-- END EPILOG -->
 </div>
 <div class="white-block">
-	<?php require '_support.php'; ?>
-	<?php require '_footer.php'; ?>
+  <?php require '_support.php'; ?>
+    <div class="footer">
+     <div class="announce">
+        <div class="container">
+          <h2 class="h2 title">
+            История нефти
+          </h2>
+          <div class="row">
+          	<!-- item -->
+          	<div class="col-sm-9 ">
+          	  <a href="chapter5.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/chapter5/chapter5__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Что дальше
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">После 1991</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+          	<!-- item -->
+          	<div class="col-sm-9 col-sm-offset-2">
+          	  <a href="chapter.php" class="announce__link">
+          	    <div class="announce__chapter">
+          	      <div class="announce__chapter__bg" style="background: url(img/test__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+          	      <div class="announce__chapter__content text-center">
+          	        <div class="vcenter">
+          	          <div class="vcentered">
+          	            <h2 class="h2 title">
+          	              Проверь себя
+          	            </h2>
+          	          </div>
+          	        </div>
+          	      </div>
+          	      <div class="announce__chapter__date">
+          	        <span class="announce__chapter__date__inner">Тест</span>
+          	      </div>
+          	    </div>
+          	  </a>
+          	</div>
+          	<!-- end item -->
+
+
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        © Интерфакс
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <?php if ($app['page_type'] == 'test') : ?>
+  <script src="js/test.js"></script>
+  <?php elseif ($app['page_type'] == 'infographic') : ?>
+  <script src="js/animate.js"></script>
+  <?php endif ?>
 </div>
+

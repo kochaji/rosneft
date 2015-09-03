@@ -2,11 +2,12 @@
 	<div class="announce">
 		<div class="container">
 			<h2 class="h2 title">
-				Скоро
+				История нефти
 			</h2>
 			<div class="row">
+				<!-- item -->
 				<div class="col-sm-9">
-					<a href="chapter1" class="announce__link">
+					<a href="chapter2.php" class="announce__link">
 						<div class="announce__chapter">
 							<div class="announce__chapter__bg" style="background: url(img/chapter2-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
 							<div class="announce__chapter__content text-center">
@@ -24,8 +25,10 @@
 						</div>
 					</a>
 				</div>
+				<!-- end item -->
+				<!-- item -->
 				<div class="col-sm-9 col-sm-offset-2">
-					<a href="chapter2" class="announce__link">
+					<a href="chapter3.php" class="announce__link">
 						<div class="announce__chapter">
 							<div class="announce__chapter__bg" style="background: url(img/chapter3-announce.jpg) no-repeat 50% 50%; background-size: cover"></div>
 							<div class="announce__chapter__content text-center">
@@ -43,12 +46,103 @@
 						</div>
 					</a>
 				</div>
+				<!-- end item -->
 			</div>
+			<div class="row">
+				<!-- item -->
+				<div class="col-sm-9">
+					<a href="chapter4.php" class="announce__link">
+						<div class="announce__chapter">
+							<div class="announce__chapter__bg" style="background: url(img/chapter4/chapter4__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__content text-center">
+								<div class="vcenter">
+									<div class="vcentered">
+										<h2 class="h2 title">
+											Эра великих романтиков
+										</h2>
+									</div>
+								</div>
+							</div>
+							<div class="announce__chapter__date">
+								<span class="announce__chapter__date__inner">1941-1991</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- end item -->
+				<!-- item -->
+				<div class="col-sm-9 col-sm-offset-2">
+					<a href="chapter5.php" class="announce__link">
+						<div class="announce__chapter">
+							<div class="announce__chapter__bg" style="background: url(img/chapter5/chapter5__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__content text-center">
+								<div class="vcenter">
+									<div class="vcentered">
+										<h2 class="h2 title">
+											Что дальше
+										</h2>
+									</div>
+								</div>
+							</div>
+							<div class="announce__chapter__date">
+								<span class="announce__chapter__date__inner">После 1991</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- end item -->
+			</div>
+
+			<div class="row">
+				<!-- item -->
+				<div class="col-sm-9">
+					<a href="chapter.php" class="announce__link">
+						<div class="announce__chapter">
+							<div class="announce__chapter__bg" style="background: url(img/test__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__content text-center">
+								<div class="vcenter">
+									<div class="vcentered">
+										<h2 class="h2 title">
+											Проверь себя
+										</h2>
+									</div>
+								</div>
+							</div>
+							<div class="announce__chapter__date">
+								<span class="announce__chapter__date__inner">Тест</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- end item -->
+				<!-- item -->
+				<div class="col-sm-9 col-sm-offset-2">
+					<a href="chapter.php" class="announce__link">
+						<div class="announce__chapter">
+							<div class="announce__chapter__bg" style="background: url(img/infographic/infographic__preview.png) no-repeat 50% 50%; background-size: cover"></div>
+							<div class="announce__chapter__content text-center">
+								<div class="vcenter">
+									<div class="vcentered">
+										<h2 class="h2 title">
+											История нефтедобычи в России
+										</h2>
+									</div>
+								</div>
+							</div>
+							<div class="announce__chapter__date">
+								<span class="announce__chapter__date__inner">Инфографика</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- end item -->
+			</div>
+
 		</div>
 	</div>
 	<div class="container">
 		<div class="copyright">
-			© Интерфакс 
+			© Интерфакс
 		</div>
 	</div>
 </div>

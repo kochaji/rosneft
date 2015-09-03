@@ -139,7 +139,7 @@
 									</li>
 									<li class="content-list__item js-item">
 										<a href="#stitches">Швы сварщика Ломоносова
-</a>
+										</a>
 									</li>
 									<li class="content-list__item js-item">
 										<a href="#waves">Над и под волнами</a>
@@ -158,7 +158,7 @@
 			</div>
 		</div>
 		<!-- NAV -->
-		<!-- Умение держать удар -->
+		<!-- Трубопровод быстрого приготовления -->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-sm-offset-5">
@@ -181,8 +181,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Умение держать удар -->
-	<!-- Время принятия решений -->
+	<!-- END Трубопровод быстрого приготовления -->
+	<!-- Когда нет топлива... -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -208,12 +208,12 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Время принятия решений -->
+	<!-- END Когда нет топлива... -->
 	<!-- IMG  -->
 	<div class="feature bg-img bg-img--fluid" style="background: url(img/chapter3/chapter3__2.jpg) no-repeat center center; background-size:cover;">
 	</div>
 	<!-- END IMG  -->
-	<!-- Как стать гением -->
+	<!-- Рождение идеи -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -239,9 +239,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Как стать гением  -->
-	<!-- img -->
-	<!-- Сланцевый комиссар -->
+	<!-- END Рождение идеи  -->
+	<!-- Сумма технологий -->
 	<div class="white-block">
 		<div class="container">
 			<div class="row">
@@ -264,12 +263,12 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Сланцевый комиссар -->
+	<!-- END Сумма технологий -->
 	<!-- IMG  -->
 	<div class="feature bg-img bg-img--fluid" style="background: url(img/chapter3/chapter3__3.jpg) no-repeat center center; background-size:cover;">
 	</div>
 	<!-- END IMG  -->
-	<!-- Два Баку -->
+	<!-- Проект, которого не было -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -301,8 +300,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Два Баку -->
-	<!-- Черное и красное -->
+	<!-- END Проект, которого не было -->
+	<!-- Трубы с линии фронта -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -330,15 +329,14 @@
 			</div>
 		</div>
 	</div>
-	<!-- END Черное и красное -->
+	<!-- END Трубы с линии фронта -->
 	<!-- IMG  -->
 	<div class="feature bg-img bg-img--fluid"  style="background: url(img/chapter3/chapter3__4.jpg) no-repeat center center; background-size:cover;">
 	</div>
 	<!-- END IMG  -->
-	<!-- EPILOG -->
+	<!-- Швы сварщика Ломоносова -->
 	<div class="white-block white-block--text">
 		<div class="container">
-
 			<div class="row">
 				<div class="col-sm-offset-5 col-sm-12">
 					<!-- content -->
@@ -363,9 +361,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END EPILOG -->
-
-	<!-- EPILOG -->
+	<!-- END Швы сварщика Ломоносова -->
+	<!-- Над и под волнами -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -387,12 +384,12 @@
 			</div>
 		</div>
 	</div>
-	<!-- END EPILOG -->
+	<!-- END Над и под волнами -->
 	<!-- IMG  -->
 	<div class="feature bg-img bg-img--fluid" style="background: url(img/chapter3/chapter3__6.jpg) no-repeat center center; background-size:cover;">
 	</div>
 	<!-- END IMG  -->
-	<!-- EPILOG -->
+	<!-- Открывающий будущее -->
 	<div class="white-block white-block--text">
 		<div class="container">
 			<div class="row">
@@ -404,7 +401,7 @@
 					<p>После того как 19 июня 1942 года правительственная комиссия подписала акт приемки трубопровода и запуск его в эксплуатацию, отношение к трубопроводному транспорту резко изменилось. Уже в первые сутки по трубопроводу пошел качественный автомобильный бензин. На приемную станцию Борисова Грива стало поступать более 17 тонн ценного горючего в час.
 					</p>
 					<div class="blockfloat blockfloat--right iblock">
-							<img src="img/chapter3/chapter3__7.jpg" class="inline-img">
+						<img src="img/chapter3/chapter3__7.jpg" class="inline-img">
 					</div>
 					<p>А спустя трое суток на Ладоге начали операции итальянские военные катера типа MAS. Их перебросили специально для борьбы с водной транспортировкой советских грузов по Ладоге, на немецких военных кораблях до Финляндии и далее — по железной дороге. Кроме этого еще в мае  немцы перенаправили на Ладогу 6 боевых катеров, вооруженных двумя зенитными автоматическими орудиями и несущими мины.
 					</p>
@@ -423,7 +420,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- END EPILOG -->
+	<!-- END Открывающий будущее -->
 	<!-- EPILOG -->
 	<div class="white-block white-block--text">
 		<div class="container">
@@ -452,5 +449,68 @@
 </div>
 <div class="white-block">
 	<?php require '_support.php'; ?>
-	<?php require '_footer.php'; ?>
+	<div class="footer">
+		<div class="announce">
+			<div class="container">
+				<h2 class="h2 title">
+				История нефти
+				</h2>
+				<div class="row">
+					<!-- item -->
+					<div class="col-sm-9">
+						<a href="chapter4.php" class="announce__link">
+							<div class="announce__chapter">
+								<div class="announce__chapter__bg" style="background: url(img/chapter4/chapter4__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+								<div class="announce__chapter__content text-center">
+									<div class="vcenter">
+										<div class="vcentered">
+											<h2 class="h2 title">
+											Эра великих романтиков
+											</h2>
+										</div>
+									</div>
+								</div>
+								<div class="announce__chapter__date">
+									<span class="announce__chapter__date__inner">1941-1991</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end item -->
+					<!-- item -->
+					<div class="col-sm-9 col-sm-offset-2">
+						<a href="chapter5.php" class="announce__link">
+							<div class="announce__chapter">
+								<div class="announce__chapter__bg" style="background: url(img/chapter5/chapter5__preview.jpg) no-repeat 50% 50%; background-size: cover"></div>
+								<div class="announce__chapter__content text-center">
+									<div class="vcenter">
+										<div class="vcentered">
+											<h2 class="h2 title">
+											Что дальше
+											</h2>
+										</div>
+									</div>
+								</div>
+								<div class="announce__chapter__date">
+									<span class="announce__chapter__date__inner">После 1991</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end item -->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="copyright">
+				© Интерфакс
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+	<?php if ($app['page_type'] == 'test') : ?>
+	<script src="js/test.js"></script>
+	<?php elseif ($app['page_type'] == 'infographic') : ?>
+	<script src="js/animate.js"></script>
+	<?php endif ?>
 </div>
