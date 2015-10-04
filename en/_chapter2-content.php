@@ -37,7 +37,7 @@
 							<div class="row">
 								<div class="chapter__number col-sm-3 ">
 									<h3 class="h3 chapter__number__title iblock">
-										Глава 2
+										Chapter 2
 									</h3>
 								</div>
 								<div class="col-sm-16">
@@ -565,7 +565,7 @@ Ivan Gubkin, the son of a barge-hauler, has laid the foundations of energy secur
      <div class="announce">
         <div class="container">
           <h2 class="h2 title">
-            История нефти
+            Russian Oil
           </h2>
           <div class="row">
             <!-- item -->
@@ -616,7 +616,7 @@ Ivan Gubkin, the son of a barge-hauler, has laid the foundations of energy secur
     </div>
     <div class="container">
       <div class="copyright">
-        © Интерфакс
+        © Interfax
       </div>
     </div>
   </div>

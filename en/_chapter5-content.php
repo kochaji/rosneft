@@ -194,7 +194,7 @@ The idea of the resource and innovation economy with regards to the oil and gas 
 		<div class="announce">
 			<div class="container">
 				<h2 class="h2 title">
-				История нефти
+				Russian Oil
 				</h2>
 				<div class="row">
 					<!-- item -->
@@ -206,13 +206,13 @@ The idea of the resource and innovation economy with regards to the oil and gas 
 									<div class="vcenter">
 										<div class="vcentered">
 											<h2 class="h2 title">
-											Проверь себя
+											 Test yourself.
 											</h2>
 										</div>
 									</div>
 								</div>
 								<div class="announce__chapter__date">
-									<span class="announce__chapter__date__inner">Тест</span>
+									<span class="announce__chapter__date__inner">Test</span>
 								</div>
 							</div>
 						</a>
@@ -227,13 +227,13 @@ The idea of the resource and innovation economy with regards to the oil and gas 
 									<div class="vcenter">
 										<div class="vcentered">
 											<h2 class="h2 title">
-											История нефтедобычи в России
+											Russian Oil history
 											</h2>
 										</div>
 									</div>
 								</div>
 								<div class="announce__chapter__date">
-									<span class="announce__chapter__date__inner">Инфографика</span>
+									<span class="announce__chapter__date__inner">Infographics</span>
 								</div>
 							</div>
 						</a>

@@ -16,9 +16,9 @@
 <div class="test-screen js-test-screen">
 	<div class="test-screen__bg">
 		<video autoplay class="test-screen__bg__video" loop muted>
-			<source src="video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+			<source src="../video/1.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+			<source src="../video/1.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+			<source src="../video/1.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 		</video>
 	</div>
 	<div class="vcenter">

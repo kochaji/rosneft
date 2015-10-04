@@ -8,7 +8,7 @@
 			<div class="timeline-wrap visible-lg">
 				<ul class="timeline headlineBook" role='navigation'>
 					<li class="timeline__item" data-nav-id="term-1">
-						<a href="index.php">До 1917</a>
+						<a href="index.php">Before 1917</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-2">
 						<a href="chapter2.php">1917-1941</a>
@@ -20,7 +20,7 @@
 						<a href="chapter4.php">1941-1991</a>
 					</li>
 					<li class="timeline__item" data-nav-id="term-5">
-						<a href="chapter5.php">После 1991</a>
+						<a href="chapter5.php">After 1991</a>
 					</li>
 					<li class="timeline__item" data-nav-id="test">
 						<a href="test.php">Test yourself</a>

@@ -41,7 +41,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes_flat.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<?php if ($app['page_type'] == 'test') : ?>
-	<link rel="stylesheet" href="css/test.css">
+	<link rel="stylesheet" href="../css/test.css">
 	<?php elseif ($app['page_type'] == 'infographic') : ?>
 	<link rel="stylesheet" href="css/infographic.css">
 	<?php endif; ?>

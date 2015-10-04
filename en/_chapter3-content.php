@@ -453,7 +453,7 @@
 			<div class="announce">
 				<div class="container">
 					<h2 class="h2 title">
-					История нефти
+					Russian Oil
 					</h2>
 					<div class="row">
 						<!-- item -->
@@ -486,13 +486,13 @@
 										<div class="vcenter">
 											<div class="vcentered">
 												<h2 class="h2 title">
-												Что дальше
+												What next
 												</h2>
 											</div>
 										</div>
 									</div>
 									<div class="announce__chapter__date">
-										<span class="announce__chapter__date__inner">После 1991</span>
+										<span class="announce__chapter__date__inner">After 1991</span>
 									</div>
 								</div>
 							</a>
@@ -503,7 +503,7 @@
 			</div>
 			<div class="container">
 				<div class="copyright">
-					© Интерфакс
+					© Interfax
 				</div>
 			</div>
 		</div>

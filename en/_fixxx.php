@@ -526,7 +526,7 @@ He was not a businessman, but the most successful of them admired his talent and
     </div>
     <div class="container">
       <div class="copyright">
-        © Интерфакс
+        © Interfax
       </div>
     </div>
   </div>
