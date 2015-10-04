@@ -1,0 +1,82 @@
+.top-panel {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	line-height: $panelHeight;
+	height: $panelHeight;
+	background: #fff;
+	z-index: 3;
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	-webkit-transition: 0.3s top;
+	-moz-transition: 0.3s top;
+	-ms-transition: 0.3s top;
+	-o-transition: 0.3s top;
+	transition: 0.3s top;
+}
+.top-panel.top {
+	top: - $panelHeight;
+}
+
+.timeline-wrap {
+	@media (max-width: 767px) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: $panelHeight;
+		line-height: $panelHeight;
+		text-align: center;
+
+	}
+}
+.timeline {
+	font-size: 18px;
+	margin: 0
+}
+.timeline__item {
+	float: left;
+	list-style-type: none;
+	margin-left: 15px;
+}
+.timeline__item a {
+	display: block;
+}
+.timeline__item:first-child {
+	margin-left: 0;
+}
+.timeline__item.active a,
+.timeline__item:hover a {
+	color: $color-orange;
+}
+.timeline__item span {
+	color: #999
+}
+
+
+
+a.top-panel__logo {
+	display: inline-block;
+	vertical-align: top
+}
+a.top-panel__logo:last-child {
+	margin-left: 20px;
+}
+
+.top-panel__logo img {
+	display: inline-block;
+	max-height: $panelHeight;
+	vertical-align: top;
+}
+
+.top-panel__logo--rosneft {
+	
+}
+
+img.top-panel__logo--middle {
+	vertical-align: middle;
+}

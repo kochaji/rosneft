@@ -59,12 +59,20 @@
 
 
 
+
+/**
+ * owners
+ */
+.top-panel__logo-group {
+	margin-right: 35px;
+}
+
 a.top-panel__logo {
 	display: inline-block;
 	vertical-align: top
 }
 a.top-panel__logo:last-child {
-	margin-left: 20px;
+	padding-left: 18px;
 }
 
 .top-panel__logo img {
@@ -74,9 +82,71 @@ a.top-panel__logo:last-child {
 }
 
 .top-panel__logo--rosneft {
-	
+	margin-bottom: 5px;
 }
 
 img.top-panel__logo--middle {
 	vertical-align: middle;
+}
+/**
+ * lang switchcer
+ */
+.lang {
+
+	position: relative;
+	font-size: 0;
+	&__link {
+	font-size: 16px;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	padding-top: 2px;
+	&--right {
+		text-align: right;
+		margin: 0;
+	}
+	&--off {
+		color: #d0d0d0;
+	}
+	}
+
+}
+.switcher {
+	display: inline-block;
+	width: 40px;
+	height: 18px;
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -12px;
+	margin-left: -20px;
+	z-index: -1;
+}
+
+.switcher:before {
+	content: '';
+	height: 24px;
+	width: 24px;
+	box-shadow: 0px 2px 2px 0px rgba(23, 28, 51, 0.15);
+	position: absolute;
+	background: #fff;
+	top: 50%;
+	margin-top: -12px;
+	border-radius: 100%;
+	z-index: 0;
+}
+.switcher--rus {
+	background: url(../img/ln-rus.png) center right no-repeat;
+}
+.switcher--rus:before {
+	left: -1px;
+}
+.switcher--eng {
+	background: url(../img/ln-eng.png) center left no-repeat;
+}
+.switcher--eng:before{
+	right: -1px;
 }

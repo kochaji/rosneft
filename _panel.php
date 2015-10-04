@@ -2,9 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<h4 class="h3 title col-sm-4 title--panel pull-left">
-				История нефти
+			История нефти
 			</h4>
-
 			<div class="timeline-wrap visible-lg">
 				<ul class="timeline headlineBook" role='navigation'>
 					<li class="timeline__item" data-nav-id="term-1">
@@ -30,16 +29,19 @@
 					</li>
 				</ul>
 			</div>
-
-			<div class="pull-right">
-				<a href="//rosneft.ru/" target="_blank" title="Роснефть" class="top-panel__logo top-panel__logo--rosneft">
-					<img src="img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo top-panel__logo--rosneft">
+			<div class="pull-right lang">
+				<span class="lang__link">Ру</span>
+				<span class="switcher switcher--rus"></span>
+				<a href="en/" class="lang__link lang__link--right lang__link--off">En</a>
+			</div>
+			<div class="pull-right top-panel__logo-group">
+				<a href="//rosneft.ru/" target="_blank" title="Роснефть" class="top-panel__logo top-panel__logo--rosneft"  style="display: block; height:35px;">
+					<img src="img/rn-logo-hor.png" alt="Роснефть" class="top-panel__logo top-panel__logo--rosneft" style="max-height: 35px; ">
 				</a>
-				<a href="//interfax.ru/" target="_blank" title="Интерфакс" class="top-panel__logo top-panel__logo--interfax">
-					<img src="img/if-logo.png" alt="Интерфакс" class="top-panel__logo top-panel__logo--middle top-panel__logo--interfax">
+				<a href="//interfax.ru/" target="_blank" title="Интерфакс" class="top-panel__logo top-panel__logo--interfax" style="display: block; height:35px; margin:0;">
+					<img src="img/if-logo.png" alt="Интерфакс" class="top-panel__logo top-panel__logo--interfax" style="max-height: 35px; ">
 				</a>
 			</div>
-
 		</div>
 	</div>
 </div>

@@ -1,0 +1,101 @@
+
+.intro {
+	color: #fff;
+	position: relative;
+	padding-top: $panelHeight;
+	min-height: 640px;
+}
+
+.intro__bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	// height: 120%;
+
+
+}
+
+.intro__bg--main {
+	background: url($imgpath+'/intro-img.jpg') no-repeat 50% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.intro__bg__infographic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 120%;
+	background: url($imgpath+'/infographic-bg.jpg') no-repeat 50% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.intro__content {
+	position: relative;
+}
+
+
+$chapter-offset: 30px;
+$chapter-number-height: 24px;
+$chapter-number-padding: 10px;
+.chapter {
+
+}
+.chapter__number {
+	position: relative;
+	@media (max-width: 767px) {
+		margin-bottom: 30px;
+	}
+}
+.chapter__number__title {
+	position: absolute;
+	right: -8px;
+	top: $chapter-offset;
+	margin: 0;
+	font-size: $chapter-number-height;
+	padding: $chapter-number-padding 0;
+}
+
+.chapter__title {
+	line-height: normal;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding-left: 50px;
+	@media (max-width: 767px) {
+		padding: 0;
+		font-size: 50px;
+	}
+	&--small {
+		font-size: 54px;
+		@media (max-width: 767px) {
+
+			font-size: 44px;
+		}
+	}
+}
+.chapter__title:before,
+.chapter__title:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	border-left: 1px solid $color-yellow;
+	@media (max-width: 767px) {
+		display: none
+	}
+}
+
+.chapter__title:before {
+	top: 0;
+	height: $chapter-offset;
+}
+.chapter__title:after {
+	top: $chapter-number-height + $chapter-offset + $chapter-number-padding*2;
+	height: 100%
+}

@@ -352,16 +352,6 @@
 	</div>
 
 
-<!--
-	<div class="feature js-feature-video">
-		<video preload="meta" class="feature__video hidden" loop muted>
-			<source src="video/3.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-			<source src="video/3.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-			<source src="video/3.ogv"  type="video/ogg; codecs=&quot;theora, vorbis&quot;">
-		</video>
-	</div>
--->
-
 <?php renderFeature(
 	array(
 		'webm'		=> '3.webm',

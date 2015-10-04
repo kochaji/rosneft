@@ -1,0 +1,43 @@
+/**
+ * IMG WITH CAPTION
+ */
+figure {
+  margin-bottom: 25px;
+}
+
+.figure__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  color: #999;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "ff-good-headline-web-pro-con",sans-serif;
+
+}
+
+/**
+ * SOCIAL LIKES
+ */
+
+ .social-likes {
+
+  margin-top: 50px;
+ }
+
+@media (min-width:767px) {
+   .social-likes {
+     padding-left: 50px;
+   }
+}
+@media (max-width: 479px) {
+  .social-likes > .social-likes__widget {
+     display: inline-block !important;
+  }
+}
