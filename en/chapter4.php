@@ -2,8 +2,8 @@
 	$app = array(
 		'page_id' 		=> 'term-4',
 		'page_type'		=> 'term',
-		'title'			=> 'История нефти: Индустриализация и ее кровь',
-		'description'	=> 'Эра великих романтиков',
+		'title'			=> 'Russian oil: An era of great romantics',
+		'description'	=> 'An era of great romantics',
 		'image'			=> 'term1-img.jpg',
 	);
 	function renderFeature($media, $n = null, $active = null) {

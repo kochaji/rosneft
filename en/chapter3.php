@@ -2,8 +2,8 @@
 	$app = array(
 		'page_id' 		=> 'term-3',
 		'page_type'		=> 'term',
-		'title'			=> 'История нефти: Вода, огонь, и железные трубы',
-		'description'	=> 'Вода, огонь, и железные трубы ',
+		'title'			=> 'Russian oil: Water, Fire & Iron Pipes',
+		'description'	=> 'Russian oil: Water, Fire & Iron Pipes ',
 		'image'			=> 'term1-img.jpg',
 	);
 	function renderFeature($media, $n = null, $active = null) {

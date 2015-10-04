@@ -478,7 +478,7 @@
 										</div>
 									</div>
 									<div class="announce__chapter__date">
-										<span class="announce__chapter__date__inner">Тест</span>
+										<span class="announce__chapter__date__inner">Test</span>
 									</div>
 								</div>
 							</a>

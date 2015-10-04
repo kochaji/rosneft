@@ -2,8 +2,8 @@
 	$app = array(
 		'page_id' 		=> 'term-5',
 		'page_type'		=> 'term',
-		'title'			=> 'История нефти: современность и перспективы российской нефтяной отрасли',
-		'description'	=> 'Что дальше: современность и перспективы российской нефтяной отрасли',
+		'title'			=> 'Russian oil: modern world  and the perspectives of the Russian oil industry sector',
+		'description'	=> 'Modern world  and the perspectives of the Russian oil industry sector',
 		'image'			=> 'term1-img.jpg',
 	);
 	function renderFeature($media, $n = null, $active = null) {

@@ -2,8 +2,9 @@
 	$app = array(
 		'page_id' 		=> 'term-2',
 		'page_type'		=> 'term',
-		'title'			=> 'История нефти: Индустриализация и ее кровь',
-		'description'	=> 'Как сын бурлака стал академиком и обеспечил страну нефтью',
+		'title'			=> 'Russian Oil: Industrial development and its blood',
+		'description'	=> "	A barge-hauler's son turned academician and provided the country with oil.
+",
 		'image'			=> 'term1-img.jpg',
 	);
 	function renderFeature($media, $n = null, $active = null) {
