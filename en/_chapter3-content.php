@@ -486,7 +486,7 @@
 										<div class="vcenter">
 											<div class="vcentered">
 												<h2 class="h2 title">
-												What next
+												What’s Next
 												</h2>
 											</div>
 										</div>

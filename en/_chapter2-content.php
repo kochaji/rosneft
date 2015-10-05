@@ -106,12 +106,11 @@ He fathered five children, but the eldest three were girls and with little prosp
 						<!-- video item -->
 							<div class="feature feature--inline js-feature-video">
 								<video preload="meta" loop muted style="width: 100%;">
-									<source src="video/chapter2/26040_2_004.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-									<source src="video/chapter2/26040_2_004.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-							    <img    src="video/chapter2/fallback/26040_2_004.jpg" title="Ваш браузер не поддерживает <video> ">
+									<source src="../video/chapter2/26040_2_004.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+									<source src="../video/chapter2/26040_2_004.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+							    <img    src="../video/chapter2/fallback/26040_2_004.jpg" title="Ваш браузер не поддерживает <video> ">
 								</video>
 								<div class="feature__controls"></div>
-								<div class="feature__caption">Ваня Губкин единственный из своей большой семьи знал грамоту</div>
 							</div>
 						<!-- end video item -->
 					</div>
@@ -240,12 +239,11 @@ An Orthodox priest is a very unlikely associate for educated young people in the
 					<!-- video item -->
 						<div class="feature feature--inline js-feature-video">
 							<video loop muted >
-								<source src="video/chapter2/26040_2_006.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-								<source src="video/chapter2/26040_2_006.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-						    <img    src="video/chapter2/fallback/26040_2_006.jpg" title="Ваш браузер не поддерживает <video> ">
+								<source src="../video/chapter2/26040_2_006.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="../video/chapter2/26040_2_006.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+						    <img    src="../video/chapter2/fallback/26040_2_006.jpg" title="Ваш браузер не поддерживает <video> ">
 							</video>
 							<div class="feature__controls"></div>
-							<div class="feature__caption">«Геология настоящего времени» Бернарда Котта</div>
 						</div>
 
 					<!-- end video item -->
@@ -264,12 +262,11 @@ However, being given the cold shoulder, Ivan Gubkin did not despair, but started
 					<!-- video item -->
 						<div class="feature feature--inline js-feature-video">
 							<video preload="meta" loop muted>
-								<source src="video/chapter2/26040_4_003.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-								<source src="video/chapter2/26040_4_003.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-						    <img    src="video/chapter2/fallback/26040_4_003.jpg" title="Ваш браузер не поддерживает <video> ">
+								<source src="../video/chapter2/26040_4_003.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="../video/chapter2/26040_4_003.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+						    <img    src="../video/chapter2/fallback/26040_4_003.jpg" title="Ваш браузер не поддерживает <video> ">
 							</video>
 							<div class="feature__controls"></div>
-							<div class="feature__caption">Применение двигателей внутреннего сгорания сделало нефть одним из самых востребованных ресурсов</div>
 						</div>
 					<!-- end video item -->
 				</div>
@@ -358,12 +355,11 @@ So Gubkin's returned was well timed, he appeared to be the man with profound kno
 				<!-- video item -->
 					<div class="feature feature--inline js-feature-video">
 						<video preload="meta" loop muted>
-							<source src="video/chapter2/26040_2_001.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-							<source src="video/chapter2/26040_2_001.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-					    <img    src="video/chapter2/fallback/26040_2_001.jpg" title="Ваш браузер не поддерживает <video> ">
+							<source src="../video/chapter2/26040_2_001.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+							<source src="../video/chapter2/26040_2_001.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+					    <img    src="../video/chapter2/fallback/26040_2_001.jpg" title="Ваш браузер не поддерживает <video> ">
 						</video>
 						<div class="feature__controls"></div>
-						<div class="feature__caption">Нефтяные месторождения были открыты именно там, где предсказывал Губкин</div>
 					</div>
 				<!-- end video item -->
 			</div>
@@ -412,12 +408,11 @@ He made a number of predictions as to the whereabouts of possible oil fields - i
 					<!-- video item -->
 						<div class="feature feature--inline js-feature-video">
 							<video preload="meta" loop muted>
-								<source src="video/chapter2/21001_2_b.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-								<source src="video/chapter2/21001_2_b.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-						    <img    src="video/chapter2/fallback/21001_2_b.jpg" title="Ваш браузер не поддерживает <video> ">
+								<source src="../video/chapter2/21001_2_b.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+								<source src="../video/chapter2/21001_2_b.mp4"  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+						    <img    src="../video/chapter2/fallback/21001_2_b.jpg" title="Ваш браузер не поддерживает <video> ">
 							</video>
 							<div class="feature__controls"></div>
-							<div class="feature__caption">«Второе Баку» стало гарантией обеспечения страны нефтью даже в случае войны</div>
 						</div>
 					<!-- end video item -->
 				</div>
@@ -598,7 +593,7 @@ Ivan Gubkin, the son of a barge-hauler, has laid the foundations of energy secur
                     <div class="vcenter">
                       <div class="vcentered">
                         <h2 class="h2 title">
-                          Эра великих романтиков
+                          An era of great romantics
                         </h2>
                       </div>
                     </div>
