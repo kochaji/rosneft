@@ -61,7 +61,7 @@
 						</a>
 						<div class="row">
 							<p class="col-sm-9 headlineBook preface__header__description headlineBook">
-								Представляет: специальный проект «ИСТОРИЯ НЕФТИ»
+								Presents: project Russian Oil
 							</p>
 							<p class="col-sm-7 arrow-line">
 							</p>
@@ -257,7 +257,7 @@ The idea of the resource and innovation economy with regards to the oil and gas 
 		</div>
 		<div class="container">
 			<div class="copyright">
-				© Интерфакс
+				© Interfax
 			</div>
 		</div>
 	</div>

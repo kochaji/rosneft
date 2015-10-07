@@ -37,10 +37,10 @@
 				<span class="lang__link lang__link--right ">En</span>
 			</div>
 			<div class="pull-right top-panel__logo-group">
-				<a href="//rosneft.ru/" target="_blank" title="Rosneft" class="top-panel__logo top-panel__logo--rosneft"  style="display: block; height:35px;">
+				<a href="//rosneft.ru/" target="_blank" title="Rosneft" class="top-panel__logo top-panel__logo--rosneft"  style="height:35px;">
 					<img src="img/rn-logo-hor.png" alt="Rosneft" class="top-panel__logo top-panel__logo--rosneft" style="max-height: 35px; ">
 				</a>
-				<a href="//interfax.ru/" target="_blank" title="Interfax" class="top-panel__logo top-panel__logo--interfax" style="display: block; height:35px; margin:0;">
+				<a href="//interfax.ru/" target="_blank" title="Interfax" class="top-panel__logo top-panel__logo--interfax" style="height:35px; margin:0;">
 					<img src="img/if-logo.png" alt="Interfax" class="top-panel__logo top-panel__logo--interfax" style="max-height: 35px; ">
 				</a>
 			</div>

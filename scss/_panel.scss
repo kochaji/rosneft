@@ -69,7 +69,13 @@
 
 a.top-panel__logo {
 	display: inline-block;
-	vertical-align: top
+	vertical-align: top;
+	@media (max-width: 470px) {
+		display: none;
+	}
+	@media (min-width:760px) {
+		display: block;
+	}
 }
 a.top-panel__logo:last-child {
 	padding-left: 18px;

@@ -67,7 +67,7 @@
 						</a>
 						<div class="row">
 							<p class="col-sm-9 headlineBook preface__header__description headlineBook">
-								Представляет: специальный проект «ИСТОРИЯ НЕФТИ»
+								Presents: project Russian Oil
 							</p>
 							<p class="col-sm-7 arrow-line">
 							</p>
